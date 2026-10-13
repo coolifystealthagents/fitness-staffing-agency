@@ -1,0 +1,167 @@
+{
+  "site": "FitnessStaffingAgency.com",
+  "repository": "coolifystealthagents/fitness-staffing-agency",
+  "branch": "main",
+  "baseSha": "40d67ed1fe79bfa95834186099215751da272eba",
+  "publicationDate": "2026-10-12",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "thumbnails": 17
+  },
+  "registryPaths": [
+    "lib/october-12/blogPosts.ts",
+    "lib/october-12/researchPosts.ts",
+    "lib/content.ts"
+  ],
+  "routePaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "indexPaths": [
+    "app/blog/page.tsx",
+    "app/research/page.tsx"
+  ],
+  "sidebarPaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "articles": [
+    {
+      "section": "Blog",
+      "title": "Building a Trainer Credential Verification Handoff",
+      "slug": "trainer-credential-verification-handoff",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/trainer-credential-verification-handoff.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Maintaining a Ready Group Fitness Substitute Roster",
+      "slug": "group-fitness-substitute-roster",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/group-fitness-substitute-roster.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Controlling Credential Expiry for Aquatics Staff",
+      "slug": "aquatics-staff-expiry-control",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/aquatics-staff-expiry-control.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Defining Safeguarding Boundaries for Youth Fitness Staff",
+      "slug": "youth-fitness-staff-boundary",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/youth-fitness-staff-boundary.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Using Shift Acceptance Gates for Fitness Facilities",
+      "slug": "fitness-staff-shift-acceptance",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/fitness-staff-shift-acceptance.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Separating Client Handoff from Training Judgment",
+      "slug": "personal-training-client-handoff",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/personal-training-client-handoff.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Verifying Opening Coverage for a Fitness Facility",
+      "slug": "fitness-facility-opening-coverage",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/fitness-facility-opening-coverage.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Matching Instructor Scope to Class Format",
+      "slug": "instructor-class-format-scope",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/instructor-class-format-scope.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Creating an Evidence-Bounded Fitness Incident Handoff",
+      "slug": "fitness-staff-incident-handoff",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/fitness-staff-incident-handoff.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Reviewing Trainer Access Across Multiple Facilities",
+      "slug": "multi-site-trainer-access-review",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/multi-site-trainer-access-review.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Documenting Fitness Staff Rate Changes Before Scheduling",
+      "slug": "fitness-staff-rate-change-record",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/fitness-staff-rate-change-record.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Protecting Referral Boundaries for Special-Population Fitness",
+      "slug": "special-population-referral-boundary",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/special-population-referral-boundary.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Research",
+      "title": "Reproducibility of Fitness Credential Verification",
+      "slug": "fitness-credential-verification-reproducibility-study",
+      "sourcePath": "lib/october-12/researchPosts.ts",
+      "thumbnailPath": "public/october-12/fitness-credential-verification-reproducibility-study.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Research",
+      "title": "Completeness of Group Class Substitute Readiness",
+      "slug": "group-class-substitute-readiness-study",
+      "sourcePath": "lib/october-12/researchPosts.ts",
+      "thumbnailPath": "public/october-12/group-class-substitute-readiness-study.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Research",
+      "title": "Credential Drift in Multi-Site Fitness Schedules",
+      "slug": "fitness-schedule-credential-drift-study",
+      "sourcePath": "lib/october-12/researchPosts.ts",
+      "thumbnailPath": "public/october-12/fitness-schedule-credential-drift-study.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Research",
+      "title": "Completeness of Fitness Facility Incident Records",
+      "slug": "fitness-incident-record-completeness-study",
+      "sourcePath": "lib/october-12/researchPosts.ts",
+      "thumbnailPath": "public/october-12/fitness-incident-record-completeness-study.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Research",
+      "title": "Fitness Staff Access Revocation Across Facilities",
+      "slug": "fitness-staff-access-revocation-study",
+      "sourcePath": "lib/october-12/researchPosts.ts",
+      "thumbnailPath": "public/october-12/fitness-staff-access-revocation-study.webp",
+      "registryPath": "lib/content.ts"
+    }
+  ]
+}
