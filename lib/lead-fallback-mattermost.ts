@@ -52,7 +52,13 @@ export async function sendLeadFallbackToMattermost(lead: FallbackLeadPayload): P
 
 function escapeMd(value: string | undefined): string {
   if (!value) return '';
-  return String(value).replace(/[|`*_\\]/g, (character) => `\\${character}`).slice(0, 1_000);
+  return String(value)
+    .replace(/\r\n?/g, '\n')
+    .replace(/\s*\n+\s*/g, ' ')
+    .replace(/@(channel|all|here|everyone)\b/gi, '@\u200b$1')
+    .replace(/[<>]/g, '')
+    .replace(/[|`*_\\]/g, (character) => `\\${character}`)
+    .slice(0, 1_000);
 }
 
 function looksRandomAlphanumeric(value: string): boolean {

@@ -1,6 +1,6 @@
 'use client';
 
-import { FormEvent, useState } from 'react';
+import { FormEvent, useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 const personalDomains = new Set(['gmail.com', 'yahoo.com', 'hotmail.com', 'outlook.com', 'icloud.com', 'aol.com', 'proton.me', 'protonmail.com']);
@@ -9,6 +9,8 @@ export function LeadForm({ source = 'contact-page-consultation' }: { source?: 'c
   const router = useRouter();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
+  const [challenge, setChallenge] = useState('');
+  useEffect(() => { fetch('/api/submit-lead', { cache: 'no-store' }).then((response) => response.ok ? response.json() : Promise.reject()).then((data) => setChallenge(data.token || '')).catch(() => setError('The form is temporarily unavailable. Please refresh the page.')); }, []);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -17,6 +19,7 @@ export function LeadForm({ source = 'contact-page-consultation' }: { source?: 'c
     setError('');
     const form = event.currentTarget;
     const data = new FormData(form);
+    data.set('_challenge', challenge);
     const domain = String(data.get('email') || '').trim().toLowerCase().split('@')[1];
     if (!domain || personalDomains.has(domain)) {
       setError('Please use your business email address.');
@@ -55,6 +58,6 @@ export function LeadForm({ source = 'contact-page-consultation' }: { source?: 'c
     <input type="hidden" name="source" value={source} />
     <label className="honeypot" aria-hidden="true">Website<input name="website_url" tabIndex={-1} autoComplete="off" /></label>
     {error && <p className="form-error" role="alert">{error}</p>}
-    <button className="button primary form-wide" type="submit" disabled={busy}>{busy ? 'Sending request' : 'Book a Free Consultation'}</button>
+    <button className="button primary form-wide" type="submit" disabled={busy || !challenge}>{busy ? 'Sending request' : challenge ? 'Book a Free Consultation' : 'Preparing secure form'}</button>
   </form>;
 }

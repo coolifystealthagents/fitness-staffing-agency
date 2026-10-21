@@ -39,10 +39,10 @@ export function Footer() {
       <p>Specialist remote staffing support for fitness operations, with clear scope and accountable handoffs.</p>
       <a className="footer-powered" href="https://stealthagents.com/" rel="noopener noreferrer"><span>Powered by StealthAgents</span><Image src="/stealth-agents-logo-black.png" alt="StealthAgents" width={120} height={40} /></a>
     </div>
-    <div className="footer-links" aria-label="Footer navigation">
+    <nav className="footer-links" aria-label="Footer navigation">
       <div><strong>Start here</strong>{primaryNav.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}</div>
       <div><strong>Explore</strong>{secondaryNav.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}</div>
-    </div>
+    </nav>
     <p className="copyright">© {new Date().getFullYear()} {site.name}. Administrative staffing information only.</p>
   </footer>;
 }

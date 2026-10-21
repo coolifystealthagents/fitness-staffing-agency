@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: service.name,
     description: service.short,
     alternates: { canonical: `/services/${service.slug}` },
-    openGraph: { title: service.name, description: service.short, images: [service.heroImage] }
+    openGraph: { title: service.name, description: service.short, images: [{ url: '/team-bacolod.jpg', width: 953, height: 540, alt: 'Stealth Agents operations team' }] }
   } : {};
 }
 
@@ -33,7 +33,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       <div><p className="eyebrow">Fitness operations support</p><h1>{service.name}</h1><p>{service.short}</p><Link id={`cta-services-${service.slug}-bookcall`} className="button primary" href="/contact-us">Discuss this workflow</Link></div>
       <PageHeroImage src={service.heroImage} alt={service.heroAlt} />
     </header>
-    <div className="service-nav" aria-label="Page sections"><a href="#fit">Who it is for</a><a href="#scope">Scope</a><a href="#workflow">Workflow</a><a href="#controls">Controls</a><a href="#faq">FAQs</a></div>
+    <nav className="service-nav" aria-label="Page sections"><a href="#fit">Who it is for</a><a href="#scope">Scope</a><a href="#workflow">Workflow</a><a href="#controls">Controls</a><a href="#faq">FAQs</a></nav>
     <section id="fit" className="content-wrap service-section two-column"><div><p className="eyebrow">Who this support is for</p><h2>A focused role for recurring operational load.</h2></div><div><p>{service.audience}</p><p>{service.problem}</p></div></section>
     <section id="scope" className="service-band"><div className="content-wrap"><div className="section-heading"><p className="eyebrow">A bounded operating scope</p><h2>What enters the workflow</h2></div><div className="service-columns"><article><h3>Inputs required</h3><ul>{service.inputs.map((item) => <li key={item}>{item}</li>)}</ul></article><article><h3>Work performed</h3><ul>{service.tasks.map((item) => <li key={item}>{item}</li>)}</ul></article><article><h3>What the work produces</h3><ul>{service.deliverables.map((item) => <li key={item}>{item}</li>)}</ul></article></div></div></section>
     <section id="workflow" className="content-wrap service-section"><p className="eyebrow">From request to reviewable completion</p><h2>A workflow built around evidence, not memory.</h2><div className="workflow-line">{service.workflow.map((step) => <article key={step.title}><h3>{step.title}</h3><p>{step.copy}</p></article>)}</div></section>

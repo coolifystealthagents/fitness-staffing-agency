@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: 'Contact Us | Fitness Staffing Consultation',
   description: 'Map a fitness operations support role around clear workflows, decision boundaries, and accountable handoffs.',
   alternates: { canonical: '/contact-us' },
-  openGraph: { title: 'Contact Fitness Staffing Agency', description: 'Plan a focused remote support role for your fitness operations.', images: ['/heroes/editorial/contact-us.svg'] }
+  openGraph: { title: 'Contact Fitness Staffing Agency', description: 'Plan a focused remote support role for your fitness operations.', images: [{ url: '/team-bacolod.jpg', width: 953, height: 540, alt: 'Stealth Agents operations team' }] }
 };
 
 const steps = [
