@@ -73,9 +73,9 @@ check((leadForm.match(/refreshChallenge\(\)/g) || []).length >= 3, 'The form mus
 check(/phoneCountries = new Set/.test(leadRoute) && /phoneCountries\.has\(phoneCountry\)/.test(leadRoute), 'The API must enforce the controlled phone-country enum.');
 const fallbackSource = read('lib/lead-fallback-mattermost.ts');
 const angleRemoval = fallbackSource.indexOf(".replace(/[<>]/g, '')");
-const mentionRemoval = fallbackSource.indexOf(".replace(/(^|[^A-Za-z0-9@_-])@(?=[A-Za-z0-9._-])/g");
-const mentionProbe = (value) => value.replace(/[<>]/g, '').replace(/(^|[^A-Za-z0-9@_-])@(?=[A-Za-z0-9._-])/g, '$1@\u200b');
-check(angleRemoval >= 0 && mentionRemoval > angleRemoval && mentionProbe('<@all>') === '@\u200ball' && mentionProbe('hello,@channel') === 'hello,@\u200bchannel' && mentionProbe('hello.@here') === 'hello.@\u200bhere' && mentionProbe('person@example.com') === 'person@example.com', 'Mattermost fallback must remove angle brackets before neutralizing every token-boundary mention without changing email addresses.');
+const mentionRemoval = fallbackSource.indexOf(".replace(/(^|[^A-Za-z0-9@_])@(?=[A-Za-z0-9._-])/g");
+const mentionProbe = (value) => value.replace(/[<>]/g, '').replace(/(^|[^A-Za-z0-9@_])@(?=[A-Za-z0-9._-])/g, '$1@\u200b');
+check(angleRemoval >= 0 && mentionRemoval > angleRemoval && mentionProbe('<@all>') === '@\u200ball' && mentionProbe('hello,@channel') === 'hello,@\u200bchannel' && mentionProbe('hello.@here') === 'hello.@\u200bhere' && mentionProbe('hello-@user') === 'hello-@\u200buser' && mentionProbe('hello-@channel') === 'hello-@\u200bchannel' && mentionProbe('-<@all>') === '-@\u200ball' && mentionProbe('person@example.com') === 'person@example.com', 'Mattermost fallback must remove angle brackets before neutralizing every token-boundary mention without changing email addresses.');
 check(!/missing:\s*\[/.test(proxy), 'Security proxy must not exempt prefetch requests from nonce CSP.');
 check(/Mattermost/.test(read('app/privacy/page.tsx')) && /OnceHub/.test(read('app/privacy/page.tsx')) && /retention/i.test(read('app/privacy/page.tsx')), 'Privacy notice must disclose lead processors and retention criteria.');
 check(!/"title":\s*"[^"]*(study|audit|report)"/i.test(content), 'Visible legacy research titles must not imply an executed study, audit, or report.');
