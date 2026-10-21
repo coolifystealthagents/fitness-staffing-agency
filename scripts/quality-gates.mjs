@@ -10,7 +10,11 @@ const check = (condition, message) => { if (!condition) fail.push(message); };
 const chrome = read('components/SiteChrome.tsx');
 const layout = read('app/layout.tsx');
 const config = read('next.config.mjs');
+const proxy = read('proxy.ts');
 const contact = read('app/contact-us/page.tsx');
+const reviewMarquee = read('components/ReviewMarquee.tsx');
+const leadForm = read('components/LeadForm.tsx');
+const leadRoute = read('app/api/submit-lead/route.ts');
 const servicePage = read('app/services/[slug]/page.tsx');
 const blogPage = read('app/blog/[slug]/page.tsx');
 const researchPage = read('app/research/[slug]/page.tsx');
@@ -44,11 +48,12 @@ check(exists('public/team-bacolod.jpg'), 'Official Bacolod team photo must be lo
 check((reviews.match(/body:/g) || []).length >= 10, 'At least 10 approved review records must exist.');
 check(/sourceUrl:\s*['"]https:\/\/stealthagents\.com\/?['"]/.test(reviews), 'Reviews must retain first-party source provenance.');
 check(/StealthAgents reviews/.test(contact), 'Contact must visibly label the collection as StealthAgents reviews.');
-check(/review-marquee/.test(contact), 'Contact must include the automatic review marquee.');
+check(/ReviewMarquee/.test(contact) && /review-marquee/.test(reviewMarquee) && /Pause reviews/.test(reviewMarquee), 'Contact reviews must provide an explicit pause control.');
+check(!/★★★★★|5 out of 5/.test(contact + reviewMarquee), 'Review cards must not display an unverified star rating.');
 check(/team-bacolod\.jpg/.test(contact) && /Official team, Bacolod/.test(contact), 'Contact must include the official team photo and plate.');
 check(!/go\.oncehub\.com/.test(contact), 'OnceHub must not be embedded on Contact Us.');
 check(/go\.oncehub\.com\/StealthAgentsTeam/.test(read('app/thank-you/page.tsx')), 'Thank-you must contain the StealthAgentsTeam scheduler.');
-check(/thanks-whats-next/.test(read('app/thank-you/page.tsx')), 'Thank-you must configure or explain the booking completion route.');
+check((read('app/thank-you/page.tsx').match(/bookingUrl/g) || []).length >= 3 && /Open the secure booking page/.test(read('app/thank-you/page.tsx')), 'Thank-you must provide a direct same-destination scheduler fallback.');
 check(/service\.heroImage/.test(servicePage), 'Every service page must render its own hero image.');
 for (const heading of ['Who this support is for','What enters the workflow','What the work produces','Quality controls','Decision boundaries','Common starting scenarios','Frequently asked questions','Related services']) check(servicePage.includes(heading), `Service template missing: ${heading}.`);
 check(/ArticleSidebar/.test(blogPage) && /ArticleSidebar/.test(researchPage), 'Blog and research pages must share a complete article sidebar.');
@@ -57,7 +62,11 @@ check(!/0\{index\+1\}/.test(contact), 'Decorative zero-padded contact steps must
 check(!/service-number/.test(read('components/Marketing.tsx')), 'Decorative numbered service labels must be removed.');
 check(!site.includes('Top 1 percent selectivity'), 'Unsupported selectivity claim must be removed.');
 check(!read('lib/october-12/blogPosts.ts').includes('/services/live-chat-support'), 'Published article service links must resolve.');
-check(/Content-Security-Policy/.test(config) && /Strict-Transport-Security/.test(config) && /Permissions-Policy/.test(config), 'Required security headers must be configured.');
+check(/Content-Security-Policy/.test(proxy) && /nonce-/.test(proxy) && /strict-dynamic/.test(proxy) && !/script-src[^\n]*unsafe-inline/.test(proxy) && /Strict-Transport-Security/.test(config) && /Permissions-Policy/.test(config), 'Nonce CSP and required security headers must be configured.');
+check(/conversion:\s*'consultation-request'/.test(leadForm) && !/trackLead\(\{[\s\S]{0,400}(email|phone|name|business|message):/.test(leadForm), 'Browser lead analytics must contain only a fixed non-identifying conversion marker.');
+check(/form\.get\('source'\) !== 'contact-page-consultation'/.test(leadRoute) && /delivery_unavailable/.test(leadRoute) && /status:\s*503/.test(leadRoute), 'Lead API must enforce the server-owned form schema and fail when no durable delivery succeeds.');
+check(!/The sequence is consistent even when/.test(read('lib/october-12/blogPosts.ts')), 'Detailed Blog posts must not reuse the rejected body template.');
+check(/This page proposes a method; it does not report an executed study/.test(read('lib/october-12/researchPosts.ts')) && /Proposed review method/.test(researchPage), 'Proposed research protocols must explicitly disclaim unexecuted study results.');
 check(/icons:/.test(layout) || /icon\.png/.test(layout), 'Root metadata must expose the favicon.');
 
 const visibleSources = ['app', 'components', 'lib'].flatMap((dir) => {

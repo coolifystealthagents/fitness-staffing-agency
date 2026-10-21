@@ -2,8 +2,9 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { LeadForm } from '@/components/LeadForm';
+import { ReviewMarquee } from '@/components/ReviewMarquee';
+import { JsonLd } from '@/components/JsonLd';
 import { site } from '@/lib/site';
-import { stealthAgentsReviews } from '@/lib/reviews';
 import './contact.css';
 
 export const metadata: Metadata = {
@@ -36,11 +37,7 @@ export default function ContactPage() {
         <p>Bring one recurring fitness workflow. We will help define the support role, the handoff, and the decisions that stay with your team.</p>
         <div className="scope-chips" aria-label="Consultation topics"><span>Schedules</span><span>Members</span><span>Leads</span><span>Trainer records</span></div>
         <div className="reviews-heading"><strong>StealthAgents reviews</strong><a href="https://stealthagents.com/" rel="noopener noreferrer">Verified first-party source</a></div>
-        <div className="review-window" aria-label={`${stealthAgentsReviews.length} StealthAgents reviews`}>
-          <div className="review-marquee">{[...stealthAgentsReviews, ...stealthAgentsReviews].map((review, index) => <figure className="review-card" key={`${review.reviewer}-${index}`} aria-hidden={index >= stealthAgentsReviews.length || undefined}>
-            <div className="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>{review.body}</blockquote><figcaption><strong>{review.reviewer}</strong><span>{review.detail}</span></figcaption>
-          </figure>)}</div>
-        </div>
+        <ReviewMarquee />
       </div>
       <div className="contact-form-card"><div><p className="eyebrow">Free consultation</p><h2>Tell us what needs support.</h2><p>Do not include credentials, health information, payment data, or member records.</p></div><LeadForm source="contact-page-consultation" /></div>
     </section>
@@ -54,6 +51,6 @@ export default function ContactPage() {
     <section className="contact-section boundaries"><div className="contact-container narrow"><p className="eyebrow">Accountability stays clear</p><h2>Responsibility and boundaries</h2><p>Remote staff can maintain approved schedules and records, answer routine questions from approved guidance, coordinate follow up, prepare membership updates, organize documents, and flag exceptions. They do not coach, prescribe exercise or nutrition, assess injuries, provide health advice, certify trainers, handle emergencies, make safeguarding decisions, approve refunds, change contracts, or override safety and access controls.</p><p>Your qualified trainers, onsite managers, health and safety leads, safeguarding personnel, finance, legal, privacy, security, compliance, and executive owners retain responsibility for instruction, member safety, emergencies, credentials, pricing, payments, contracts, sensitive data, and final decisions.</p></div></section>
     <section className="contact-section"><div className="contact-container"><p className="eyebrow">Common starting points</p><h2>Choose a workflow with a clear source and owner.</h2><div className="path-grid">{site.services.slice(0, 4).map((service) => <Link key={service.slug} href={`/services/${service.slug}`}><h3>{service.name}</h3><p>{service.short}</p></Link>)}</div><Link className="text-link all-services" href="/services">View all services</Link></div></section>
     <section className="contact-section faq"><div className="contact-container narrow"><p className="eyebrow">Fitness staffing questions</p><h2>Frequently asked questions</h2>{faqs.map(([q, a]) => <details key={q}><summary>{q}</summary><p>{a}</p></details>)}</div></section>
-    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+    <JsonLd data={schema} />
   </main>;
 }

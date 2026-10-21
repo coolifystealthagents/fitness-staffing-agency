@@ -8,7 +8,7 @@ const sharedFaq = {
 export const services: Service[] = [
   {
     slug: 'class-schedule-support', name: 'Class schedule support', short: 'Maintain class records, instructor coverage, and approved changes without losing operational context.',
-    heroImage: '/heroes/class-schedule-support.svg', heroAlt: 'Illustrated class timetable, coverage markers, and approved schedule changes',
+    heroImage: '/heroes/class-schedule-support.svg', heroAlt: 'Abstract editorial illustration for class schedule support',
     audience: 'Multi-class gyms, boutique studios, wellness programs, and fitness departments with recurring timetable changes and several instructors.',
     problem: 'Schedule changes often arrive through calls, chat threads, and informal notes. A support role can consolidate approved updates and keep coverage status visible while managers retain authority over programming and staffing decisions.',
     tasks: ['Update approved schedules in the system of record','Maintain a current instructor coverage queue','Prepare routine member and instructor notices','Flag collisions, missing details, and unresolved coverage'],
@@ -31,7 +31,7 @@ export const services: Service[] = [
   },
   {
     slug: 'member-support', name: 'Member support', short: 'Handle routine member communication with consistent answers, clear records, and safe escalation.',
-    heroImage: '/heroes/member-support.svg', heroAlt: 'Illustrated member conversation queue with resolved and escalated requests',
+    heroImage: '/heroes/member-support.svg', heroAlt: 'Abstract editorial illustration for fitness member support',
     audience: 'Fitness businesses with recurring questions about schedules, facilities, account processes, program logistics, and approved policies.',
     problem: 'Member requests become expensive when context is scattered or every question reaches a manager. A bounded support queue can answer routine questions and document what needs an authorized decision.',
     tasks: ['Answer approved schedule and facility questions','Document member requests in the chosen system','Route account, safety, and service exceptions','Maintain follow-up status and response evidence'],
@@ -54,7 +54,7 @@ export const services: Service[] = [
   },
   {
     slug: 'fitness-lead-follow-up', name: 'Fitness lead follow up', short: 'Keep approved inquiry follow up visible, timely, and connected to the next human decision.',
-    heroImage: '/heroes/fitness-lead-follow-up.svg', heroAlt: 'Illustrated fitness inquiry pipeline with follow-up and consultation stages',
+    heroImage: '/heroes/fitness-lead-follow-up.svg', heroAlt: 'Abstract editorial illustration for fitness lead follow up',
     audience: 'Gyms, studios, fitness programs, and wellness operators that receive inquiries from forms, calls, events, or referral partners.',
     problem: 'Interest cools when inquiries sit in disconnected inboxes or receive inconsistent messages. Support can maintain the queue and approved contact cadence while sales and fitness leaders handle qualification and commitments.',
     tasks: ['Prepare and maintain lead follow-up queues','Send approved informational messages','Record responses and next-action dates','Route qualification, pricing, health, and program-fit questions'],
@@ -77,7 +77,7 @@ export const services: Service[] = [
   },
   {
     slug: 'trainer-records', name: 'Trainer records support', short: 'Maintain approved credential, profile, availability, and document status records for management review.',
-    heroImage: '/heroes/trainer-records.svg', heroAlt: 'Illustrated trainer profile records with document and expiry status',
+    heroImage: '/heroes/trainer-records.svg', heroAlt: 'Abstract editorial illustration for trainer record support',
     audience: 'Fitness organizations that coordinate multiple trainers, credentials, class formats, locations, and document-renewal cycles.',
     problem: 'A record can look complete while an expiry date, source document, or review owner is missing. Support can maintain evidence and reminders without making credential or fitness-practice judgments.',
     tasks: ['Update approved trainer profile fields','Track supplied document and expiry status','Maintain availability and location notes','Flag missing, conflicting, or overdue records'],
@@ -100,7 +100,7 @@ export const services: Service[] = [
   },
   {
     slug: 'membership-admin', name: 'Membership administration support', short: 'Organize routine records around starts, approved changes, pauses, and cancellations.',
-    heroImage: '/heroes/membership-admin.svg', heroAlt: 'Illustrated membership record with approved change and review states',
+    heroImage: '/heroes/membership-admin.svg', heroAlt: 'Abstract editorial illustration for membership administration',
     audience: 'Fitness operators with defined membership policies, recurring account requests, and authorized staff who retain financial and contract decisions.',
     problem: 'Membership requests touch communication, contracts, payment systems, access, and scheduling. Support can prepare complete records and apply explicitly approved changes while exceptions remain with accountable owners.',
     tasks: ['Prepare account records for authorized review','Document and apply explicitly approved changes','Maintain request, owner, and status notes','Escalate disputes, refunds, and contract questions'],
@@ -123,7 +123,7 @@ export const services: Service[] = [
   },
   {
     slug: 'fitness-back-office', name: 'Fitness back office support', short: 'Prepare operational records, work queues, and routine summaries without blurring decision ownership.',
-    heroImage: '/heroes/fitness-back-office.svg', heroAlt: 'Illustrated operations dashboard with queues, records, and exception signals',
+    heroImage: '/heroes/fitness-back-office.svg', heroAlt: 'Abstract editorial illustration for fitness back-office support',
     audience: 'Fitness businesses whose leaders need reliable administrative follow-through across classes, members, trainers, vendors, and internal reporting.',
     problem: 'Back-office work becomes fragile when tasks live in individual memory and summaries hide the source record. Support can maintain queues and evidence so leaders can review real operating conditions.',
     tasks: ['Organize approved source records','Maintain recurring operational work queues','Prepare factual status summaries','Flag missing inputs, overdue work, and process exceptions'],

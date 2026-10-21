@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import { headers } from 'next/headers';
 import { Header, Footer } from '@/components/SiteChrome';
 import { site } from '@/lib/site';
 import './globals.css';
@@ -23,15 +24,16 @@ const organizationSchema = {
   parentOrganization: { '@type': 'Organization', name: 'StealthAgents', url: 'https://stealthagents.com/' }
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const nonce = (await headers()).get('x-nonce') || undefined;
   return <html lang="en" data-design={site.design}>
     <body style={{ '--primary': site.primary, '--secondary': site.secondary, '--accent': site.accent, '--canvas': site.canvas, '--ink': site.ink, '--display': site.displayFont, '--body': site.bodyFont } as React.CSSProperties}>
       <Header />
       {children}
       <Footer />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
-      <Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'${site.siteId}',endpoint:'/ingest/track',debug:false};`}</Script>
-      <Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive" />
+      <script nonce={nonce} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <Script nonce={nonce} id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'${site.siteId}',endpoint:'/ingest/track',debug:false};`}</Script>
+      <Script nonce={nonce} src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive" />
     </body>
   </html>;
 }

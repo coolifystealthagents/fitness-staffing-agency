@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArticleSidebar, type TocItem } from '@/components/ArticleSidebar';
 import { ArticleImage } from '@/components/EditorialMedia';
+import { JsonLd } from '@/components/JsonLd';
 import { blogPosts, blogBySlug } from '@/lib/content';
 import { site } from '@/lib/site';
 
@@ -27,6 +28,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       </article>
       <ArticleSidebar items={toc} kind="Blog" related={related.map((item) => ({ href: `/blog/${item.slug}`, label: item.title }))} />
     </section>
-    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+    <JsonLd data={schema} />
   </main>;
 }

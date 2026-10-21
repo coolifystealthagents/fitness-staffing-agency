@@ -17,15 +17,15 @@ export function ArticleSidebar({ items, kind, related }: { items: TocItem[]; kin
     return () => observer.disconnect();
   }, [items]);
 
-  return <aside className="sidebar article-sidebar" aria-label={`${kind} article sidebar`}>
+  return <aside className="article-sidebar" aria-label={`${kind} article sidebar`}>
     <div className="sidebar-scroll">
       <p className="eyebrow">In this {kind.toLowerCase()}</p>
-      <nav className="toc" aria-label="Table of contents">
+      <nav className="toc toc-list" aria-label="Table of contents">
         {items.map((item) => <a key={item.id} href={`#${item.id}`} aria-current={active === item.id ? 'location' : undefined}>{item.label}</a>)}
       </nav>
       <section className="sidebar-module" aria-labelledby="related-heading">
         <h3 id="related-heading">Related reading</h3>
-        <ul>{related.map((item) => <li key={item.href}><Link href={item.href}>{item.label}</Link></li>)}</ul>
+        <ul className="related-list">{related.map((item) => <li key={item.href}><Link href={item.href}>{item.label}</Link></li>)}</ul>
       </section>
       <section className="sidebar-module sidebar-cta" aria-labelledby="sidebar-cta-heading">
         <h3 id="sidebar-cta-heading">Turn the reading into a scoped role.</h3>

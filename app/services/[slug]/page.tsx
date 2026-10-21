@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { PageHeroImage } from '@/components/EditorialMedia';
+import { JsonLd } from '@/components/JsonLd';
 import { site } from '@/lib/site';
 import { serviceBySlug } from '@/lib/content';
 
@@ -41,6 +42,6 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
     <section id="faq" className="content-wrap service-section faq"><p className="eyebrow">Frequently asked questions</p><h2>Questions to settle before access is granted.</h2>{service.faq.map((item) => <details key={item.q}><summary>{item.q}</summary><p>{item.a}</p></details>)}</section>
     <section className="content-wrap service-section"><p className="eyebrow">Related services</p><h2>Build the surrounding operating system.</h2><div className="related-services">{related.map((item) => <Link key={item.slug} href={`/services/${item.slug}`}><h3>{item.name}</h3><p>{item.short}</p></Link>)}</div></section>
     <section className="closing"><p className="eyebrow">Choose one controlled workflow</p><h2>Turn a recurring queue into a role your team can review.</h2><Link id={`cta-services-${service.slug}-consultation`} className="button primary" href="/contact-us">Plan a free consultation</Link></section>
-    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+    <JsonLd data={schema} />
   </main>;
 }
