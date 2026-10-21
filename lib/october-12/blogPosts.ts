@@ -285,7 +285,7 @@ export const october12BlogPosts: BlogPost[] = [
     "internalService": "/services/member-support",
     "source": {
       "label": "FTC: Protecting Personal Information",
-      "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+      "url": "https://search.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0"
     },
     "sections": [
       {

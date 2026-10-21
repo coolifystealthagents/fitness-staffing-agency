@@ -247,7 +247,7 @@ const legacyBlogPosts: BlogPost[] = [
     "internalSibling": "/blog/member-request-escalation",
     "source": {
       "label": "FTC: CAN-SPAM Act",
-      "url": "https://www.ftc.gov/legal-library/browse/statutes/can-spam-act"
+      "url": "https://search.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
     },
     "sections": [
       {
@@ -328,7 +328,7 @@ const planningBriefs: ResearchPost[] = [
       },
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+        "url": "https://search.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0"
       }
     ]
   },
@@ -342,11 +342,11 @@ const planningBriefs: ResearchPost[] = [
     "sources": [
       {
         "label": "FTC: CAN-SPAM Act",
-        "url": "https://www.ftc.gov/legal-library/browse/statutes/can-spam-act"
+        "url": "https://search.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
       },
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+        "url": "https://search.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0"
       }
     ]
   },
@@ -378,7 +378,7 @@ const planningBriefs: ResearchPost[] = [
     "sources": [
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+        "url": "https://search.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0"
       },
       {
         "label": "NIST Privacy Framework",
@@ -436,7 +436,7 @@ const planningBriefs: ResearchPost[] = [
       },
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+        "url": "https://search.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0"
       }
     ]
   },
@@ -450,11 +450,11 @@ const planningBriefs: ResearchPost[] = [
     "sources": [
       {
         "label": "FTC: CAN-SPAM Act",
-        "url": "https://www.ftc.gov/legal-library/browse/statutes/can-spam-act"
+        "url": "https://search.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
       },
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+        "url": "https://search.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0"
       }
     ]
   },
@@ -486,7 +486,7 @@ const planningBriefs: ResearchPost[] = [
     "sources": [
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+        "url": "https://search.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0"
       },
       {
         "label": "NIST Privacy Framework",
@@ -544,7 +544,7 @@ const planningBriefs: ResearchPost[] = [
       },
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+        "url": "https://search.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0"
       }
     ]
   },
@@ -558,11 +558,11 @@ const planningBriefs: ResearchPost[] = [
     "sources": [
       {
         "label": "FTC: CAN-SPAM Act",
-        "url": "https://www.ftc.gov/legal-library/browse/statutes/can-spam-act"
+        "url": "https://search.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
       },
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+        "url": "https://search.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0"
       }
     ]
   },
@@ -594,7 +594,7 @@ const planningBriefs: ResearchPost[] = [
     "sources": [
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+        "url": "https://search.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0"
       },
       {
         "label": "NIST Privacy Framework",
@@ -652,7 +652,7 @@ const planningBriefs: ResearchPost[] = [
       },
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+        "url": "https://search.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0"
       }
     ]
   }

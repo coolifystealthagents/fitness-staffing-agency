@@ -71,7 +71,11 @@ check(/MAX_BODY_BYTES/.test(leadRoute) && /getReader\(\)/.test(leadRoute) && /bo
 check(/MAX_CHALLENGES/.test(leadRoute) && /MAX_CHALLENGE_ISSUES/.test(leadRoute) && /challengeByClient/.test(leadRoute) && /while \(challenges\.size >= MAX_CHALLENGES\)/.test(leadRoute) && /MAX_ATTEMPTS/.test(leadRoute) && /status: 429/.test(leadRoute), 'Lead API must cap challenge storage, retain one active challenge per client, and throttle challenge and submission requests.');
 check((leadForm.match(/refreshChallenge\(\)/g) || []).length >= 3, 'The form must obtain a fresh one-use challenge after every unsuccessful submission.');
 check(/phoneCountries = new Set/.test(leadRoute) && /phoneCountries\.has\(phoneCountry\)/.test(leadRoute), 'The API must enforce the controlled phone-country enum.');
-check(/\(\^\|\[\\s\(\[\{\]\)@/.test(read('lib/lead-fallback-mattermost.ts')), 'Mattermost fallback must neutralize all mention-shaped tokens, not only channel-wide mentions.');
+const fallbackSource = read('lib/lead-fallback-mattermost.ts');
+const angleRemoval = fallbackSource.indexOf(".replace(/[<>]/g, '')");
+const mentionRemoval = fallbackSource.indexOf(".replace(/(^|[^A-Za-z0-9@_-])@(?=[A-Za-z0-9._-])/g");
+const mentionProbe = (value) => value.replace(/[<>]/g, '').replace(/(^|[^A-Za-z0-9@_-])@(?=[A-Za-z0-9._-])/g, '$1@\u200b');
+check(angleRemoval >= 0 && mentionRemoval > angleRemoval && mentionProbe('<@all>') === '@\u200ball' && mentionProbe('hello,@channel') === 'hello,@\u200bchannel' && mentionProbe('hello.@here') === 'hello.@\u200bhere' && mentionProbe('person@example.com') === 'person@example.com', 'Mattermost fallback must remove angle brackets before neutralizing every token-boundary mention without changing email addresses.');
 check(!/missing:\s*\[/.test(proxy), 'Security proxy must not exempt prefetch requests from nonce CSP.');
 check(/Mattermost/.test(read('app/privacy/page.tsx')) && /OnceHub/.test(read('app/privacy/page.tsx')) && /retention/i.test(read('app/privacy/page.tsx')), 'Privacy notice must disclose lead processors and retention criteria.');
 check(!/"title":\s*"[^"]*(study|audit|report)"/i.test(content), 'Visible legacy research titles must not imply an executed study, audit, or report.');
@@ -87,7 +91,8 @@ const visibleSources = ['app', 'components', 'lib'].flatMap((dir) => {
   });
   return walk(path.join(root, dir));
 });
-for (const obsolete of ['tools-and-calculators/verify-certification', 'privacy-security/protecting-personal-information', 'privacy-security/data-security', 'can-spam-act-compliance-guide-business', 'sp800-53-controls/release-search']) check(!visibleSources.some((file) => fs.readFileSync(file, 'utf8').includes(obsolete)), `Obsolete external citation remains: ${obsolete}.`);
+for (const obsolete of ['https://www.acefitness.org/resources/everyone/tools-and-calculators/verify-certification/', 'https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information', 'https://www.ftc.gov/business-guidance/privacy-security/data-security', 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', 'https://www.ftc.gov/legal-library/browse/statutes/can-spam-act', 'sp800-53-controls/release-search']) check(!visibleSources.some((file) => fs.readFileSync(file, 'utf8').includes(obsolete)), `Obsolete external citation remains: ${obsolete}.`);
+check(content.includes('https://search.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business-0') && content.includes('https://search.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business'), 'Content must use the browser-verified live FTC publication URLs.');
 for (const file of visibleSources) {
   const value = fs.readFileSync(file, 'utf8');
   check(!/[—–]/.test(value), `${path.relative(root, file)} contains a forbidden dash character.`);
