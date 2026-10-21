@@ -5,7 +5,7 @@ type ResearchSource = ResearchPost['sources'][number];
 const sources: ResearchSource[] = [
   { label: 'Privacy Framework', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/privacy-framework', checkedAt: '2026-10-12' },
   { label: 'Digital Identity Guidelines', publisher: 'National Institute of Standards and Technology', url: 'https://pages.nist.gov/800-63-4/', checkedAt: '2026-10-12' },
-  { label: 'Data Security', publisher: 'Federal Trade Commission', url: 'https://www.ftc.gov/business-guidance/privacy-security/data-security', checkedAt: '2026-10-12' },
+  { label: 'Protecting Personal Information', publisher: 'Federal Trade Commission', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business', checkedAt: '2026-10-12' },
   { label: 'Federal Plain Language Guidelines', publisher: 'PlainLanguage.gov', url: 'https://www.plainlanguage.gov/guidelines/', checkedAt: '2026-10-12' }
 ];
 

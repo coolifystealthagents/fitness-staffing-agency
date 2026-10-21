@@ -55,7 +55,7 @@ function escapeMd(value: string | undefined): string {
   return String(value)
     .replace(/\r\n?/g, '\n')
     .replace(/\s*\n+\s*/g, ' ')
-    .replace(/@(channel|all|here|everyone)\b/gi, '@\u200b$1')
+    .replace(/(^|[\s([{])@(?=[A-Za-z0-9._-])/g, '$1@\u200b')
     .replace(/[<>]/g, '')
     .replace(/[|`*_\\]/g, (character) => `\\${character}`)
     .slice(0, 1_000);

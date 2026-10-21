@@ -188,8 +188,8 @@ const legacyBlogPosts: BlogPost[] = [
     "internalService": "/services/trainer-records",
     "internalSibling": "/blog/trainer-credential-verification-handoff",
     "source": {
-      "label": "ACE: Verify a certification",
-      "url": "https://www.acefitness.org/resources/everyone/tools-and-calculators/verify-certification/"
+      "label": "ACE: Find an ACE Pro",
+      "url": "https://www.acefitness.org/resources/everyone/find-ace-pro/"
     },
     "sections": [
       {
@@ -246,8 +246,8 @@ const legacyBlogPosts: BlogPost[] = [
     "internalService": "/services/fitness-lead-follow-up",
     "internalSibling": "/blog/member-request-escalation",
     "source": {
-      "label": "FTC: CAN-SPAM Act compliance guide",
-      "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
+      "label": "FTC: CAN-SPAM Act",
+      "url": "https://www.ftc.gov/legal-library/browse/statutes/can-spam-act"
     },
     "sections": [
       {
@@ -328,7 +328,7 @@ const planningBriefs: ResearchPost[] = [
       },
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information"
+        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       }
     ]
   },
@@ -341,12 +341,12 @@ const planningBriefs: ResearchPost[] = [
     "finding": "Planning premise: Follow-up preparation should retain source and consent context, use approved claims, and honor channel stop signals. Describe the cases that must pause, the owner who receives them, and the evidence that travels with the handoff.",
     "sources": [
       {
-        "label": "FTC: CAN-SPAM compliance",
-        "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
+        "label": "FTC: CAN-SPAM Act",
+        "url": "https://www.ftc.gov/legal-library/browse/statutes/can-spam-act"
       },
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information"
+        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       }
     ]
   },
@@ -359,8 +359,8 @@ const planningBriefs: ResearchPost[] = [
     "finding": "Planning premise: Record support can collect and source-check evidence, while credential acceptance and assignment remain with a qualified owner. Define what the next owner must see before responsibility can change hands.",
     "sources": [
       {
-        "label": "ACE: Verify a certification",
-        "url": "https://www.acefitness.org/resources/everyone/tools-and-calculators/verify-certification/"
+        "label": "ACE: Find an ACE Pro",
+        "url": "https://www.acefitness.org/resources/everyone/find-ace-pro/"
       },
       {
         "label": "NIST Privacy Framework",
@@ -378,7 +378,7 @@ const planningBriefs: ResearchPost[] = [
     "sources": [
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information"
+        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       },
       {
         "label": "NIST Privacy Framework",
@@ -436,7 +436,7 @@ const planningBriefs: ResearchPost[] = [
       },
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information"
+        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       }
     ]
   },
@@ -449,12 +449,12 @@ const planningBriefs: ResearchPost[] = [
     "finding": "Planning premise: Follow-up preparation should retain source and consent context, use approved claims, and honor channel stop signals. Define what the next owner must see before responsibility can change hands.",
     "sources": [
       {
-        "label": "FTC: CAN-SPAM compliance",
-        "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
+        "label": "FTC: CAN-SPAM Act",
+        "url": "https://www.ftc.gov/legal-library/browse/statutes/can-spam-act"
       },
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information"
+        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       }
     ]
   },
@@ -467,8 +467,8 @@ const planningBriefs: ResearchPost[] = [
     "finding": "Planning premise: Record support can collect and source-check evidence, while credential acceptance and assignment remain with a qualified owner. Use a small documented sample to test completeness, source use, access, and escalation without claiming a measured result.",
     "sources": [
       {
-        "label": "ACE: Verify a certification",
-        "url": "https://www.acefitness.org/resources/everyone/tools-and-calculators/verify-certification/"
+        "label": "ACE: Find an ACE Pro",
+        "url": "https://www.acefitness.org/resources/everyone/find-ace-pro/"
       },
       {
         "label": "NIST Privacy Framework",
@@ -486,7 +486,7 @@ const planningBriefs: ResearchPost[] = [
     "sources": [
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information"
+        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       },
       {
         "label": "NIST Privacy Framework",
@@ -544,7 +544,7 @@ const planningBriefs: ResearchPost[] = [
       },
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information"
+        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       }
     ]
   },
@@ -557,12 +557,12 @@ const planningBriefs: ResearchPost[] = [
     "finding": "Planning premise: Follow-up preparation should retain source and consent context, use approved claims, and honor channel stop signals. Use a small documented sample to test completeness, source use, access, and escalation without claiming a measured result.",
     "sources": [
       {
-        "label": "FTC: CAN-SPAM compliance",
-        "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business"
+        "label": "FTC: CAN-SPAM Act",
+        "url": "https://www.ftc.gov/legal-library/browse/statutes/can-spam-act"
       },
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information"
+        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       }
     ]
   },
@@ -575,8 +575,8 @@ const planningBriefs: ResearchPost[] = [
     "finding": "Planning premise: Record support can collect and source-check evidence, while credential acceptance and assignment remain with a qualified owner. Identify which steps may proceed under a written rule and which require approval.",
     "sources": [
       {
-        "label": "ACE: Verify a certification",
-        "url": "https://www.acefitness.org/resources/everyone/tools-and-calculators/verify-certification/"
+        "label": "ACE: Find an ACE Pro",
+        "url": "https://www.acefitness.org/resources/everyone/find-ace-pro/"
       },
       {
         "label": "NIST Privacy Framework",
@@ -594,7 +594,7 @@ const planningBriefs: ResearchPost[] = [
     "sources": [
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information"
+        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       },
       {
         "label": "NIST Privacy Framework",
@@ -652,7 +652,7 @@ const planningBriefs: ResearchPost[] = [
       },
       {
         "label": "FTC: Protecting personal information",
-        "url": "https://www.ftc.gov/business-guidance/privacy-security/protecting-personal-information"
+        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       }
     ]
   }

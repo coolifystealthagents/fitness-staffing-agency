@@ -284,8 +284,8 @@ export const october12BlogPosts: BlogPost[] = [
     "image": "/october-12/personal-training-client-handoff.webp",
     "internalService": "/services/member-support",
     "source": {
-      "label": "FTC data security guidance",
-      "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security"
+      "label": "FTC: Protecting Personal Information",
+      "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
     },
     "sections": [
       {
@@ -504,8 +504,8 @@ export const october12BlogPosts: BlogPost[] = [
     "image": "/october-12/multi-site-trainer-access-review.webp",
     "internalService": "/services/trainer-records",
     "source": {
-      "label": "NIST access control guidance",
-      "url": "https://csrc.nist.gov/projects/risk-management/sp800-53-controls/release-search#!/control?version=5.1&number=AC-2"
+      "label": "NIST SP 800-53 Rev. 5",
+      "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
     },
     "sections": [
       {

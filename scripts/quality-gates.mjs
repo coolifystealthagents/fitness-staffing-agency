@@ -66,13 +66,18 @@ check(!read('lib/october-12/blogPosts.ts').includes('/services/live-chat-support
 check(/Content-Security-Policy/.test(proxy) && /nonce-/.test(proxy) && /strict-dynamic/.test(proxy) && !/script-src[^\n]*unsafe-inline/.test(proxy) && /Strict-Transport-Security/.test(config) && /Permissions-Policy/.test(config), 'Nonce CSP and required security headers must be configured.');
 check(/conversion:\s*'consultation-request'/.test(leadForm) && !/trackLead\(\{[\s\S]{0,400}(email|phone|name|business|message):/.test(leadForm), 'Browser lead analytics must contain only a fixed non-identifying conversion marker.');
 check(/const SOURCE = 'contact-page-consultation'/.test(leadRoute) && /form\.get\('source'\) !== SOURCE/.test(leadRoute) && /delivery_unavailable/.test(leadRoute) && /status:\s*503/.test(leadRoute), 'Lead API must enforce the server-owned form schema and fail when no durable delivery succeeds.');
+check(/const publicHost = \(request\.headers\.get\('x-forwarded-host'\) \|\| request\.headers\.get\('host'\)/.test(leadRoute) && /new URL\(origin\)\.host !== publicHost/.test(leadRoute), 'Browser form origin validation must use the proxy-forwarded public host rather than the standalone server internal URL.');
 check(/MAX_BODY_BYTES/.test(leadRoute) && /getReader\(\)/.test(leadRoute) && /body_too_large/.test(leadRoute) && /\? 413 : 400/.test(leadRoute), 'Lead API must reject oversized bodies while streaming, before multipart parsing.');
-check(/challenges\.set/.test(leadRoute) && /challenges\.delete/.test(leadRoute) && /MAX_ATTEMPTS/.test(leadRoute) && /status: 429/.test(leadRoute), 'Lead API must require one-use server challenges and enforce request throttling.');
+check(/MAX_CHALLENGES/.test(leadRoute) && /MAX_CHALLENGE_ISSUES/.test(leadRoute) && /challengeByClient/.test(leadRoute) && /while \(challenges\.size >= MAX_CHALLENGES\)/.test(leadRoute) && /MAX_ATTEMPTS/.test(leadRoute) && /status: 429/.test(leadRoute), 'Lead API must cap challenge storage, retain one active challenge per client, and throttle challenge and submission requests.');
+check((leadForm.match(/refreshChallenge\(\)/g) || []).length >= 3, 'The form must obtain a fresh one-use challenge after every unsuccessful submission.');
+check(/phoneCountries = new Set/.test(leadRoute) && /phoneCountries\.has\(phoneCountry\)/.test(leadRoute), 'The API must enforce the controlled phone-country enum.');
+check(/\(\^\|\[\\s\(\[\{\]\)@/.test(read('lib/lead-fallback-mattermost.ts')), 'Mattermost fallback must neutralize all mention-shaped tokens, not only channel-wide mentions.');
 check(!/missing:\s*\[/.test(proxy), 'Security proxy must not exempt prefetch requests from nonce CSP.');
 check(/Mattermost/.test(read('app/privacy/page.tsx')) && /OnceHub/.test(read('app/privacy/page.tsx')) && /retention/i.test(read('app/privacy/page.tsx')), 'Privacy notice must disclose lead processors and retention criteria.');
 check(!/"title":\s*"[^"]*(study|audit|report)"/i.test(content), 'Visible legacy research titles must not imply an executed study, audit, or report.');
 check(!/The sequence is consistent even when/.test(read('lib/october-12/blogPosts.ts')), 'Detailed Blog posts must not reuse the rejected body template.');
 check(/This page proposes a method; it does not report an executed study/.test(read('lib/october-12/researchPosts.ts')) && /Proposed review method/.test(researchPage), 'Proposed research protocols must explicitly disclaim unexecuted study results.');
+check(/const relatedResearch: Record/.test(researchPage) && (researchPage.match(/-study': \[/g) || []).length === 5, 'Detailed research protocols must use explicit topic-affinity related reading.');
 check(/icons:/.test(layout) || /icon\.png/.test(layout), 'Root metadata must expose the favicon.');
 
 const visibleSources = ['app', 'components', 'lib'].flatMap((dir) => {
@@ -82,6 +87,7 @@ const visibleSources = ['app', 'components', 'lib'].flatMap((dir) => {
   });
   return walk(path.join(root, dir));
 });
+for (const obsolete of ['tools-and-calculators/verify-certification', 'privacy-security/protecting-personal-information', 'privacy-security/data-security', 'can-spam-act-compliance-guide-business', 'sp800-53-controls/release-search']) check(!visibleSources.some((file) => fs.readFileSync(file, 'utf8').includes(obsolete)), `Obsolete external citation remains: ${obsolete}.`);
 for (const file of visibleSources) {
   const value = fs.readFileSync(file, 'utf8');
   check(!/[—–]/.test(value), `${path.relative(root, file)} contains a forbidden dash character.`);

@@ -10,7 +10,15 @@ export function LeadForm({ source = 'contact-page-consultation' }: { source?: 'c
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
   const [challenge, setChallenge] = useState('');
-  useEffect(() => { fetch('/api/submit-lead', { cache: 'no-store' }).then((response) => response.ok ? response.json() : Promise.reject()).then((data) => setChallenge(data.token || '')).catch(() => setError('The form is temporarily unavailable. Please refresh the page.')); }, []);
+  async function refreshChallenge() {
+    setChallenge('');
+    const response = await fetch('/api/submit-lead', { cache: 'no-store' });
+    if (!response.ok) throw new Error('challenge_unavailable');
+    const data = await response.json();
+    if (!data.token) throw new Error('challenge_unavailable');
+    setChallenge(data.token);
+  }
+  useEffect(() => { refreshChallenge().catch(() => setError('The form is temporarily unavailable. Please refresh the page.')); }, []);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -31,6 +39,7 @@ export function LeadForm({ source = 'contact-page-consultation' }: { source?: 'c
       const result = await response.json();
       if (!response.ok || !result.ok) {
         setError(result.message || 'Please check your details and try again.');
+        await refreshChallenge().catch(() => setError('The form is temporarily unavailable. Please refresh the page.'));
         setBusy(false);
         return;
       }
@@ -38,6 +47,7 @@ export function LeadForm({ source = 'contact-page-consultation' }: { source?: 'c
       router.push('/thank-you');
     } catch {
       setError('We could not send your request. Please try again.');
+      await refreshChallenge().catch(() => setError('The form is temporarily unavailable. Please refresh the page.'));
       setBusy(false);
     }
   }

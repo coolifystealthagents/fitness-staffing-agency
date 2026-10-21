@@ -7,6 +7,14 @@ import { JsonLd } from '@/components/JsonLd';
 import { researchPosts, researchBySlug } from '@/lib/content';
 import { site } from '@/lib/site';
 
+const relatedResearch: Record<string, string[]> = {
+  'fitness-credential-verification-reproducibility-study': ['trainer-records-handoff-reliability-brief-4', 'trainer-records-review-consistency-report-10', 'trainer-records-workflow-boundary-review-16'],
+  'group-class-substitute-readiness-study': ['class-schedule-support-workflow-boundary-review-1', 'class-schedule-support-source-quality-audit-7', 'class-schedule-support-handoff-reliability-brief-19'],
+  'fitness-schedule-credential-drift-study': ['class-schedule-support-source-quality-audit-7', 'trainer-records-review-consistency-report-10', 'class-schedule-support-exception-pattern-study-13'],
+  'fitness-incident-record-completeness-study': ['member-support-source-quality-audit-2', 'member-support-exception-pattern-study-8', 'fitness-back-office-source-quality-audit-12'],
+  'fitness-staff-access-revocation-study': ['trainer-records-workflow-boundary-review-16', 'fitness-back-office-workflow-boundary-review-6', 'fitness-back-office-exception-pattern-study-18'],
+};
+
 export function generateStaticParams() { return researchPosts.map(({ slug }) => ({ slug })); }
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params; const post = researchBySlug(slug);
@@ -15,7 +23,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function ResearchPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params; const post = researchBySlug(slug); if (!post) notFound();
-  const related = researchPosts.filter((p) => p.slug !== post.slug).sort((a, b) => Number(b.cluster === post.cluster) - Number(a.cluster === post.cluster)).slice(0, 3);
+  const preferred = relatedResearch[post.slug] || [];
+  const related = researchPosts.filter((p) => p.slug !== post.slug).sort((a, b) => {
+    const aIndex = preferred.indexOf(a.slug); const bIndex = preferred.indexOf(b.slug);
+    if (aIndex >= 0 || bIndex >= 0) return aIndex < 0 ? 1 : bIndex < 0 ? -1 : aIndex - bIndex;
+    return Number(b.cluster === post.cluster) - Number(a.cluster === post.cluster);
+  }).slice(0, 3);
   const isDetailed = Boolean(post.methodology?.length);
   const toc: TocItem[] = isDetailed ? [
     { id: 'key-finding', label: 'Protocol premise' }, { id: 'methodology', label: 'Proposed review method' }, { id: 'findings', label: 'Operational considerations' }, { id: 'sources', label: 'Sources' }
