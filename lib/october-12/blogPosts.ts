@@ -94,7 +94,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/fitness-lead-follow-up",
     "internalSibling": "/blog/group-fitness-substitute-roster",
     "source": {
       "label": "U.S. Registry of Exercise Professionals",
@@ -195,7 +195,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/fitness-lead-follow-up",
     "internalSibling": "/blog/aquatics-staff-expiry-control",
     "source": {
       "label": "BLS Fitness Trainers Outlook",
@@ -296,7 +296,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/fitness-lead-follow-up",
     "internalSibling": "/blog/youth-fitness-staff-boundary",
     "source": {
       "label": "CDC Model Aquatic Health Code",
@@ -397,7 +397,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/fitness-lead-follow-up",
     "internalSibling": "/blog/fitness-staff-shift-acceptance",
     "source": {
       "label": "SafeSport Resources",
@@ -498,7 +498,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/fitness-lead-follow-up",
     "internalSibling": "/blog/personal-training-client-handoff",
     "source": {
       "label": "DOL Hours Worked Guidance",
@@ -599,7 +599,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/fitness-lead-follow-up",
     "internalSibling": "/blog/fitness-facility-opening-coverage",
     "source": {
       "label": "HHS Health Information Privacy",
@@ -700,7 +700,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/fitness-lead-follow-up",
     "internalSibling": "/blog/instructor-class-format-scope",
     "source": {
       "label": "OSHA Recommended Practices",
@@ -801,7 +801,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/fitness-lead-follow-up",
     "internalSibling": "/blog/fitness-staff-incident-handoff",
     "source": {
       "label": "BLS Fitness Trainers Outlook",
@@ -902,7 +902,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/fitness-lead-follow-up",
     "internalSibling": "/blog/multi-site-trainer-access-review",
     "source": {
       "label": "OSHA Incident Investigation",
@@ -1003,7 +1003,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/fitness-lead-follow-up",
     "internalSibling": "/blog/fitness-staff-rate-change-record",
     "source": {
       "label": "NIST Digital Identity Guidelines",
@@ -1104,7 +1104,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/fitness-lead-follow-up",
     "internalSibling": "/blog/special-population-referral-boundary",
     "source": {
       "label": "DOL Recordkeeping Guidance",
@@ -1205,7 +1205,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/fitness-lead-follow-up",
     "internalSibling": "/blog/trainer-credential-verification-handoff",
     "source": {
       "label": "CDC Physical Activity Basics",

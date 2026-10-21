@@ -54,7 +54,7 @@ export async function sendLeadFallbackToMattermost(lead: FallbackLeadPayload): P
       return;
     }
     const lines = [
-      `**[SITE-DIRECT:${SITE_ID}] New lead — ${escapeMd(lead.name || lead.email || lead.phone || 'unknown')}**`,
+      `**[SITE-DIRECT:${SITE_ID}] New lead - ${escapeMd(lead.name || lead.email || lead.phone || 'unknown')}**`,
       `_Submitted by the site's independent fallback because ACR failed two health probes_`,
       '', '| Field | Value |', '|---|---|',
       `| Site | ${escapeMd(SITE_ID)} |`,
