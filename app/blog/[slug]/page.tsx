@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArticleSidebar, type TocItem } from '@/components/ArticleSidebar';
+import { MobileToc } from '@/components/MobileToc';
 import { ArticleImage } from '@/components/EditorialMedia';
 import { JsonLd } from '@/components/JsonLd';
 import { blogPosts, blogBySlug } from '@/lib/content';
@@ -20,8 +21,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const toc: TocItem[] = [...post.sections.map((section) => ({ id: idFor(section.heading), label: section.heading })), { id: 'references', label: 'Reference and related guide' }, { id: 'common-questions', label: 'Common questions' }, { id: 'next-step', label: 'Next step' }];
   const schema = { '@context': 'https://schema.org', '@type': 'BlogPosting', headline: post.title, description: post.description, datePublished: post.publishedAt, author: { '@type': 'Organization', name: `${site.name} Editorial Team` }, publisher: { '@type': 'Organization', name: site.name }, mainEntityOfPage: `https://${site.domain}/blog/${post.slug}` };
   return <main id="main-content" tabIndex={-1}>
-    <header className="page-hero article-header"><div><nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">Home</Link><span>/</span><Link href="/blog">Blog</Link><span>/</span><span>{post.category}</span></nav><h1>{post.title}</h1><p>{post.description}</p><p className="meta">{site.name} Editorial Team · Published {post.publishedAt} · {post.readTime}</p></div><ArticleImage src={post.image} slug={post.slug} title={post.title} /></header>
+    <header className="page-hero article-header"><div><nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">Home</Link><span>/</span><Link href="/blog">Blog</Link><span>/</span><span>{post.category}</span></nav><h1>{post.title}</h1><p>{post.description}</p><p className="meta">{site.name} Editorial Team · <time dateTime={post.publishedAt}>{`Published ${new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'}).format(new Date(`${post.publishedAt}T00:00:00Z`))}`}</time> · {post.readTime}</p></div><ArticleImage src={post.image} slug={post.slug} title={post.title} /></header>
     <section className="content-wrap article-layout">
+      <MobileToc items={toc} />
       <article className="prose article-prose article-main">{post.sections.map((section, index) => <section key={section.heading} id={idFor(section.heading)}><h2>{section.heading}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}{index === 2 && <p>Use the <Link href={post.internalService}>specialist service role</Link> as a starting point for defining scope and evidence.</p>}</section>)}
         <section id="references"><h2>Reference and related guide</h2><p><a href={post.source.url} rel="noopener noreferrer">{post.source.label}</a> provides public guidance to review before turning this article into policy.</p><p>Continue with <Link href={post.internalSibling}>a related operating guide</Link>.</p></section>
         <section id="common-questions"><h2>Common questions answered</h2>{post.faq.map((item) => <div key={item.q}><h3>{item.q}</h3><p>{item.a}</p></div>)}</section>
