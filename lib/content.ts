@@ -664,8 +664,8 @@ const planningBriefs: ResearchPost[] = [
   }
 ];
 
-export const blogPosts: BlogPost[] = [...october25BlogPosts, ...october26BlogPosts, ...october22BlogPosts, ...october12BlogPosts, ...legacyBlogPosts];
-export const researchPosts: ResearchPost[] = [...october25ResearchPosts, ...october26ResearchPosts, ...october22ResearchPosts, ...october12ResearchPosts, ...planningBriefs];
+export const blogPosts: BlogPost[] = [...october26BlogPosts, ...october25BlogPosts, ...october22BlogPosts, ...october12BlogPosts, ...legacyBlogPosts];
+export const researchPosts: ResearchPost[] = [...october26ResearchPosts, ...october25ResearchPosts, ...october22ResearchPosts, ...october12ResearchPosts, ...planningBriefs];
 export const nav = [
   { href: '/services', label: 'Services' }, { href: '/about', label: 'About' },
   { href: '/blog', label: 'Blog' }, { href: '/research', label: 'Research' },
