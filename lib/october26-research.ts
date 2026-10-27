@@ -58,7 +58,7 @@ export const october26ResearchPosts: ResearchPost[] = [
   {
     "slug": "completeness-return",
     "title": "Why Do Files Come Back Incomplete in fitness studio staffing and front-desk coverage?",
-    "summary": "A protocol measuring which required fields are missing at first review and what causes the return.",
+    "summary": "A protocol for checking which required fields are missing at first review of a fitness staffing file and what causes the return.",
     "cluster": "Evidence review",
     "publishedAt": "2026-10-26",
     "finding": "Which required fields are missing at first review, and what causes the file to be returned? The scope is the operational record for fitness studio staffing and front-desk coverage, not the legal, financial, or clinical conclusion that may follow.",

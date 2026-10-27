@@ -21,21 +21,21 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "Start with the governing record",
         "paragraphs": [
           "Begin with the record that controls the fitness studio staffing and front-desk coverage item. At minimum, collect the request in the requester's words, the requester identity and authority, the account or service reference, the requested outcome, the deadline and time zone, any existing work reference. Record where each item came from, the version or date observed, and the field it supports.",
-          "Do not fill a blank from a familiar pattern. If a value is unknown, mark it unknown and route one precise question. A forwarded note is a lead, not proof."
+          "Do not treat a forwarded text from a trainer as proof of availability; mark the gap and ask the scheduler to confirm in the approved system."
         ]
       },
       {
         "heading": "Separate preparation from approval",
         "paragraphs": [
           "The specialist records, classifies, and routes the request; the accountable the studio owner decides urgency, exceptions, and any commitment that changes cost or scope. That boundary belongs in the written brief, not in a manager's memory.",
-          "Name the systems the specialist may use, the fields they may change, and the questions they must route. A short written limit is easier to audit than a general instruction to use good judgment."
+          "Name the studio systems the coordinator may use, the class fields they may change, and the questions they must route; a short written limit is easier to audit than good judgment."
         ]
       },
       {
         "heading": "Where the process breaks",
         "paragraphs": [
-          "Urgency is inferred from the requester's tone rather than the service rule. A duplicate request is opened because no one searched the existing queue. A request from an unauthorized contact is actioned because the email looked familiar. These are ordinary failure modes, not evidence of bad intent.",
-          "They appear when the queue is measured by activity and the evidence standard is assumed. The fix is usually a smaller checklist and a clearer stop rule, not more reminders."
+          "Urgency is inferred from the member's tone rather than the studio rule; a duplicate class request is opened because no one searched, and an unauthorized contact is actioned because the email looked familiar.",
+          "They appear when the studio queue is measured by activity and the evidence standard is assumed; the fix is a smaller checklist and a clearer stop rule, not more reminders."
         ]
       },
       {
@@ -43,35 +43,35 @@ export const october26BlogPosts: BlogPost[] = [
         "paragraphs": [
           "First, Capture the request verbatim and attach the message or form.",
           "Second, Verify the requester against the account record before creating work.",
-          "Third, Search open and closed work by account, subject, and the last thirty days.",
+          "Third, search open and closed class records by studio, class type, and the last thirty days.",
           "Fourth, Assign a triage class, one owner, and a next action date."
         ]
       },
       {
         "heading": "Write the exception path first",
         "paragraphs": [
-          "If two requesters claim different priorities for the same account, keep both requests linked and route the conflict to the owner rather than choosing the louder one. Every exception needs a reason code, a next owner, a recheck date, and the action the specialist must not take.",
-          "Use a small code set: missing source, conflicting source, wrong period, identity mismatch, stale approval, system failure. The codes make the queue filterable and show whether the problem is volume, training, access, or a rule that no longer fits."
+          "If two studio managers claim different priorities for the same trainer, keep both requests linked and route the conflict to the operations owner instead of choosing the louder one.",
+          "Use a small fitness staffing code set: missing certification, conflicting availability, wrong studio, identity mismatch, stale approval, and system outage; the codes make the queue filterable."
         ]
       },
       {
         "heading": "Measure the queue, not the activity",
         "paragraphs": [
-          "Track requests triaged within the target window, duplicates found at triage, requests returned for authority or scope. Report counts beside any rate and show the age of what remains open.",
-          "Sample a few items each week. Pick one high value item, one exception, and one recently corrected item. If the same gap appears twice, fix the checklist or the source map before coaching the same person again."
+          "Track class requests triaged within the target window, duplicates found at triage, and requests returned for authority or scope.",
+          "Sample a few fitness staffing items each week: one high-value class, one exception, and one recently corrected shift; if the same gap appears twice, fix the checklist before coaching."
         ]
       },
       {
         "heading": "A worked example",
         "paragraphs": [
-          "An item arrives with the request in the requester's words but without the requester identity and authority. The specialist keeps it in intake, records the gap, and routes one question to the owner. No downstream action is taken until the source is present.",
-          "The reviewer confirms the source and the owner accepts the next action. The record shows what was checked and what remains open, so a second reviewer can continue without a conversation."
+          "A class request arrives in the requester's words but without requester identity and authority; the coordinator records the gap and does not release the schedule.",
+          "The reviewer confirms the certification source and the owner accepts the next action; the record shows what was checked and what remains open so a second coordinator can continue."
         ]
       },
       {
         "heading": "Close and hand off",
         "paragraphs": [
-          "The triage note carries the requester, the class, the duplicate search result, the owner, and the next action date. Close only when the source, the approval, the action, and the destination evidence agree.",
+          "The triage note carries the requester, class type, duplicate search result, owner, and next action date; close only when source, approval, action, and destination evidence agree.",
           "Leave the source links, the open questions, and the next review date with the item. Note what would reopen a closed case: a client reply, a system reversal, or a revised document. /services/fitness-staffing can support the preparation; the owner keeps the decision."
         ]
       },
@@ -79,28 +79,28 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "A weekly review rhythm",
         "paragraphs": [
           "Set one recurring point each week to review the fitness studio staffing and front-desk coverage queue: the oldest items, the blocked items, and one item that was corrected. Keep the meeting short and decision-focused.",
-          "Use the same sample rule every week. A consistent sample shows whether a change helped. A different sample each week shows only that someone looked."
+          "Use the same fitness staffing sample rule every week; a consistent sample shows whether a coverage change helped, while a different sample shows only that someone looked."
         ]
       },
       {
         "heading": "When to stop and ask",
         "paragraphs": [
-          "Stop when the source is missing, when two records conflict, when the request would change a customer commitment, or when the rule is not written. A stop is cheaper than a correction after release.",
-          "Send one precise question with the evidence already checked. A question that shows the work gets a faster answer than a general request for guidance."
+          "Stop when the certification source is missing, two records conflict, the request would change a member commitment, or the rule is not written; a stop is cheaper than a missed class.",
+          "Send one precise question with the evidence already checked; a question that shows the work gets a faster answer from a busy studio manager."
         ]
       },
       {
         "heading": "A short checklist before release",
         "paragraphs": [
-          "Before the item leaves the specialist, check five things: the source is current, the owner is named, the exception reason is recorded, the next action has a date, and the destination evidence matches the action.",
-          "Any missing item keeps the case open. Mark a check not applicable with a reason rather than leaving it blank, and record the result in the queue rather than a separate document."
+          "Before a fitness staffing item leaves the coordinator, check five things: the source is current, the studio owner is named, the exception reason is recorded, the next action has a date, and the destination schedule matches the action.",
+          "Any missing fitness staffing item keeps the case open; mark a check not applicable with a reason and record the result in the studio queue."
         ]
       },
       {
         "heading": "A note on tools and templates",
         "paragraphs": [
-          "Keep the template short enough to use under volume. A long form invites skipped fields and copied values. The tool should make the source, owner, and stop rule visible, not hide them behind tabs.",
-          "If the tool cannot capture the evidence, use a controlled side record and link it to the case. Do not let a system limitation become a reason to lower the standard."
+          "Keep the trainer intake template short enough to use during a rush; a long form invites skipped fields and copied certification values.",
+          "If the scheduling tool cannot capture the evidence, use a controlled side record linked to the class case; do not lower the fitness staffing standard."
         ]
       },
       {
@@ -119,8 +119,8 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "What the owner should see",
         "paragraphs": [
-          "The owner needs the decisions, the value at risk, and the evidence behind each option. A summary that hides the source forces the owner to reopen the queue.",
-          "Keep the brief to one page. If the page cannot fit, the queue has not been triaged yet. The specialist should bring the exception list, not every open item."
+          "The studio owner needs the decisions, the member impact, and the evidence behind each coverage option; a summary that hides the source forces the owner to reopen the queue.",
+          "Keep the class coverage brief to one page; if it cannot fit, the studio queue has not been triaged, so bring the exception list rather than every open shift."
         ]
       },
       {
@@ -135,11 +135,11 @@ export const october26BlogPosts: BlogPost[] = [
     "faq": [
       {
         "q": "What should stay with the accountable owner?",
-        "a": "Policy, approvals, and any decision that changes a customer or commercial commitment."
+        "a": "Policy, approvals, and any decision that changes a member commitment or trainer pay stay with the studio owner."
       },
       {
         "q": "What is the minimum evidence?",
-        "a": "A current source, a named owner, a dated next action, and a recorded exception reason."
+        "a": "A fitness staffing control needs a current source, a named studio owner, a dated next action, and a recorded exception reason before a class or shift is covered."
       }
     ],
     "internalService": "/services",
@@ -169,21 +169,21 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "Start with the governing record",
         "paragraphs": [
           "Begin with the record that controls the fitness studio staffing and front-desk coverage item. At minimum, collect the work types and service levels, volume by day or week, handling time by work type, rework and exception time, available hours after leave and meetings, the planned change in volume. Record where each item came from, the version or date observed, and the field it supports.",
-          "Do not fill a blank from a familiar pattern. If a value is unknown, mark it unknown and route one precise question. The record has to survive a second reader."
+          "Do not assume a certification is current because the trainer name appears on the roster; the record has to survive a second reader."
         ]
       },
       {
         "heading": "Separate preparation from approval",
         "paragraphs": [
           "The specialist builds the capacity view and flags the gap; the the studio owner sets priorities, approves overtime, and decides what work waits. That boundary belongs in the written brief, not in a manager's memory.",
-          "Name the systems the specialist may use, the fields they may change, and the questions they must route. A short written limit is easier to audit than a general instruction to use good judgment."
+          "Name the studio systems the coordinator may use, the class fields they may change, and the questions they must route; a short written limit is easier to audit than good judgment."
         ]
       },
       {
         "heading": "Where the process breaks",
         "paragraphs": [
-          "Headcount is treated as capacity even when most hours are unavailable. Average handling time hides the long exceptions that consume the week. Planned leave and training are omitted until the calendar is already full. These are ordinary failure modes, not evidence of bad intent.",
-          "They appear when the queue is measured by activity and the evidence standard is assumed. The fix is usually a smaller checklist and a clearer stop rule, not more reminders."
+          "Headcount is treated as coverage even when most trainers are unavailable; average class size hides the long exceptions, and planned leave is omitted until the schedule is full.",
+          "They appear when the studio queue is measured by activity and the evidence standard is assumed; the fix is a smaller checklist and a clearer stop rule, not more reminders."
         ]
       },
       {
@@ -198,28 +198,28 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "Write the exception path first",
         "paragraphs": [
-          "If demand exceeds capacity by more than the agreed buffer, stop accepting new commitments and route the choice of what waits to the owner. Every exception needs a reason code, a next owner, a recheck date, and the action the specialist must not take.",
-          "Use a small code set: missing source, conflicting source, wrong period, identity mismatch, stale approval, system failure. The codes make the queue filterable and show whether the problem is volume, training, access, or a rule that no longer fits."
+          "If demand exceeds available trainer hours by more than the agreed buffer, stop accepting new classes and route the choice of what waits to the studio owner.",
+          "Use a small fitness staffing code set: missing certification, conflicting availability, wrong studio, identity mismatch, stale approval, and system outage; the codes make the queue filterable."
         ]
       },
       {
         "heading": "Measure the queue, not the activity",
         "paragraphs": [
-          "Track demand hours against available hours, overtime and borrowed time, backlog age by work type. Report counts beside any rate and show the age of what remains open.",
-          "Sample a few items each week. Pick one high value item, one exception, and one recently corrected item. If the same gap appears twice, fix the checklist or the source map before coaching the same person again."
+          "Track trainer demand hours against available hours, overtime and borrowed time, and backlog age by class type.",
+          "Sample a few fitness staffing items each week: one high-value class, one exception, and one recently corrected shift; if the same gap appears twice, fix the checklist before coaching."
         ]
       },
       {
         "heading": "A worked example",
         "paragraphs": [
-          "An item arrives with the work types and service levels but without volume by day or week. The specialist keeps it in intake, records the gap, and routes one question to the owner. No downstream action is taken until the source is present.",
-          "The reviewer confirms the source and the owner accepts the next action. The record shows what was checked and what remains open, so a second reviewer can continue without a conversation."
+          "A coverage plan arrives with work types and service levels but without volume by day or week; the coordinator asks for the missing demand forecast.",
+          "The reviewer confirms the certification source and the owner accepts the next action; the record shows what was checked and what remains open so a second coordinator can continue."
         ]
       },
       {
         "heading": "Close and hand off",
         "paragraphs": [
-          "The capacity note shows the assumption, the source, the gap, and the decision the owner must make this week. Close only when the source, the approval, the action, and the destination evidence agree.",
+          "The capacity note shows the assumption, the source, the trainer-hour gap, and the decision the studio owner must make this week.",
           "Leave the source links, the open questions, and the next review date with the item. Note what would reopen a closed case: a client reply, a system reversal, or a revised document. /services/fitness-staffing can support the preparation; the owner keeps the decision."
         ]
       },
@@ -227,28 +227,28 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "A weekly review rhythm",
         "paragraphs": [
           "Set one recurring point each week to review the fitness studio staffing and front-desk coverage queue: the oldest items, the blocked items, and one item that was corrected. Keep the meeting short and decision-focused.",
-          "Use the same sample rule every week. A consistent sample shows whether a change helped. A different sample each week shows only that someone looked."
+          "Use the same fitness staffing sample rule every week; a consistent sample shows whether a coverage change helped, while a different sample shows only that someone looked."
         ]
       },
       {
         "heading": "When to stop and ask",
         "paragraphs": [
-          "Stop when the source is missing, when two records conflict, when the request would change a customer commitment, or when the rule is not written. A stop is cheaper than a correction after release.",
-          "Send one precise question with the evidence already checked. A question that shows the work gets a faster answer than a general request for guidance."
+          "Stop when the certification source is missing, two records conflict, the request would change a member commitment, or the rule is not written; a stop is cheaper than a missed class.",
+          "Send one precise question with the evidence already checked; a question that shows the work gets a faster answer from a busy studio manager."
         ]
       },
       {
         "heading": "A short checklist before release",
         "paragraphs": [
-          "Before the item leaves the specialist, check five things: the source is current, the owner is named, the exception reason is recorded, the next action has a date, and the destination evidence matches the action.",
-          "Any missing item keeps the case open. Mark a check not applicable with a reason rather than leaving it blank, and record the result in the queue rather than a separate document."
+          "Before a fitness staffing item leaves the coordinator, check five things: the source is current, the studio owner is named, the exception reason is recorded, the next action has a date, and the destination schedule matches the action.",
+          "Any missing fitness staffing item keeps the case open; mark a check not applicable with a reason and record the result in the studio queue."
         ]
       },
       {
         "heading": "A note on tools and templates",
         "paragraphs": [
-          "Keep the template short enough to use under volume. A long form invites skipped fields and copied values. The tool should make the source, owner, and stop rule visible, not hide them behind tabs.",
-          "If the tool cannot capture the evidence, use a controlled side record and link it to the case. Do not let a system limitation become a reason to lower the standard."
+          "Keep the trainer intake template short enough to use during a rush; a long form invites skipped fields and copied certification values.",
+          "If the scheduling tool cannot capture the evidence, use a controlled side record linked to the class case; do not lower the fitness staffing standard."
         ]
       },
       {
@@ -267,8 +267,8 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "What the owner should see",
         "paragraphs": [
-          "The owner needs the decisions, the value at risk, and the evidence behind each option. A summary that hides the source forces the owner to reopen the queue.",
-          "Keep the brief to one page. If the page cannot fit, the queue has not been triaged yet. The specialist should bring the exception list, not every open item."
+          "The studio owner needs the decisions, the member impact, and the evidence behind each coverage option; a summary that hides the source forces the owner to reopen the queue.",
+          "Keep the class coverage brief to one page; if it cannot fit, the studio queue has not been triaged, so bring the exception list rather than every open shift."
         ]
       },
       {
@@ -283,11 +283,11 @@ export const october26BlogPosts: BlogPost[] = [
     "faq": [
       {
         "q": "What should stay with the accountable owner?",
-        "a": "Policy, approvals, and any decision that changes a customer or commercial commitment."
+        "a": "Policy, approvals, and any decision that changes a member commitment or trainer pay stay with the studio owner."
       },
       {
         "q": "What is the minimum evidence?",
-        "a": "A current source, a named owner, a dated next action, and a recorded exception reason."
+        "a": "A fitness staffing control needs a current source, a named studio owner, a dated next action, and a recorded exception reason before a class or shift is covered."
       }
     ],
     "internalService": "/services",
@@ -317,21 +317,21 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "Start with the governing record",
         "paragraphs": [
           "Begin with the record that controls the fitness studio staffing and front-desk coverage item. At minimum, collect the required document list for the work type, the document version and date, the signature or approval, the source or issuing party, the expiry or validity window, the reviewer who checked it. Record where each item came from, the version or date observed, and the field it supports.",
-          "Do not fill a blank from a familiar pattern. If a value is unknown, mark it unknown and route one precise question. A clean status is not evidence."
+          "Do not fill a missing trainer or class field from a familiar pattern; mark it unknown and route one precise question to the studio owner."
         ]
       },
       {
         "heading": "Separate preparation from approval",
         "paragraphs": [
           "The specialist checks the file and returns incomplete items with the exact gap; the the studio owner decides whether a waiver is allowed. That boundary belongs in the written brief, not in a manager's memory.",
-          "Name the systems the specialist may use, the fields they may change, and the questions they must route. A short written limit is easier to audit than a general instruction to use good judgment."
+          "Name the studio systems the coordinator may use, the class fields they may change, and the questions they must route; a short written limit is easier to audit than good judgment."
         ]
       },
       {
         "heading": "Where the process breaks",
         "paragraphs": [
-          "A missing page is marked not applicable without a reason. An expired document is accepted because the rest of the file is ready. The checklist is skipped when volume rises, then rebuilt after a rejection. These are ordinary failure modes, not evidence of bad intent.",
-          "They appear when the queue is measured by activity and the evidence standard is assumed. The fix is usually a smaller checklist and a clearer stop rule, not more reminders."
+          "A missing certification page is marked not applicable without a reason, an expired trainer credential is accepted because the rest of the file is ready, and the opening checklist is skipped during a rush; these are ordinary studio failures, not bad intent.",
+          "They appear when the studio queue is measured by activity and the evidence standard is assumed; the fix is a smaller checklist and a clearer stop rule, not more reminders."
         ]
       },
       {
@@ -339,35 +339,35 @@ export const october26BlogPosts: BlogPost[] = [
         "paragraphs": [
           "First, Define the required set by work type and version.",
           "Second, Check presence, version, signature, and expiry in that order.",
-          "Third, Return one message that lists the exact missing items and the resubmission route.",
+          "Third, return one message that lists the exact missing certification or availability item and the resubmission route.",
           "Fourth, Record every waiver, its owner, and its expiry."
         ]
       },
       {
         "heading": "Write the exception path first",
         "paragraphs": [
-          "If a document cannot be obtained, record the reason, the alternative evidence checked, and the owner who accepted the risk; do not mark the field complete. Every exception needs a reason code, a next owner, a recheck date, and the action the specialist must not take.",
-          "Use a small code set: missing source, conflicting source, wrong period, identity mismatch, stale approval, system failure. The codes make the queue filterable and show whether the problem is volume, training, access, or a rule that no longer fits."
+          "If a certification or document cannot be obtained, record the reason, the alternative evidence checked, and the studio owner who accepted the risk; do not mark the field complete.",
+          "Use a small fitness staffing code set: missing certification, conflicting availability, wrong studio, identity mismatch, stale approval, and system outage; the codes make the queue filterable."
         ]
       },
       {
         "heading": "Measure the queue, not the activity",
         "paragraphs": [
-          "Track first-pass completeness rate, returns by missing document, waivers granted and expired. Report counts beside any rate and show the age of what remains open.",
-          "Sample a few items each week. Pick one high value item, one exception, and one recently corrected item. If the same gap appears twice, fix the checklist or the source map before coaching the same person again."
+          "Track first-pass completeness rate, returns by missing certification, and waivers granted or expired.",
+          "Sample a few fitness staffing items each week: one high-value class, one exception, and one recently corrected shift; if the same gap appears twice, fix the checklist before coaching."
         ]
       },
       {
         "heading": "A worked example",
         "paragraphs": [
-          "An item arrives with the required document list for the work type but without the document version and date. The specialist keeps it in intake, records the gap, and routes one question to the owner. No downstream action is taken until the source is present.",
-          "The reviewer confirms the source and the owner accepts the next action. The record shows what was checked and what remains open, so a second reviewer can continue without a conversation."
+          "A required document list arrives without the document version and date; the coordinator marks the file incomplete rather than accepting a familiar template.",
+          "The reviewer confirms the certification source and the owner accepts the next action; the record shows what was checked and what remains open so a second coordinator can continue."
         ]
       },
       {
         "heading": "Close and hand off",
         "paragraphs": [
-          "The file note shows what was checked, what is missing, who was told, and when the next check is due. Close only when the source, the approval, the action, and the destination evidence agree.",
+          "The certification file note shows what was checked, what is missing, who was told, and when the next check is due.",
           "Leave the source links, the open questions, and the next review date with the item. Note what would reopen a closed case: a client reply, a system reversal, or a revised document. /services/fitness-staffing can support the preparation; the owner keeps the decision."
         ]
       },
@@ -375,28 +375,28 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "A weekly review rhythm",
         "paragraphs": [
           "Set one recurring point each week to review the fitness studio staffing and front-desk coverage queue: the oldest items, the blocked items, and one item that was corrected. Keep the meeting short and decision-focused.",
-          "Use the same sample rule every week. A consistent sample shows whether a change helped. A different sample each week shows only that someone looked."
+          "Use the same fitness staffing sample rule every week; a consistent sample shows whether a coverage change helped, while a different sample shows only that someone looked."
         ]
       },
       {
         "heading": "When to stop and ask",
         "paragraphs": [
-          "Stop when the source is missing, when two records conflict, when the request would change a customer commitment, or when the rule is not written. A stop is cheaper than a correction after release.",
-          "Send one precise question with the evidence already checked. A question that shows the work gets a faster answer than a general request for guidance."
+          "Stop when the certification source is missing, two records conflict, the request would change a member commitment, or the rule is not written; a stop is cheaper than a missed class.",
+          "Send one precise question with the evidence already checked; a question that shows the work gets a faster answer from a busy studio manager."
         ]
       },
       {
         "heading": "A short checklist before release",
         "paragraphs": [
-          "Before the item leaves the specialist, check five things: the source is current, the owner is named, the exception reason is recorded, the next action has a date, and the destination evidence matches the action.",
-          "Any missing item keeps the case open. Mark a check not applicable with a reason rather than leaving it blank, and record the result in the queue rather than a separate document."
+          "Before a fitness staffing item leaves the coordinator, check five things: the source is current, the studio owner is named, the exception reason is recorded, the next action has a date, and the destination schedule matches the action.",
+          "Any missing fitness staffing item keeps the case open; mark a check not applicable with a reason and record the result in the studio queue."
         ]
       },
       {
         "heading": "A note on tools and templates",
         "paragraphs": [
-          "Keep the template short enough to use under volume. A long form invites skipped fields and copied values. The tool should make the source, owner, and stop rule visible, not hide them behind tabs.",
-          "If the tool cannot capture the evidence, use a controlled side record and link it to the case. Do not let a system limitation become a reason to lower the standard."
+          "Keep the trainer intake template short enough to use during a rush; a long form invites skipped fields and copied certification values.",
+          "If the scheduling tool cannot capture the evidence, use a controlled side record linked to the class case; do not lower the fitness staffing standard."
         ]
       },
       {
@@ -415,8 +415,8 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "What the owner should see",
         "paragraphs": [
-          "The owner needs the decisions, the value at risk, and the evidence behind each option. A summary that hides the source forces the owner to reopen the queue.",
-          "Keep the brief to one page. If the page cannot fit, the queue has not been triaged yet. The specialist should bring the exception list, not every open item."
+          "The studio owner needs the decisions, the member impact, and the evidence behind each coverage option; a summary that hides the source forces the owner to reopen the queue.",
+          "Keep the class coverage brief to one page; if it cannot fit, the studio queue has not been triaged, so bring the exception list rather than every open shift."
         ]
       },
       {
@@ -431,11 +431,11 @@ export const october26BlogPosts: BlogPost[] = [
     "faq": [
       {
         "q": "What should stay with the accountable owner?",
-        "a": "Policy, approvals, and any decision that changes a customer or commercial commitment."
+        "a": "Policy, approvals, and any decision that changes a member commitment or trainer pay stay with the studio owner."
       },
       {
         "q": "What is the minimum evidence?",
-        "a": "A current source, a named owner, a dated next action, and a recorded exception reason."
+        "a": "A fitness staffing control needs a current source, a named studio owner, a dated next action, and a recorded exception reason before a class or shift is covered."
       }
     ],
     "internalService": "/services",
@@ -465,21 +465,21 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "Start with the governing record",
         "paragraphs": [
           "Begin with the record that controls the fitness studio staffing and front-desk coverage item. At minimum, collect the client and primary contact, the current work state, the last update and channel, the next milestone or decision, the open question, the owner of the commitment. Record where each item came from, the version or date observed, and the field it supports.",
-          "Do not fill a blank from a familiar pattern. If a value is unknown, mark it unknown and route one precise question. A clean status is not evidence."
+          "Do not fill a missing trainer or class field from a familiar pattern; mark it unknown and route one precise question to the studio owner."
         ]
       },
       {
         "heading": "Separate preparation from approval",
         "paragraphs": [
           "The specialist sends factual updates from the record; the the studio owner handles pricing, scope, complaints, and any promise about an outcome. That boundary belongs in the written brief, not in a manager's memory.",
-          "Name the systems the specialist may use, the fields they may change, and the questions they must route. A short written limit is easier to audit than a general instruction to use good judgment."
+          "Name the studio systems the coordinator may use, the class fields they may change, and the questions they must route; a short written limit is easier to audit than good judgment."
         ]
       },
       {
         "heading": "Where the process breaks",
         "paragraphs": [
-          "Updates are sent only when something goes wrong, so silence is read as neglect. Two people send different statuses from different systems. A next date is promised in a call and never recorded. These are ordinary failure modes, not evidence of bad intent.",
-          "They appear when the queue is measured by activity and the evidence standard is assumed. The fix is usually a smaller checklist and a clearer stop rule, not more reminders."
+          "Updates are sent only when a class goes wrong, so silence reads as neglect; two coordinators send different statuses from different systems, and a next date promised in a call is never recorded.",
+          "They appear when the studio queue is measured by activity and the evidence standard is assumed; the fix is a smaller checklist and a clearer stop rule, not more reminders."
         ]
       },
       {
@@ -494,28 +494,28 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "Write the exception path first",
         "paragraphs": [
-          "If the client asks for a commitment outside the written scope, acknowledge the question, record it, and route it to the owner before answering. Every exception needs a reason code, a next owner, a recheck date, and the action the specialist must not take.",
-          "Use a small code set: missing source, conflicting source, wrong period, identity mismatch, stale approval, system failure. The codes make the queue filterable and show whether the problem is volume, training, access, or a rule that no longer fits."
+          "If a client asks for coverage outside the written scope, acknowledge the question, record it, and route it before promising a substitute.",
+          "Use a small fitness staffing code set: missing certification, conflicting availability, wrong studio, identity mismatch, stale approval, and system outage; the codes make the queue filterable."
         ]
       },
       {
         "heading": "Measure the queue, not the activity",
         "paragraphs": [
-          "Track updates sent on cadence, client response time, complaints about communication. Report counts beside any rate and show the age of what remains open.",
-          "Sample a few items each week. Pick one high value item, one exception, and one recently corrected item. If the same gap appears twice, fix the checklist or the source map before coaching the same person again."
+          "Track member updates sent on cadence, response time, and complaints about communication.",
+          "Sample a few fitness staffing items each week: one high-value class, one exception, and one recently corrected shift; if the same gap appears twice, fix the checklist before coaching."
         ]
       },
       {
         "heading": "A worked example",
         "paragraphs": [
-          "An item arrives with the client and primary contact but without the current work state. The specialist keeps it in intake, records the gap, and routes one question to the owner. No downstream action is taken until the source is present.",
-          "The reviewer confirms the source and the owner accepts the next action. The record shows what was checked and what remains open, so a second reviewer can continue without a conversation."
+          "A trainer request arrives with the client and primary contact but without the current class state; the coordinator keeps it in intake and routes one question before changing coverage.",
+          "The reviewer confirms the certification source and the owner accepts the next action; the record shows what was checked and what remains open so a second coordinator can continue."
         ]
       },
       {
         "heading": "Close and hand off",
         "paragraphs": [
-          "The update log shows the last message, the next date, the open question, and the owner who must answer. Close only when the source, the approval, the action, and the destination evidence agree.",
+          "The member update log shows the last message, next date, open question, and the coordinator who must answer.",
           "Leave the source links, the open questions, and the next review date with the item. Note what would reopen a closed case: a client reply, a system reversal, or a revised document. /services/fitness-staffing can support the preparation; the owner keeps the decision."
         ]
       },
@@ -523,28 +523,28 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "A weekly review rhythm",
         "paragraphs": [
           "Set one recurring point each week to review the fitness studio staffing and front-desk coverage queue: the oldest items, the blocked items, and one item that was corrected. Keep the meeting short and decision-focused.",
-          "Use the same sample rule every week. A consistent sample shows whether a change helped. A different sample each week shows only that someone looked."
+          "Use the same fitness staffing sample rule every week; a consistent sample shows whether a coverage change helped, while a different sample shows only that someone looked."
         ]
       },
       {
         "heading": "When to stop and ask",
         "paragraphs": [
-          "Stop when the source is missing, when two records conflict, when the request would change a customer commitment, or when the rule is not written. A stop is cheaper than a correction after release.",
-          "Send one precise question with the evidence already checked. A question that shows the work gets a faster answer than a general request for guidance."
+          "Stop when the certification source is missing, two records conflict, the request would change a member commitment, or the rule is not written; a stop is cheaper than a missed class.",
+          "Send one precise question with the evidence already checked; a question that shows the work gets a faster answer from a busy studio manager."
         ]
       },
       {
         "heading": "A short checklist before release",
         "paragraphs": [
-          "Before the item leaves the specialist, check five things: the source is current, the owner is named, the exception reason is recorded, the next action has a date, and the destination evidence matches the action.",
-          "Any missing item keeps the case open. Mark a check not applicable with a reason rather than leaving it blank, and record the result in the queue rather than a separate document."
+          "Before a fitness staffing item leaves the coordinator, check five things: the source is current, the studio owner is named, the exception reason is recorded, the next action has a date, and the destination schedule matches the action.",
+          "Any missing fitness staffing item keeps the case open; mark a check not applicable with a reason and record the result in the studio queue."
         ]
       },
       {
         "heading": "A note on tools and templates",
         "paragraphs": [
-          "Keep the template short enough to use under volume. A long form invites skipped fields and copied values. The tool should make the source, owner, and stop rule visible, not hide them behind tabs.",
-          "If the tool cannot capture the evidence, use a controlled side record and link it to the case. Do not let a system limitation become a reason to lower the standard."
+          "Keep the trainer intake template short enough to use during a rush; a long form invites skipped fields and copied certification values.",
+          "If the scheduling tool cannot capture the evidence, use a controlled side record linked to the class case; do not lower the fitness staffing standard."
         ]
       },
       {
@@ -563,8 +563,8 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "What the owner should see",
         "paragraphs": [
-          "The owner needs the decisions, the value at risk, and the evidence behind each option. A summary that hides the source forces the owner to reopen the queue.",
-          "Keep the brief to one page. If the page cannot fit, the queue has not been triaged yet. The specialist should bring the exception list, not every open item."
+          "The studio owner needs the decisions, the member impact, and the evidence behind each coverage option; a summary that hides the source forces the owner to reopen the queue.",
+          "Keep the class coverage brief to one page; if it cannot fit, the studio queue has not been triaged, so bring the exception list rather than every open shift."
         ]
       },
       {
@@ -579,11 +579,11 @@ export const october26BlogPosts: BlogPost[] = [
     "faq": [
       {
         "q": "What should stay with the accountable owner?",
-        "a": "Policy, approvals, and any decision that changes a customer or commercial commitment."
+        "a": "Policy, approvals, and any decision that changes a member commitment or trainer pay stay with the studio owner."
       },
       {
         "q": "What is the minimum evidence?",
-        "a": "A current source, a named owner, a dated next action, and a recorded exception reason."
+        "a": "A fitness staffing control needs a current source, a named studio owner, a dated next action, and a recorded exception reason before a class or shift is covered."
       }
     ],
     "internalService": "/services",
@@ -613,21 +613,21 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "Start with the governing record",
         "paragraphs": [
           "Begin with the record that controls the fitness studio staffing and front-desk coverage item. At minimum, collect the supplier and contact, the request and reference number, the date sent and channel, the response received, the promised date, the internal owner waiting. Record where each item came from, the version or date observed, and the field it supports.",
-          "Do not fill a blank from a familiar pattern. If a value is unknown, mark it unknown and route one precise question. A forwarded note is a lead, not proof."
+          "Do not treat a forwarded text from a trainer as proof of availability; mark the gap and ask the scheduler to confirm in the approved system."
         ]
       },
       {
         "heading": "Separate preparation from approval",
         "paragraphs": [
           "The specialist chases and records; the the studio owner negotiates terms, approves alternatives, and owns the commercial relationship. That boundary belongs in the written brief, not in a manager's memory.",
-          "Name the systems the specialist may use, the fields they may change, and the questions they must route. A short written limit is easier to audit than a general instruction to use good judgment."
+          "Name the studio systems the coordinator may use, the class fields they may change, and the questions they must route; a short written limit is easier to audit than good judgment."
         ]
       },
       {
         "heading": "Where the process breaks",
         "paragraphs": [
-          "Follow-up lives in a personal inbox and disappears when someone is away. A promised date is not recorded, so no one knows when to chase. Two people chase the same supplier with different requests. These are ordinary failure modes, not evidence of bad intent.",
-          "They appear when the queue is measured by activity and the evidence standard is assumed. The fix is usually a smaller checklist and a clearer stop rule, not more reminders."
+          "Follow-up lives in a personal inbox and disappears when someone is away; a promised member callback is not recorded, and two coordinators chase the same substitute with different requests.",
+          "They appear when the studio queue is measured by activity and the evidence standard is assumed; the fix is a smaller checklist and a clearer stop rule, not more reminders."
         ]
       },
       {
@@ -642,28 +642,28 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "Write the exception path first",
         "paragraphs": [
-          "If the supplier cannot meet the date, record the new date and the impact, and route the choice of substitute or delay to the owner. Every exception needs a reason code, a next owner, a recheck date, and the action the specialist must not take.",
-          "Use a small code set: missing source, conflicting source, wrong period, identity mismatch, stale approval, system failure. The codes make the queue filterable and show whether the problem is volume, training, access, or a rule that no longer fits."
+          "If a substitute trainer cannot meet the class time, record the new time and member impact and route the choice of substitute or cancellation to the owner.",
+          "Use a small fitness staffing code set: missing certification, conflicting availability, wrong studio, identity mismatch, stale approval, and system outage; the codes make the queue filterable."
         ]
       },
       {
         "heading": "Measure the queue, not the activity",
         "paragraphs": [
-          "Track replies by age, promised dates missed, duplicate chases per supplier. Report counts beside any rate and show the age of what remains open.",
-          "Sample a few items each week. Pick one high value item, one exception, and one recently corrected item. If the same gap appears twice, fix the checklist or the source map before coaching the same person again."
+          "Track member replies by age, promised dates missed, and duplicate follow-ups per member.",
+          "Sample a few fitness staffing items each week: one high-value class, one exception, and one recently corrected shift; if the same gap appears twice, fix the checklist before coaching."
         ]
       },
       {
         "heading": "A worked example",
         "paragraphs": [
-          "An item arrives with the supplier and contact but without the request and reference number. The specialist keeps it in intake, records the gap, and routes one question to the owner. No downstream action is taken until the source is present.",
-          "The reviewer confirms the source and the owner accepts the next action. The record shows what was checked and what remains open, so a second reviewer can continue without a conversation."
+          "A vendor request arrives with the supplier and contact but without the service reference number; the coordinator holds the booking until the reference is present.",
+          "The reviewer confirms the certification source and the owner accepts the next action; the record shows what was checked and what remains open so a second coordinator can continue."
         ]
       },
       {
         "heading": "Close and hand off",
         "paragraphs": [
-          "The log entry carries the request, the reference, the last response, the next date, and the owner waiting. Close only when the source, the approval, the action, and the destination evidence agree.",
+          "The member follow-up log carries the request, reference, last response, next date, and the coordinator waiting.",
           "Leave the source links, the open questions, and the next review date with the item. Note what would reopen a closed case: a client reply, a system reversal, or a revised document. /services/fitness-staffing can support the preparation; the owner keeps the decision."
         ]
       },
@@ -671,28 +671,28 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "A weekly review rhythm",
         "paragraphs": [
           "Set one recurring point each week to review the fitness studio staffing and front-desk coverage queue: the oldest items, the blocked items, and one item that was corrected. Keep the meeting short and decision-focused.",
-          "Use the same sample rule every week. A consistent sample shows whether a change helped. A different sample each week shows only that someone looked."
+          "Use the same fitness staffing sample rule every week; a consistent sample shows whether a coverage change helped, while a different sample shows only that someone looked."
         ]
       },
       {
         "heading": "When to stop and ask",
         "paragraphs": [
-          "Stop when the source is missing, when two records conflict, when the request would change a customer commitment, or when the rule is not written. A stop is cheaper than a correction after release.",
-          "Send one precise question with the evidence already checked. A question that shows the work gets a faster answer than a general request for guidance."
+          "Stop when the certification source is missing, two records conflict, the request would change a member commitment, or the rule is not written; a stop is cheaper than a missed class.",
+          "Send one precise question with the evidence already checked; a question that shows the work gets a faster answer from a busy studio manager."
         ]
       },
       {
         "heading": "A short checklist before release",
         "paragraphs": [
-          "Before the item leaves the specialist, check five things: the source is current, the owner is named, the exception reason is recorded, the next action has a date, and the destination evidence matches the action.",
-          "Any missing item keeps the case open. Mark a check not applicable with a reason rather than leaving it blank, and record the result in the queue rather than a separate document."
+          "Before a fitness staffing item leaves the coordinator, check five things: the source is current, the studio owner is named, the exception reason is recorded, the next action has a date, and the destination schedule matches the action.",
+          "Any missing fitness staffing item keeps the case open; mark a check not applicable with a reason and record the result in the studio queue."
         ]
       },
       {
         "heading": "A note on tools and templates",
         "paragraphs": [
-          "Keep the template short enough to use under volume. A long form invites skipped fields and copied values. The tool should make the source, owner, and stop rule visible, not hide them behind tabs.",
-          "If the tool cannot capture the evidence, use a controlled side record and link it to the case. Do not let a system limitation become a reason to lower the standard."
+          "Keep the trainer intake template short enough to use during a rush; a long form invites skipped fields and copied certification values.",
+          "If the scheduling tool cannot capture the evidence, use a controlled side record linked to the class case; do not lower the fitness staffing standard."
         ]
       },
       {
@@ -711,8 +711,8 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "What the owner should see",
         "paragraphs": [
-          "The owner needs the decisions, the value at risk, and the evidence behind each option. A summary that hides the source forces the owner to reopen the queue.",
-          "Keep the brief to one page. If the page cannot fit, the queue has not been triaged yet. The specialist should bring the exception list, not every open item."
+          "The studio owner needs the decisions, the member impact, and the evidence behind each coverage option; a summary that hides the source forces the owner to reopen the queue.",
+          "Keep the class coverage brief to one page; if it cannot fit, the studio queue has not been triaged, so bring the exception list rather than every open shift."
         ]
       },
       {
@@ -727,11 +727,11 @@ export const october26BlogPosts: BlogPost[] = [
     "faq": [
       {
         "q": "What should stay with the accountable owner?",
-        "a": "Policy, approvals, and any decision that changes a customer or commercial commitment."
+        "a": "Policy, approvals, and any decision that changes a member commitment or trainer pay stay with the studio owner."
       },
       {
         "q": "What is the minimum evidence?",
-        "a": "A current source, a named owner, a dated next action, and a recorded exception reason."
+        "a": "A fitness staffing control needs a current source, a named studio owner, a dated next action, and a recorded exception reason before a class or shift is covered."
       }
     ],
     "internalService": "/services",
@@ -761,21 +761,21 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "Start with the governing record",
         "paragraphs": [
           "Begin with the record that controls the fitness studio staffing and front-desk coverage item. At minimum, collect the task name and obligation, the frequency rule and anchor date, the next due date, the owner and backup, the source or trigger, the completion evidence. Record where each item came from, the version or date observed, and the field it supports.",
-          "Do not fill a blank from a familiar pattern. If a value is unknown, mark it unknown and route one precise question. The record has to survive a second reader."
+          "Do not assume a certification is current because the trainer name appears on the roster; the record has to survive a second reader."
         ]
       },
       {
         "heading": "Separate preparation from approval",
         "paragraphs": [
           "The specialist maintains the calendar and evidence; the the studio owner changes frequency, accepts a missed cycle, or approves an exception. That boundary belongs in the written brief, not in a manager's memory.",
-          "Name the systems the specialist may use, the fields they may change, and the questions they must route. A short written limit is easier to audit than a general instruction to use good judgment."
+          "Name the studio systems the coordinator may use, the class fields they may change, and the questions they must route; a short written limit is easier to audit than good judgment."
         ]
       },
       {
         "heading": "Where the process breaks",
         "paragraphs": [
-          "A task is completed from memory and no one can prove the date. Month-end tasks collide with reporting and one is silently dropped. No backup is named, so leave creates a missed obligation. These are ordinary failure modes, not evidence of bad intent.",
-          "They appear when the queue is measured by activity and the evidence standard is assumed. The fix is usually a smaller checklist and a clearer stop rule, not more reminders."
+          "A class is covered from memory and no one can prove the date, month-end payroll collides with reporting, and no backup is named; these are ordinary fitness scheduling failures.",
+          "They appear when the studio queue is measured by activity and the evidence standard is assumed; the fix is a smaller checklist and a clearer stop rule, not more reminders."
         ]
       },
       {
@@ -790,28 +790,28 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "Write the exception path first",
         "paragraphs": [
-          "If a recurrence is missed, record the date, the impact, the catch-up action, and the owner who accepted the delay; do not backdate the evidence. Every exception needs a reason code, a next owner, a recheck date, and the action the specialist must not take.",
-          "Use a small code set: missing source, conflicting source, wrong period, identity mismatch, stale approval, system failure. The codes make the queue filterable and show whether the problem is volume, training, access, or a rule that no longer fits."
+          "If a class recurrence is missed, record the date, member impact, catch-up action, and studio owner who accepted the delay; do not backdate the evidence.",
+          "Use a small fitness staffing code set: missing certification, conflicting availability, wrong studio, identity mismatch, stale approval, and system outage; the codes make the queue filterable."
         ]
       },
       {
         "heading": "Measure the queue, not the activity",
         "paragraphs": [
-          "Track recurrences completed on time, missed or late cycles, coverage during leave. Report counts beside any rate and show the age of what remains open.",
-          "Sample a few items each week. Pick one high value item, one exception, and one recently corrected item. If the same gap appears twice, fix the checklist or the source map before coaching the same person again."
+          "Track recurring classes completed on time, missed or late cycles, and coverage during leave.",
+          "Sample a few fitness staffing items each week: one high-value class, one exception, and one recently corrected shift; if the same gap appears twice, fix the checklist before coaching."
         ]
       },
       {
         "heading": "A worked example",
         "paragraphs": [
-          "An item arrives with the task name and obligation but without the frequency rule and anchor date. The specialist keeps it in intake, records the gap, and routes one question to the owner. No downstream action is taken until the source is present.",
-          "The reviewer confirms the source and the owner accepts the next action. The record shows what was checked and what remains open, so a second reviewer can continue without a conversation."
+          "A recurring studio task arrives with the task name and obligation but without the frequency rule and anchor date; the coordinator routes the scheduling question.",
+          "The reviewer confirms the certification source and the owner accepts the next action; the record shows what was checked and what remains open so a second coordinator can continue."
         ]
       },
       {
         "heading": "Close and hand off",
         "paragraphs": [
-          "The calendar entry shows the rule, the owner, the last completion, the next date, and the evidence link. Close only when the source, the approval, the action, and the destination evidence agree.",
+          "The recurring class note shows the rule, the owner, the last completion, the next date, and the evidence link; close only when source, approval, action, and destination evidence agree.",
           "Leave the source links, the open questions, and the next review date with the item. Note what would reopen a closed case: a client reply, a system reversal, or a revised document. /services/fitness-staffing can support the preparation; the owner keeps the decision."
         ]
       },
@@ -819,28 +819,28 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "A weekly review rhythm",
         "paragraphs": [
           "Set one recurring point each week to review the fitness studio staffing and front-desk coverage queue: the oldest items, the blocked items, and one item that was corrected. Keep the meeting short and decision-focused.",
-          "Use the same sample rule every week. A consistent sample shows whether a change helped. A different sample each week shows only that someone looked."
+          "Use the same fitness staffing sample rule every week; a consistent sample shows whether a coverage change helped, while a different sample shows only that someone looked."
         ]
       },
       {
         "heading": "When to stop and ask",
         "paragraphs": [
-          "Stop when the source is missing, when two records conflict, when the request would change a customer commitment, or when the rule is not written. A stop is cheaper than a correction after release.",
-          "Send one precise question with the evidence already checked. A question that shows the work gets a faster answer than a general request for guidance."
+          "Stop when the certification source is missing, two records conflict, the request would change a member commitment, or the rule is not written; a stop is cheaper than a missed class.",
+          "Send one precise question with the evidence already checked; a question that shows the work gets a faster answer from a busy studio manager."
         ]
       },
       {
         "heading": "A short checklist before release",
         "paragraphs": [
-          "Before the item leaves the specialist, check five things: the source is current, the owner is named, the exception reason is recorded, the next action has a date, and the destination evidence matches the action.",
-          "Any missing item keeps the case open. Mark a check not applicable with a reason rather than leaving it blank, and record the result in the queue rather than a separate document."
+          "Before a fitness staffing item leaves the coordinator, check five things: the source is current, the studio owner is named, the exception reason is recorded, the next action has a date, and the destination schedule matches the action.",
+          "Any missing fitness staffing item keeps the case open; mark a check not applicable with a reason and record the result in the studio queue."
         ]
       },
       {
         "heading": "A note on tools and templates",
         "paragraphs": [
-          "Keep the template short enough to use under volume. A long form invites skipped fields and copied values. The tool should make the source, owner, and stop rule visible, not hide them behind tabs.",
-          "If the tool cannot capture the evidence, use a controlled side record and link it to the case. Do not let a system limitation become a reason to lower the standard."
+          "Keep the trainer intake template short enough to use during a rush; a long form invites skipped fields and copied certification values.",
+          "If the scheduling tool cannot capture the evidence, use a controlled side record linked to the class case; do not lower the fitness staffing standard."
         ]
       },
       {
@@ -859,8 +859,8 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "What the owner should see",
         "paragraphs": [
-          "The owner needs the decisions, the value at risk, and the evidence behind each option. A summary that hides the source forces the owner to reopen the queue.",
-          "Keep the brief to one page. If the page cannot fit, the queue has not been triaged yet. The specialist should bring the exception list, not every open item."
+          "The studio owner needs the decisions, the member impact, and the evidence behind each coverage option; a summary that hides the source forces the owner to reopen the queue.",
+          "Keep the class coverage brief to one page; if it cannot fit, the studio queue has not been triaged, so bring the exception list rather than every open shift."
         ]
       },
       {
@@ -875,11 +875,11 @@ export const october26BlogPosts: BlogPost[] = [
     "faq": [
       {
         "q": "What should stay with the accountable owner?",
-        "a": "Policy, approvals, and any decision that changes a customer or commercial commitment."
+        "a": "Policy, approvals, and any decision that changes a member commitment or trainer pay stay with the studio owner."
       },
       {
         "q": "What is the minimum evidence?",
-        "a": "A current source, a named owner, a dated next action, and a recorded exception reason."
+        "a": "A fitness staffing control needs a current source, a named studio owner, a dated next action, and a recorded exception reason before a class or shift is covered."
       }
     ],
     "internalService": "/services",
@@ -909,21 +909,21 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "Start with the governing record",
         "paragraphs": [
           "Begin with the record that controls the fitness studio staffing and front-desk coverage item. At minimum, collect the primary identifier, a second identifier such as date or amount, the requester or account, the source record, the candidate match and reason, the related record reference. Record where each item came from, the version or date observed, and the field it supports.",
-          "Do not fill a blank from a familiar pattern. If a value is unknown, mark it unknown and route one precise question. A clean status is not evidence."
+          "Do not fill a missing trainer or class field from a familiar pattern; mark it unknown and route one precise question to the studio owner."
         ]
       },
       {
         "heading": "Separate preparation from approval",
         "paragraphs": [
           "The specialist flags and holds candidate duplicates; the the studio owner decides whether to merge, void, or keep both. That boundary belongs in the written brief, not in a manager's memory.",
-          "Name the systems the specialist may use, the fields they may change, and the questions they must route. A short written limit is easier to audit than a general instruction to use good judgment."
+          "Name the studio systems the coordinator may use, the class fields they may change, and the questions they must route; a short written limit is easier to audit than good judgment."
         ]
       },
       {
         "heading": "Where the process breaks",
         "paragraphs": [
-          "Name-only matching creates false duplicates and missed matches. Both records are actioned before anyone checks, creating double work. A merge overwrites history and loses the reason for the change. These are ordinary failure modes, not evidence of bad intent.",
-          "They appear when the queue is measured by activity and the evidence standard is assumed. The fix is usually a smaller checklist and a clearer stop rule, not more reminders."
+          "Name-only matching creates false duplicate trainers and missed matches; a merge can overwrite history and lose the reason for the schedule change.",
+          "They appear when the studio queue is measured by activity and the evidence standard is assumed; the fix is a smaller checklist and a clearer stop rule, not more reminders."
         ]
       },
       {
@@ -938,28 +938,28 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "Write the exception path first",
         "paragraphs": [
-          "If the identifiers conflict and the owner is unavailable, keep both records open, label the conflict, and set a decision date. Every exception needs a reason code, a next owner, a recheck date, and the action the specialist must not take.",
-          "Use a small code set: missing source, conflicting source, wrong period, identity mismatch, stale approval, system failure. The codes make the queue filterable and show whether the problem is volume, training, access, or a rule that no longer fits."
+          "If two member or trainer identifiers conflict and the owner is unavailable, keep both records open, label the conflict, and set a decision date.",
+          "Use a small fitness staffing code set: missing certification, conflicting availability, wrong studio, identity mismatch, stale approval, and system outage; the codes make the queue filterable."
         ]
       },
       {
         "heading": "Measure the queue, not the activity",
         "paragraphs": [
-          "Track duplicates found per hundred records, false positives, rework caused by duplicate action. Report counts beside any rate and show the age of what remains open.",
-          "Sample a few items each week. Pick one high value item, one exception, and one recently corrected item. If the same gap appears twice, fix the checklist or the source map before coaching the same person again."
+          "Track duplicate trainer or member records found per hundred records, false positives, and rework caused by duplicate action.",
+          "Sample a few fitness staffing items each week: one high-value class, one exception, and one recently corrected shift; if the same gap appears twice, fix the checklist before coaching."
         ]
       },
       {
         "heading": "A worked example",
         "paragraphs": [
-          "An item arrives with the primary identifier but without a second identifier such as date or amount. The specialist keeps it in intake, records the gap, and routes one question to the owner. No downstream action is taken until the source is present.",
-          "The reviewer confirms the source and the owner accepts the next action. The record shows what was checked and what remains open, so a second reviewer can continue without a conversation."
+          "A member or trainer record arrives with one identifier but without a second identifier such as date or amount; the coordinator keeps both possible matches open.",
+          "The reviewer confirms the certification source and the owner accepts the next action; the record shows what was checked and what remains open so a second coordinator can continue."
         ]
       },
       {
         "heading": "Close and hand off",
         "paragraphs": [
-          "The duplicate note shows both identifiers, the match reason, the hold, and the owner decision. Close only when the source, the approval, the action, and the destination evidence agree.",
+          "The duplicate note shows both member or trainer identifiers, the match reason, the hold, and the studio owner decision.",
           "Leave the source links, the open questions, and the next review date with the item. Note what would reopen a closed case: a client reply, a system reversal, or a revised document. /services/fitness-staffing can support the preparation; the owner keeps the decision."
         ]
       },
@@ -967,28 +967,28 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "A weekly review rhythm",
         "paragraphs": [
           "Set one recurring point each week to review the fitness studio staffing and front-desk coverage queue: the oldest items, the blocked items, and one item that was corrected. Keep the meeting short and decision-focused.",
-          "Use the same sample rule every week. A consistent sample shows whether a change helped. A different sample each week shows only that someone looked."
+          "Use the same fitness staffing sample rule every week; a consistent sample shows whether a coverage change helped, while a different sample shows only that someone looked."
         ]
       },
       {
         "heading": "When to stop and ask",
         "paragraphs": [
-          "Stop when the source is missing, when two records conflict, when the request would change a customer commitment, or when the rule is not written. A stop is cheaper than a correction after release.",
-          "Send one precise question with the evidence already checked. A question that shows the work gets a faster answer than a general request for guidance."
+          "Stop when the certification source is missing, two records conflict, the request would change a member commitment, or the rule is not written; a stop is cheaper than a missed class.",
+          "Send one precise question with the evidence already checked; a question that shows the work gets a faster answer from a busy studio manager."
         ]
       },
       {
         "heading": "A short checklist before release",
         "paragraphs": [
-          "Before the item leaves the specialist, check five things: the source is current, the owner is named, the exception reason is recorded, the next action has a date, and the destination evidence matches the action.",
-          "Any missing item keeps the case open. Mark a check not applicable with a reason rather than leaving it blank, and record the result in the queue rather than a separate document."
+          "Before a fitness staffing item leaves the coordinator, check five things: the source is current, the studio owner is named, the exception reason is recorded, the next action has a date, and the destination schedule matches the action.",
+          "Any missing fitness staffing item keeps the case open; mark a check not applicable with a reason and record the result in the studio queue."
         ]
       },
       {
         "heading": "A note on tools and templates",
         "paragraphs": [
-          "Keep the template short enough to use under volume. A long form invites skipped fields and copied values. The tool should make the source, owner, and stop rule visible, not hide them behind tabs.",
-          "If the tool cannot capture the evidence, use a controlled side record and link it to the case. Do not let a system limitation become a reason to lower the standard."
+          "Keep the trainer intake template short enough to use during a rush; a long form invites skipped fields and copied certification values.",
+          "If the scheduling tool cannot capture the evidence, use a controlled side record linked to the class case; do not lower the fitness staffing standard."
         ]
       },
       {
@@ -1007,8 +1007,8 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "What the owner should see",
         "paragraphs": [
-          "The owner needs the decisions, the value at risk, and the evidence behind each option. A summary that hides the source forces the owner to reopen the queue.",
-          "Keep the brief to one page. If the page cannot fit, the queue has not been triaged yet. The specialist should bring the exception list, not every open item."
+          "The studio owner needs the decisions, the member impact, and the evidence behind each coverage option; a summary that hides the source forces the owner to reopen the queue.",
+          "Keep the class coverage brief to one page; if it cannot fit, the studio queue has not been triaged, so bring the exception list rather than every open shift."
         ]
       },
       {
@@ -1023,11 +1023,11 @@ export const october26BlogPosts: BlogPost[] = [
     "faq": [
       {
         "q": "What should stay with the accountable owner?",
-        "a": "Policy, approvals, and any decision that changes a customer or commercial commitment."
+        "a": "Policy, approvals, and any decision that changes a member commitment or trainer pay stay with the studio owner."
       },
       {
         "q": "What is the minimum evidence?",
-        "a": "A current source, a named owner, a dated next action, and a recorded exception reason."
+        "a": "A fitness staffing control needs a current source, a named studio owner, a dated next action, and a recorded exception reason before a class or shift is covered."
       }
     ],
     "internalService": "/services",
@@ -1057,21 +1057,21 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "Start with the governing record",
         "paragraphs": [
           "Begin with the record that controls the fitness studio staffing and front-desk coverage item. At minimum, collect the request and value or risk, the current threshold schedule, the approver role and name, the date and time submitted, the justification, any conflict or related request. Record where each item came from, the version or date observed, and the field it supports.",
-          "Do not fill a blank from a familiar pattern. If a value is unknown, mark it unknown and route one precise question. The record has to survive a second reader."
+          "Do not assume a certification is current because the trainer name appears on the roster; the record has to survive a second reader."
         ]
       },
       {
         "heading": "Separate preparation from approval",
         "paragraphs": [
-          "The specialist checks the threshold and routes; the approver decides and records the reason. That boundary belongs in the written brief, not in a manager's memory.",
-          "Name the systems the specialist may use, the fields they may change, and the questions they must route. A short written limit is easier to audit than a general instruction to use good judgment."
+          "The fitness coordinator checks the schedule and routes; the studio owner decides and records the reason; that boundary belongs in the written brief, not a manager's memory.",
+          "Name the studio systems the coordinator may use, the class fields they may change, and the questions they must route; a short written limit is easier to audit than good judgment."
         ]
       },
       {
         "heading": "Where the process breaks",
         "paragraphs": [
-          "The threshold lives in a slide deck and differs by team. A request is split into smaller pieces to avoid a higher approval. The approver is away and no backup is named. These are ordinary failure modes, not evidence of bad intent.",
-          "They appear when the queue is measured by activity and the evidence standard is assumed. The fix is usually a smaller checklist and a clearer stop rule, not more reminders."
+          "The approval schedule lives in a slide deck and differs by studio; a request is split into smaller classes to avoid a higher approval, and no backup approver is named.",
+          "They appear when the studio queue is measured by activity and the evidence standard is assumed; the fix is a smaller checklist and a clearer stop rule, not more reminders."
         ]
       },
       {
@@ -1086,28 +1086,28 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "Write the exception path first",
         "paragraphs": [
-          "If the value or risk is unclear, route to the higher level and record why; do not choose the lower level to save time. Every exception needs a reason code, a next owner, a recheck date, and the action the specialist must not take.",
-          "Use a small code set: missing source, conflicting source, wrong period, identity mismatch, stale approval, system failure. The codes make the queue filterable and show whether the problem is volume, training, access, or a rule that no longer fits."
+          "If the pay or risk level is unclear, route to the higher approval level and record why; do not choose the lower level to save time.",
+          "Use a small fitness staffing code set: missing certification, conflicting availability, wrong studio, identity mismatch, stale approval, and system outage; the codes make the queue filterable."
         ]
       },
       {
         "heading": "Measure the queue, not the activity",
         "paragraphs": [
-          "Track approvals at the correct level, split or linked requests, approval cycle time. Report counts beside any rate and show the age of what remains open.",
-          "Sample a few items each week. Pick one high value item, one exception, and one recently corrected item. If the same gap appears twice, fix the checklist or the source map before coaching the same person again."
+          "Track approvals at the correct level, split or linked requests, approval cycle time, and report counts beside any rate.",
+          "Sample a few fitness staffing items each week: one high-value class, one exception, and one recently corrected shift; if the same gap appears twice, fix the checklist before coaching."
         ]
       },
       {
         "heading": "A worked example",
         "paragraphs": [
-          "An item arrives with the request and value or risk but without the current threshold schedule. The specialist keeps it in intake, records the gap, and routes one question to the owner. No downstream action is taken until the source is present.",
-          "The reviewer confirms the source and the owner accepts the next action. The record shows what was checked and what remains open, so a second reviewer can continue without a conversation."
+          "A pay request arrives with value or risk but without the current approval schedule; the coordinator routes the threshold question before any change.",
+          "The reviewer confirms the certification source and the owner accepts the next action; the record shows what was checked and what remains open so a second coordinator can continue."
         ]
       },
       {
         "heading": "Close and hand off",
         "paragraphs": [
-          "The approval note shows the value, the threshold version, the approver, the decision, and the next action. Close only when the source, the approval, the action, and the destination evidence agree.",
+          "The approval note shows the value, the approval schedule version, the approver, the decision, and the next action; close only when source, approval, action, and destination evidence agree.",
           "Leave the source links, the open questions, and the next review date with the item. Note what would reopen a closed case: a client reply, a system reversal, or a revised document. /services/fitness-staffing can support the preparation; the owner keeps the decision."
         ]
       },
@@ -1115,28 +1115,28 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "A weekly review rhythm",
         "paragraphs": [
           "Set one recurring point each week to review the fitness studio staffing and front-desk coverage queue: the oldest items, the blocked items, and one item that was corrected. Keep the meeting short and decision-focused.",
-          "Use the same sample rule every week. A consistent sample shows whether a change helped. A different sample each week shows only that someone looked."
+          "Use the same fitness staffing sample rule every week; a consistent sample shows whether a coverage change helped, while a different sample shows only that someone looked."
         ]
       },
       {
         "heading": "When to stop and ask",
         "paragraphs": [
-          "Stop when the source is missing, when two records conflict, when the request would change a customer commitment, or when the rule is not written. A stop is cheaper than a correction after release.",
-          "Send one precise question with the evidence already checked. A question that shows the work gets a faster answer than a general request for guidance."
+          "Stop when the certification source is missing, two records conflict, the request would change a member commitment, or the rule is not written; a stop is cheaper than a missed class.",
+          "Send one precise question with the evidence already checked; a question that shows the work gets a faster answer from a busy studio manager."
         ]
       },
       {
         "heading": "A short checklist before release",
         "paragraphs": [
-          "Before the item leaves the specialist, check five things: the source is current, the owner is named, the exception reason is recorded, the next action has a date, and the destination evidence matches the action.",
-          "Any missing item keeps the case open. Mark a check not applicable with a reason rather than leaving it blank, and record the result in the queue rather than a separate document."
+          "Before a fitness staffing item leaves the coordinator, check five things: the source is current, the studio owner is named, the exception reason is recorded, the next action has a date, and the destination schedule matches the action.",
+          "Any missing fitness staffing item keeps the case open; mark a check not applicable with a reason and record the result in the studio queue."
         ]
       },
       {
         "heading": "A note on tools and templates",
         "paragraphs": [
-          "Keep the template short enough to use under volume. A long form invites skipped fields and copied values. The tool should make the source, owner, and stop rule visible, not hide them behind tabs.",
-          "If the tool cannot capture the evidence, use a controlled side record and link it to the case. Do not let a system limitation become a reason to lower the standard."
+          "Keep the trainer intake template short enough to use during a rush; a long form invites skipped fields and copied certification values.",
+          "If the scheduling tool cannot capture the evidence, use a controlled side record linked to the class case; do not lower the fitness staffing standard."
         ]
       },
       {
@@ -1155,8 +1155,8 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "What the owner should see",
         "paragraphs": [
-          "The owner needs the decisions, the value at risk, and the evidence behind each option. A summary that hides the source forces the owner to reopen the queue.",
-          "Keep the brief to one page. If the page cannot fit, the queue has not been triaged yet. The specialist should bring the exception list, not every open item."
+          "The studio owner needs the decisions, the member impact, and the evidence behind each coverage option; a summary that hides the source forces the owner to reopen the queue.",
+          "Keep the class coverage brief to one page; if it cannot fit, the studio queue has not been triaged, so bring the exception list rather than every open shift."
         ]
       },
       {
@@ -1171,11 +1171,11 @@ export const october26BlogPosts: BlogPost[] = [
     "faq": [
       {
         "q": "What should stay with the accountable owner?",
-        "a": "Policy, approvals, and any decision that changes a customer or commercial commitment."
+        "a": "Policy, approvals, and any decision that changes a member commitment or trainer pay stay with the studio owner."
       },
       {
         "q": "What is the minimum evidence?",
-        "a": "A current source, a named owner, a dated next action, and a recorded exception reason."
+        "a": "A fitness staffing control needs a current source, a named studio owner, a dated next action, and a recorded exception reason before a class or shift is covered."
       }
     ],
     "internalService": "/services",
@@ -1205,21 +1205,21 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "Start with the governing record",
         "paragraphs": [
           "Begin with the record that controls the fitness studio staffing and front-desk coverage item. At minimum, collect the decision and date, the owner who decided, the options considered, the evidence used, the rationale, the work or record affected. Record where each item came from, the version or date observed, and the field it supports.",
-          "Do not fill a blank from a familiar pattern. If a value is unknown, mark it unknown and route one precise question. A forwarded note is a lead, not proof."
+          "Do not treat a forwarded text from a trainer as proof of availability; mark the gap and ask the scheduler to confirm in the approved system."
         ]
       },
       {
         "heading": "Separate preparation from approval",
         "paragraphs": [
           "The specialist records and indexes decisions; the the studio owner decides and confirms the wording. That boundary belongs in the written brief, not in a manager's memory.",
-          "Name the systems the specialist may use, the fields they may change, and the questions they must route. A short written limit is easier to audit than a general instruction to use good judgment."
+          "Name the studio systems the coordinator may use, the class fields they may change, and the questions they must route; a short written limit is easier to audit than good judgment."
         ]
       },
       {
         "heading": "Where the process breaks",
         "paragraphs": [
-          "The decision exists only in a chat thread that new staff cannot find. The rationale is missing, so the same question returns next month. A superseded decision stays active because no one marked it. These are ordinary failure modes, not evidence of bad intent.",
-          "They appear when the queue is measured by activity and the evidence standard is assumed. The fix is usually a smaller checklist and a clearer stop rule, not more reminders."
+          "The scheduling decision exists only in a chat thread new staff cannot find; the rationale is missing, and a superseded decision stays active because no one marked it.",
+          "They appear when the studio queue is measured by activity and the evidence standard is assumed; the fix is a smaller checklist and a clearer stop rule, not more reminders."
         ]
       },
       {
@@ -1234,28 +1234,28 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "Write the exception path first",
         "paragraphs": [
-          "If the owner cannot confirm the wording, record the decision as provisional and set a date to confirm it; do not present it as final. Every exception needs a reason code, a next owner, a recheck date, and the action the specialist must not take.",
-          "Use a small code set: missing source, conflicting source, wrong period, identity mismatch, stale approval, system failure. The codes make the queue filterable and show whether the problem is volume, training, access, or a rule that no longer fits."
+          "If the studio owner cannot confirm the member wording, record the decision as provisional and set a date to confirm it; do not present it as final.",
+          "Use a small fitness staffing code set: missing certification, conflicting availability, wrong studio, identity mismatch, stale approval, and system outage; the codes make the queue filterable."
         ]
       },
       {
         "heading": "Measure the queue, not the activity",
         "paragraphs": [
-          "Track decisions with a recorded rationale, repeat questions on closed decisions, stale decisions found in review. Report counts beside any rate and show the age of what remains open.",
-          "Sample a few items each week. Pick one high value item, one exception, and one recently corrected item. If the same gap appears twice, fix the checklist or the source map before coaching the same person again."
+          "Track decisions with a recorded rationale, repeat questions on closed decisions, and stale decisions found in review.",
+          "Sample a few fitness staffing items each week: one high-value class, one exception, and one recently corrected shift; if the same gap appears twice, fix the checklist before coaching."
         ]
       },
       {
         "heading": "A worked example",
         "paragraphs": [
-          "An item arrives with the decision and date but without the owner who decided. The specialist keeps it in intake, records the gap, and routes one question to the owner. No downstream action is taken until the source is present.",
-          "The reviewer confirms the source and the owner accepts the next action. The record shows what was checked and what remains open, so a second reviewer can continue without a conversation."
+          "A decision arrives with the date but without the manager who decided; the coordinator records the gap and does not schedule the replacement until authority is visible.",
+          "The reviewer confirms the certification source and the owner accepts the next action; the record shows what was checked and what remains open so a second coordinator can continue."
         ]
       },
       {
         "heading": "Close and hand off",
         "paragraphs": [
-          "The log entry shows the decision, the owner, the evidence, the status, and the next review date. Close only when the source, the approval, the action, and the destination evidence agree.",
+          "The decision log shows the decision, studio owner, evidence, status, and next review date.",
           "Leave the source links, the open questions, and the next review date with the item. Note what would reopen a closed case: a client reply, a system reversal, or a revised document. /services/fitness-staffing can support the preparation; the owner keeps the decision."
         ]
       },
@@ -1263,28 +1263,28 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "A weekly review rhythm",
         "paragraphs": [
           "Set one recurring point each week to review the fitness studio staffing and front-desk coverage queue: the oldest items, the blocked items, and one item that was corrected. Keep the meeting short and decision-focused.",
-          "Use the same sample rule every week. A consistent sample shows whether a change helped. A different sample each week shows only that someone looked."
+          "Use the same fitness staffing sample rule every week; a consistent sample shows whether a coverage change helped, while a different sample shows only that someone looked."
         ]
       },
       {
         "heading": "When to stop and ask",
         "paragraphs": [
-          "Stop when the source is missing, when two records conflict, when the request would change a customer commitment, or when the rule is not written. A stop is cheaper than a correction after release.",
-          "Send one precise question with the evidence already checked. A question that shows the work gets a faster answer than a general request for guidance."
+          "Stop when the certification source is missing, two records conflict, the request would change a member commitment, or the rule is not written; a stop is cheaper than a missed class.",
+          "Send one precise question with the evidence already checked; a question that shows the work gets a faster answer from a busy studio manager."
         ]
       },
       {
         "heading": "A short checklist before release",
         "paragraphs": [
-          "Before the item leaves the specialist, check five things: the source is current, the owner is named, the exception reason is recorded, the next action has a date, and the destination evidence matches the action.",
-          "Any missing item keeps the case open. Mark a check not applicable with a reason rather than leaving it blank, and record the result in the queue rather than a separate document."
+          "Before a fitness staffing item leaves the coordinator, check five things: the source is current, the studio owner is named, the exception reason is recorded, the next action has a date, and the destination schedule matches the action.",
+          "Any missing fitness staffing item keeps the case open; mark a check not applicable with a reason and record the result in the studio queue."
         ]
       },
       {
         "heading": "A note on tools and templates",
         "paragraphs": [
-          "Keep the template short enough to use under volume. A long form invites skipped fields and copied values. The tool should make the source, owner, and stop rule visible, not hide them behind tabs.",
-          "If the tool cannot capture the evidence, use a controlled side record and link it to the case. Do not let a system limitation become a reason to lower the standard."
+          "Keep the trainer intake template short enough to use during a rush; a long form invites skipped fields and copied certification values.",
+          "If the scheduling tool cannot capture the evidence, use a controlled side record linked to the class case; do not lower the fitness staffing standard."
         ]
       },
       {
@@ -1303,8 +1303,8 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "What the owner should see",
         "paragraphs": [
-          "The owner needs the decisions, the value at risk, and the evidence behind each option. A summary that hides the source forces the owner to reopen the queue.",
-          "Keep the brief to one page. If the page cannot fit, the queue has not been triaged yet. The specialist should bring the exception list, not every open item."
+          "The studio owner needs the decisions, the member impact, and the evidence behind each coverage option; a summary that hides the source forces the owner to reopen the queue.",
+          "Keep the class coverage brief to one page; if it cannot fit, the studio queue has not been triaged, so bring the exception list rather than every open shift."
         ]
       },
       {
@@ -1319,11 +1319,11 @@ export const october26BlogPosts: BlogPost[] = [
     "faq": [
       {
         "q": "What should stay with the accountable owner?",
-        "a": "Policy, approvals, and any decision that changes a customer or commercial commitment."
+        "a": "Policy, approvals, and any decision that changes a member commitment or trainer pay stay with the studio owner."
       },
       {
         "q": "What is the minimum evidence?",
-        "a": "A current source, a named owner, a dated next action, and a recorded exception reason."
+        "a": "A fitness staffing control needs a current source, a named studio owner, a dated next action, and a recorded exception reason before a class or shift is covered."
       }
     ],
     "internalService": "/services",
@@ -1353,27 +1353,27 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "Start with the governing record",
         "paragraphs": [
           "Begin with the record that controls the fitness studio staffing and front-desk coverage item. At minimum, collect the change and its reason, the effective date and time zone, the affected roles and systems, the old and new steps, the training or job aid, the rollback condition. Record where each item came from, the version or date observed, and the field it supports.",
-          "Do not fill a blank from a familiar pattern. If a value is unknown, mark it unknown and route one precise question. A clean status is not evidence."
+          "Do not fill a missing trainer or class field from a familiar pattern; mark it unknown and route one precise question to the studio owner."
         ]
       },
       {
         "heading": "Separate preparation from approval",
         "paragraphs": [
           "The specialist drafts and distributes the change pack; the the studio owner approves the change and the rollback decision. That boundary belongs in the written brief, not in a manager's memory.",
-          "Name the systems the specialist may use, the fields they may change, and the questions they must route. A short written limit is easier to audit than a general instruction to use good judgment."
+          "Name the studio systems the coordinator may use, the class fields they may change, and the questions they must route; a short written limit is easier to audit than good judgment."
         ]
       },
       {
         "heading": "Where the process breaks",
         "paragraphs": [
-          "The change is announced after go-live and the first shift learns from an error. Only one team is told, while a dependent team keeps the old step. No rollback is defined, so a bad change stays live. These are ordinary failure modes, not evidence of bad intent.",
-          "They appear when the queue is measured by activity and the evidence standard is assumed. The fix is usually a smaller checklist and a clearer stop rule, not more reminders."
+          "The change is announced after go-live and the first shift learns from an error; only one studio is told, a dependent team keeps the old step, and no rollback is defined.",
+          "They appear when the studio queue is measured by activity and the evidence standard is assumed; the fix is a smaller checklist and a clearer stop rule, not more reminders."
         ]
       },
       {
         "heading": "Build the control in four steps",
         "paragraphs": [
-          "First, Write a one-page change note with old step, new step, and effective date.",
+          "First, write a one-page coverage change note with old class or shift, new assignment, and effective date.",
           "Second, List every affected role and send to a named recipient.",
           "Third, Schedule training or a job aid before the effective date.",
           "Fourth, Define the rollback trigger and the person who can call it."
@@ -1382,28 +1382,28 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "Write the exception path first",
         "paragraphs": [
-          "If a role cannot be trained before the date, delay the change for that role or record the accepted risk with the owner. Every exception needs a reason code, a next owner, a recheck date, and the action the specialist must not take.",
-          "Use a small code set: missing source, conflicting source, wrong period, identity mismatch, stale approval, system failure. The codes make the queue filterable and show whether the problem is volume, training, access, or a rule that no longer fits."
+          "If a new trainer cannot be trained before opening, delay the assignment for that studio or record the accepted risk with the owner.",
+          "Use a small fitness staffing code set: missing certification, conflicting availability, wrong studio, identity mismatch, stale approval, and system outage; the codes make the queue filterable."
         ]
       },
       {
         "heading": "Measure the queue, not the activity",
         "paragraphs": [
-          "Track acknowledgments by role, errors after the change, rollbacks and their cause. Report counts beside any rate and show the age of what remains open.",
-          "Sample a few items each week. Pick one high value item, one exception, and one recently corrected item. If the same gap appears twice, fix the checklist or the source map before coaching the same person again."
+          "Track acknowledgments by studio role, errors after the change, rollbacks, and their cause; report counts beside any rate and show the age of what remains open.",
+          "Sample a few fitness staffing items each week: one high-value class, one exception, and one recently corrected shift; if the same gap appears twice, fix the checklist before coaching."
         ]
       },
       {
         "heading": "A worked example",
         "paragraphs": [
-          "An item arrives with the change and its reason but without the effective date and time zone. The specialist keeps it in intake, records the gap, and routes one question to the owner. No downstream action is taken until the source is present.",
-          "The reviewer confirms the source and the owner accepts the next action. The record shows what was checked and what remains open, so a second reviewer can continue without a conversation."
+          "A trainer request arrives with the change and reason but without the effective date and time zone; the coordinator keeps it in intake, records the gap, and routes one question to the studio owner.",
+          "The reviewer confirms the certification source and the owner accepts the next action; the record shows what was checked and what remains open so a second coordinator can continue."
         ]
       },
       {
         "heading": "Close and hand off",
         "paragraphs": [
-          "The change pack shows the version, the recipients, the acknowledgments, the effective date, and the rollback owner. Close only when the source, the approval, the action, and the destination evidence agree.",
+          "The change pack shows the version, recipients, acknowledgments, effective date, and rollback owner; close only when source, approval, action, and destination evidence agree.",
           "Leave the source links, the open questions, and the next review date with the item. Note what would reopen a closed case: a client reply, a system reversal, or a revised document. /services/fitness-staffing can support the preparation; the owner keeps the decision."
         ]
       },
@@ -1411,28 +1411,28 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "A weekly review rhythm",
         "paragraphs": [
           "Set one recurring point each week to review the fitness studio staffing and front-desk coverage queue: the oldest items, the blocked items, and one item that was corrected. Keep the meeting short and decision-focused.",
-          "Use the same sample rule every week. A consistent sample shows whether a change helped. A different sample each week shows only that someone looked."
+          "Use the same fitness staffing sample rule every week; a consistent sample shows whether a coverage change helped, while a different sample shows only that someone looked."
         ]
       },
       {
         "heading": "When to stop and ask",
         "paragraphs": [
-          "Stop when the source is missing, when two records conflict, when the request would change a customer commitment, or when the rule is not written. A stop is cheaper than a correction after release.",
-          "Send one precise question with the evidence already checked. A question that shows the work gets a faster answer than a general request for guidance."
+          "Stop when the certification source is missing, two records conflict, the request would change a member commitment, or the rule is not written; a stop is cheaper than a missed class.",
+          "Send one precise question with the evidence already checked; a question that shows the work gets a faster answer from a busy studio manager."
         ]
       },
       {
         "heading": "A short checklist before release",
         "paragraphs": [
-          "Before the item leaves the specialist, check five things: the source is current, the owner is named, the exception reason is recorded, the next action has a date, and the destination evidence matches the action.",
-          "Any missing item keeps the case open. Mark a check not applicable with a reason rather than leaving it blank, and record the result in the queue rather than a separate document."
+          "Before a fitness staffing item leaves the coordinator, check five things: the source is current, the studio owner is named, the exception reason is recorded, the next action has a date, and the destination schedule matches the action.",
+          "Any missing fitness staffing item keeps the case open; mark a check not applicable with a reason and record the result in the studio queue."
         ]
       },
       {
         "heading": "A note on tools and templates",
         "paragraphs": [
-          "Keep the template short enough to use under volume. A long form invites skipped fields and copied values. The tool should make the source, owner, and stop rule visible, not hide them behind tabs.",
-          "If the tool cannot capture the evidence, use a controlled side record and link it to the case. Do not let a system limitation become a reason to lower the standard."
+          "Keep the trainer intake template short enough to use during a rush; a long form invites skipped fields and copied certification values.",
+          "If the scheduling tool cannot capture the evidence, use a controlled side record linked to the class case; do not lower the fitness staffing standard."
         ]
       },
       {
@@ -1451,8 +1451,8 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "What the owner should see",
         "paragraphs": [
-          "The owner needs the decisions, the value at risk, and the evidence behind each option. A summary that hides the source forces the owner to reopen the queue.",
-          "Keep the brief to one page. If the page cannot fit, the queue has not been triaged yet. The specialist should bring the exception list, not every open item."
+          "The studio owner needs the decisions, the member impact, and the evidence behind each coverage option; a summary that hides the source forces the owner to reopen the queue.",
+          "Keep the class coverage brief to one page; if it cannot fit, the studio queue has not been triaged, so bring the exception list rather than every open shift."
         ]
       },
       {
@@ -1467,11 +1467,11 @@ export const october26BlogPosts: BlogPost[] = [
     "faq": [
       {
         "q": "What should stay with the accountable owner?",
-        "a": "Policy, approvals, and any decision that changes a customer or commercial commitment."
+        "a": "Policy, approvals, and any decision that changes a member commitment or trainer pay stay with the studio owner."
       },
       {
         "q": "What is the minimum evidence?",
-        "a": "A current source, a named owner, a dated next action, and a recorded exception reason."
+        "a": "A fitness staffing control needs a current source, a named studio owner, a dated next action, and a recorded exception reason before a class or shift is covered."
       }
     ],
     "internalService": "/services",
@@ -1501,21 +1501,21 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "Start with the governing record",
         "paragraphs": [
           "Begin with the record that controls the fitness studio staffing and front-desk coverage item. At minimum, collect the instruction and version, the document owner, the last review date, the source or policy it depends on, the change trigger, the reader list. Record where each item came from, the version or date observed, and the field it supports.",
-          "Do not fill a blank from a familiar pattern. If a value is unknown, mark it unknown and route one precise question. A forwarded note is a lead, not proof."
+          "Do not treat a forwarded text from a trainer as proof of availability; mark the gap and ask the scheduler to confirm in the approved system."
         ]
       },
       {
         "heading": "Separate preparation from approval",
         "paragraphs": [
           "The specialist updates drafts and tracks acknowledgments; the the studio owner approves the instruction and the change. That boundary belongs in the written brief, not in a manager's memory.",
-          "Name the systems the specialist may use, the fields they may change, and the questions they must route. A short written limit is easier to audit than a general instruction to use good judgment."
+          "Name the studio systems the coordinator may use, the class fields they may change, and the questions they must route; a short written limit is easier to audit than good judgment."
         ]
       },
       {
         "heading": "Where the process breaks",
         "paragraphs": [
-          "The instruction describes a system screen that changed two releases ago. No one owns the document, so updates wait for a complaint. The update is published but the team keeps using an old copy. These are ordinary failure modes, not evidence of bad intent.",
-          "They appear when the queue is measured by activity and the evidence standard is assumed. The fix is usually a smaller checklist and a clearer stop rule, not more reminders."
+          "The class instruction describes a system screen that changed two releases ago; no one owns the document, and the team keeps using an old copy.",
+          "They appear when the studio queue is measured by activity and the evidence standard is assumed; the fix is a smaller checklist and a clearer stop rule, not more reminders."
         ]
       },
       {
@@ -1530,28 +1530,28 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "Write the exception path first",
         "paragraphs": [
-          "If the source is unclear, mark the instruction as under review and route the question; do not publish a guess as the new step. Every exception needs a reason code, a next owner, a recheck date, and the action the specialist must not take.",
-          "Use a small code set: missing source, conflicting source, wrong period, identity mismatch, stale approval, system failure. The codes make the queue filterable and show whether the problem is volume, training, access, or a rule that no longer fits."
+          "If the source of a class instruction is unclear, mark it under review and route the question; do not publish a guess as the new studio step.",
+          "Use a small fitness staffing code set: missing certification, conflicting availability, wrong studio, identity mismatch, stale approval, and system outage; the codes make the queue filterable."
         ]
       },
       {
         "heading": "Measure the queue, not the activity",
         "paragraphs": [
-          "Track instructions past their review date, acknowledgments completed, errors linked to a stale instruction. Report counts beside any rate and show the age of what remains open.",
-          "Sample a few items each week. Pick one high value item, one exception, and one recently corrected item. If the same gap appears twice, fix the checklist or the source map before coaching the same person again."
+          "Track class instructions past their review date, acknowledgments completed, and errors linked to a stale instruction.",
+          "Sample a few fitness staffing items each week: one high-value class, one exception, and one recently corrected shift; if the same gap appears twice, fix the checklist before coaching."
         ]
       },
       {
         "heading": "A worked example",
         "paragraphs": [
-          "An item arrives with the instruction and version but without the document owner. The specialist keeps it in intake, records the gap, and routes one question to the owner. No downstream action is taken until the source is present.",
-          "The reviewer confirms the source and the owner accepts the next action. The record shows what was checked and what remains open, so a second reviewer can continue without a conversation."
+          "A policy update arrives with the instruction and version but without the document owner; the coordinator keeps it in intake and routes the ownership question.",
+          "The reviewer confirms the certification source and the owner accepts the next action; the record shows what was checked and what remains open so a second coordinator can continue."
         ]
       },
       {
         "heading": "Close and hand off",
         "paragraphs": [
-          "The instruction record shows the owner, the version, the source, the review date, and who acknowledged it. Close only when the source, the approval, the action, and the destination evidence agree.",
+          "The instruction record shows the owner, version, source, review date, and who acknowledged it.",
           "Leave the source links, the open questions, and the next review date with the item. Note what would reopen a closed case: a client reply, a system reversal, or a revised document. /services/fitness-staffing can support the preparation; the owner keeps the decision."
         ]
       },
@@ -1559,28 +1559,28 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "A weekly review rhythm",
         "paragraphs": [
           "Set one recurring point each week to review the fitness studio staffing and front-desk coverage queue: the oldest items, the blocked items, and one item that was corrected. Keep the meeting short and decision-focused.",
-          "Use the same sample rule every week. A consistent sample shows whether a change helped. A different sample each week shows only that someone looked."
+          "Use the same fitness staffing sample rule every week; a consistent sample shows whether a coverage change helped, while a different sample shows only that someone looked."
         ]
       },
       {
         "heading": "When to stop and ask",
         "paragraphs": [
-          "Stop when the source is missing, when two records conflict, when the request would change a customer commitment, or when the rule is not written. A stop is cheaper than a correction after release.",
-          "Send one precise question with the evidence already checked. A question that shows the work gets a faster answer than a general request for guidance."
+          "Stop when the certification source is missing, two records conflict, the request would change a member commitment, or the rule is not written; a stop is cheaper than a missed class.",
+          "Send one precise question with the evidence already checked; a question that shows the work gets a faster answer from a busy studio manager."
         ]
       },
       {
         "heading": "A short checklist before release",
         "paragraphs": [
-          "Before the item leaves the specialist, check five things: the source is current, the owner is named, the exception reason is recorded, the next action has a date, and the destination evidence matches the action.",
-          "Any missing item keeps the case open. Mark a check not applicable with a reason rather than leaving it blank, and record the result in the queue rather than a separate document."
+          "Before a fitness staffing item leaves the coordinator, check five things: the source is current, the studio owner is named, the exception reason is recorded, the next action has a date, and the destination schedule matches the action.",
+          "Any missing fitness staffing item keeps the case open; mark a check not applicable with a reason and record the result in the studio queue."
         ]
       },
       {
         "heading": "A note on tools and templates",
         "paragraphs": [
-          "Keep the template short enough to use under volume. A long form invites skipped fields and copied values. The tool should make the source, owner, and stop rule visible, not hide them behind tabs.",
-          "If the tool cannot capture the evidence, use a controlled side record and link it to the case. Do not let a system limitation become a reason to lower the standard."
+          "Keep the trainer intake template short enough to use during a rush; a long form invites skipped fields and copied certification values.",
+          "If the scheduling tool cannot capture the evidence, use a controlled side record linked to the class case; do not lower the fitness staffing standard."
         ]
       },
       {
@@ -1599,8 +1599,8 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "What the owner should see",
         "paragraphs": [
-          "The owner needs the decisions, the value at risk, and the evidence behind each option. A summary that hides the source forces the owner to reopen the queue.",
-          "Keep the brief to one page. If the page cannot fit, the queue has not been triaged yet. The specialist should bring the exception list, not every open item."
+          "The studio owner needs the decisions, the member impact, and the evidence behind each coverage option; a summary that hides the source forces the owner to reopen the queue.",
+          "Keep the class coverage brief to one page; if it cannot fit, the studio queue has not been triaged, so bring the exception list rather than every open shift."
         ]
       },
       {
@@ -1615,11 +1615,11 @@ export const october26BlogPosts: BlogPost[] = [
     "faq": [
       {
         "q": "What should stay with the accountable owner?",
-        "a": "Policy, approvals, and any decision that changes a customer or commercial commitment."
+        "a": "Policy, approvals, and any decision that changes a member commitment or trainer pay stay with the studio owner."
       },
       {
         "q": "What is the minimum evidence?",
-        "a": "A current source, a named owner, a dated next action, and a recorded exception reason."
+        "a": "A fitness staffing control needs a current source, a named studio owner, a dated next action, and a recorded exception reason before a class or shift is covered."
       }
     ],
     "internalService": "/services",
@@ -1649,21 +1649,21 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "Start with the governing record",
         "paragraphs": [
           "Begin with the record that controls the fitness studio staffing and front-desk coverage item. At minimum, collect the period and freeze time, opened and closed item counts, unmatched or pending records, adjustments and their reason, the owner sign-off, the archive location. Record where each item came from, the version or date observed, and the field it supports.",
-          "Do not fill a blank from a familiar pattern. If a value is unknown, mark it unknown and route one precise question. A forwarded note is a lead, not proof."
+          "Do not treat a forwarded text from a trainer as proof of availability; mark the gap and ask the scheduler to confirm in the approved system."
         ]
       },
       {
         "heading": "Separate preparation from approval",
         "paragraphs": [
           "The specialist reconciles and prepares the pack; the the studio owner reviews exceptions and signs off the close. That boundary belongs in the written brief, not in a manager's memory.",
-          "Name the systems the specialist may use, the fields they may change, and the questions they must route. A short written limit is easier to audit than a general instruction to use good judgment."
+          "Name the studio systems the coordinator may use, the class fields they may change, and the questions they must route; a short written limit is easier to audit than good judgment."
         ]
       },
       {
         "heading": "Where the process breaks",
         "paragraphs": [
-          "The month is closed by the calendar even though items remain unmatched. Unresolved items are moved to the next month without a note. An adjustment is made but the reason is not recorded. These are ordinary failure modes, not evidence of bad intent.",
-          "They appear when the queue is measured by activity and the evidence standard is assumed. The fix is usually a smaller checklist and a clearer stop rule, not more reminders."
+          "The month is closed by the calendar even though classes remain uncovered; unresolved items are moved to the next month without a note, and an adjustment has no reason recorded.",
+          "They appear when the studio queue is measured by activity and the evidence standard is assumed; the fix is a smaller checklist and a clearer stop rule, not more reminders."
         ]
       },
       {
@@ -1678,28 +1678,28 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "Write the exception path first",
         "paragraphs": [
-          "If the counts do not reconcile, keep the close open, record the difference, and route the decision to the owner; do not force a zero. Every exception needs a reason code, a next owner, a recheck date, and the action the specialist must not take.",
-          "Use a small code set: missing source, conflicting source, wrong period, identity mismatch, stale approval, system failure. The codes make the queue filterable and show whether the problem is volume, training, access, or a rule that no longer fits."
+          "If the class counts do not reconcile, keep the close open, record the difference, and route the decision to the studio owner; do not force a zero.",
+          "Use a small fitness staffing code set: missing certification, conflicting availability, wrong studio, identity mismatch, stale approval, and system outage; the codes make the queue filterable."
         ]
       },
       {
         "heading": "Measure the queue, not the activity",
         "paragraphs": [
-          "Track close completed by the target date, unmatched items at close, adjustments without a reason. Report counts beside any rate and show the age of what remains open.",
-          "Sample a few items each week. Pick one high value item, one exception, and one recently corrected item. If the same gap appears twice, fix the checklist or the source map before coaching the same person again."
+          "Track class closes completed by the target time, uncovered classes at close, and adjustments without a reason.",
+          "Sample a few fitness staffing items each week: one high-value class, one exception, and one recently corrected shift; if the same gap appears twice, fix the checklist before coaching."
         ]
       },
       {
         "heading": "A worked example",
         "paragraphs": [
-          "An item arrives with the period and freeze time but without opened and closed item counts. The specialist keeps it in intake, records the gap, and routes one question to the owner. No downstream action is taken until the source is present.",
-          "The reviewer confirms the source and the owner accepts the next action. The record shows what was checked and what remains open, so a second reviewer can continue without a conversation."
+          "A month-end file arrives with the period and freeze time but without opened and closed item counts; the coordinator records the gap and asks for the missing denominator.",
+          "The reviewer confirms the certification source and the owner accepts the next action; the record shows what was checked and what remains open so a second coordinator can continue."
         ]
       },
       {
         "heading": "Close and hand off",
         "paragraphs": [
-          "The close pack shows the period, the counts, the exceptions, the sign-off, and where the evidence is stored. Close only when the source, the approval, the action, and the destination evidence agree.",
+          "The close pack shows the period, class counts, exceptions, sign-off, and where the evidence is stored; close only when source, approval, action, and destination evidence agree.",
           "Leave the source links, the open questions, and the next review date with the item. Note what would reopen a closed case: a client reply, a system reversal, or a revised document. /services/fitness-staffing can support the preparation; the owner keeps the decision."
         ]
       },
@@ -1707,28 +1707,28 @@ export const october26BlogPosts: BlogPost[] = [
         "heading": "A weekly review rhythm",
         "paragraphs": [
           "Set one recurring point each week to review the fitness studio staffing and front-desk coverage queue: the oldest items, the blocked items, and one item that was corrected. Keep the meeting short and decision-focused.",
-          "Use the same sample rule every week. A consistent sample shows whether a change helped. A different sample each week shows only that someone looked."
+          "Use the same fitness staffing sample rule every week; a consistent sample shows whether a coverage change helped, while a different sample shows only that someone looked."
         ]
       },
       {
         "heading": "When to stop and ask",
         "paragraphs": [
-          "Stop when the source is missing, when two records conflict, when the request would change a customer commitment, or when the rule is not written. A stop is cheaper than a correction after release.",
-          "Send one precise question with the evidence already checked. A question that shows the work gets a faster answer than a general request for guidance."
+          "Stop when the certification source is missing, two records conflict, the request would change a member commitment, or the rule is not written; a stop is cheaper than a missed class.",
+          "Send one precise question with the evidence already checked; a question that shows the work gets a faster answer from a busy studio manager."
         ]
       },
       {
         "heading": "A short checklist before release",
         "paragraphs": [
-          "Before the item leaves the specialist, check five things: the source is current, the owner is named, the exception reason is recorded, the next action has a date, and the destination evidence matches the action.",
-          "Any missing item keeps the case open. Mark a check not applicable with a reason rather than leaving it blank, and record the result in the queue rather than a separate document."
+          "Before a fitness staffing item leaves the coordinator, check five things: the source is current, the studio owner is named, the exception reason is recorded, the next action has a date, and the destination schedule matches the action.",
+          "Any missing fitness staffing item keeps the case open; mark a check not applicable with a reason and record the result in the studio queue."
         ]
       },
       {
         "heading": "A note on tools and templates",
         "paragraphs": [
-          "Keep the template short enough to use under volume. A long form invites skipped fields and copied values. The tool should make the source, owner, and stop rule visible, not hide them behind tabs.",
-          "If the tool cannot capture the evidence, use a controlled side record and link it to the case. Do not let a system limitation become a reason to lower the standard."
+          "Keep the trainer intake template short enough to use during a rush; a long form invites skipped fields and copied certification values.",
+          "If the scheduling tool cannot capture the evidence, use a controlled side record linked to the class case; do not lower the fitness staffing standard."
         ]
       },
       {
@@ -1747,8 +1747,8 @@ export const october26BlogPosts: BlogPost[] = [
       {
         "heading": "What the owner should see",
         "paragraphs": [
-          "The owner needs the decisions, the value at risk, and the evidence behind each option. A summary that hides the source forces the owner to reopen the queue.",
-          "Keep the brief to one page. If the page cannot fit, the queue has not been triaged yet. The specialist should bring the exception list, not every open item."
+          "The studio owner needs the decisions, the member impact, and the evidence behind each coverage option; a summary that hides the source forces the owner to reopen the queue.",
+          "Keep the class coverage brief to one page; if it cannot fit, the studio queue has not been triaged, so bring the exception list rather than every open shift."
         ]
       },
       {
@@ -1763,11 +1763,11 @@ export const october26BlogPosts: BlogPost[] = [
     "faq": [
       {
         "q": "What should stay with the accountable owner?",
-        "a": "Policy, approvals, and any decision that changes a customer or commercial commitment."
+        "a": "Policy, approvals, and any decision that changes a member commitment or trainer pay stay with the studio owner."
       },
       {
         "q": "What is the minimum evidence?",
-        "a": "A current source, a named owner, a dated next action, and a recorded exception reason."
+        "a": "A fitness staffing control needs a current source, a named studio owner, a dated next action, and a recorded exception reason before a class or shift is covered."
       }
     ],
     "internalService": "/services",
