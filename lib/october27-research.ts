@@ -7,7 +7,7 @@ export const october27ResearchPosts: ResearchPost[] = [
     "summary": "A protocol testing whether independent reviewers assign the same priority band to the same fitness studio staffing and front-desk coverage item.",
     "cluster": "Evidence review",
     "publishedAt": "2026-10-27",
-    "finding": "Do two reviewers put the same item in the same priority band using the written scoring rule?",
+    "finding": "A protocol testing whether independent reviewers assign the same priority band to the same fitness studio staffing and front-desk coverage item. The fitnessstaffingagency review should show the source, owner, next action, and exception reason for this do reviewers agree on work priority in fitness studio staffing and front-desk coverage? workflow before the item moves.",
     "image": "/october-27/priority-agreement-study.svg",
     "sources": [
       {
@@ -34,7 +34,7 @@ export const october27ResearchPosts: ResearchPost[] = [
     "summary": "A protocol measuring the gap between the defined clock event and the timestamp recorded in fitness studio staffing and front-desk coverage.",
     "cluster": "Evidence review",
     "publishedAt": "2026-10-27",
-    "finding": "How often does the recorded clock start match the defined triggering event?",
+    "finding": "A protocol measuring the gap between the defined clock event and the timestamp recorded in fitness studio staffing and front-desk coverage. The fitnessstaffingagency review should show the source, owner, next action, and exception reason for this when does the service clock start in fitness studio staffing and front-desk coverage? workflow before the item moves.",
     "image": "/october-27/service-clock-start-study.svg",
     "sources": [
       {
@@ -61,7 +61,7 @@ export const october27ResearchPosts: ResearchPost[] = [
     "summary": "A protocol separating upstream wait, owner wait, and rework in fitness studio staffing and front-desk coverage dependency chains.",
     "cluster": "Evidence review",
     "publishedAt": "2026-10-27",
-    "finding": "How much delay comes from an upstream input, an internal owner, or a rework loop?",
+    "finding": "A protocol separating upstream wait, owner wait, and rework in fitness studio staffing and front-desk coverage dependency chains. The fitnessstaffingagency review should show the source, owner, next action, and exception reason for this where do dependencies add delay in fitness studio staffing and front-desk coverage? workflow before the item moves.",
     "image": "/october-27/dependency-delay-study.svg",
     "sources": [
       {
@@ -88,7 +88,7 @@ export const october27ResearchPosts: ResearchPost[] = [
     "summary": "A protocol measuring repeat effort caused by missing evidence, wrong scope, or a failed check in fitness studio staffing and front-desk coverage.",
     "cluster": "Evidence review",
     "publishedAt": "2026-10-27",
-    "finding": "What share of handled items is rework, and which reason codes explain it?",
+    "finding": "A protocol measuring repeat effort caused by missing evidence, wrong scope, or a failed check in fitness studio staffing and front-desk coverage. The fitnessstaffingagency review should show the source, owner, next action, and exception reason for this how much work is rework in fitness studio staffing and front-desk coverage? workflow before the item moves.",
     "image": "/october-27/rework-share-study.svg",
     "sources": [
       {
@@ -115,7 +115,7 @@ export const october27ResearchPosts: ResearchPost[] = [
     "summary": "A protocol comparing the promise date, the verified completion, and the reason for any gap in fitness studio staffing and front-desk coverage.",
     "cluster": "Evidence review",
     "publishedAt": "2026-10-27",
-    "finding": "What share of recorded customer promises were verified by the promised date?",
+    "finding": "A protocol comparing the promise date, the verified completion, and the reason for any gap in fitness studio staffing and front-desk coverage. The fitnessstaffingagency review should show the source, owner, next action, and exception reason for this how often do customer promises hold in fitness studio staffing and front-desk coverage? workflow before the item moves.",
     "image": "/october-27/promise-accuracy-study.svg",
     "sources": [
       {
