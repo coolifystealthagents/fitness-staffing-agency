@@ -14,3 +14,15 @@ img{max-width:100%;height:auto}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.review-marquee{animation:none!important}.reveal{transform:none!important;opacity:1!important;transition:none!important}.content-card:hover{transform:none}}
 .mobile-toc{display:none}
 @media(max-width:900px){.mobile-toc{display:block;position:sticky;top:8rem;z-index:45;order:-1;margin:0 0 1.5rem;background:#fff;border:1px solid var(--v3-border);border-radius:1rem;box-shadow:0 8px 24px #001a3314}.mobile-toc-toggle{width:100%;display:flex;align-items:center;justify-content:space-between;min-height:48px;padding:.75rem 1rem;border:0;background:transparent;color:var(--v3-ink);font:inherit;font-weight:800;cursor:pointer}.mobile-toc nav{max-height:55vh;overflow:auto;padding:.25rem .5rem .6rem;border-top:1px solid var(--v3-border)}.mobile-toc a{display:block;padding:.55rem .5rem;font-size:.86rem;color:var(--v3-ink);text-decoration:none}.article-sidebar{order:2}.article-main{order:1}.article-sidebar nav{display:none}}
+
+/* 2026-11-05 batch: compact continuous article and card-scale listings */
+.article-layout{grid-template-columns:minmax(0,1fr) 280px;gap:2rem}
+.article-sidebar{max-height:calc(100dvh - 7.5rem);overflow-y:auto;align-self:start}
+.article-main section{margin-bottom:2.2rem}
+.article-main h2{margin:1.8em 0 .65em}
+.article-main p{margin:0 0 1.15em}
+.article-card h2{font-size:clamp(1.25rem,1.6vw,1.6rem);line-height:1.28;margin:.2rem 0 .5rem}
+.article-card img{height:auto}
+.article-hero-image{margin:0}
+.article-hero-image img{display:block;width:100%;height:auto;border-radius:1.4rem;border:1px solid var(--v3-border);background:#e8efc8}
+@media(max-width:900px){.article-layout{grid-template-columns:minmax(0,1fr)}}
