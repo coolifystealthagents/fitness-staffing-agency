@@ -34,6 +34,13 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <script nonce={nonce} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <Script nonce={nonce} id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'${site.siteId}',endpoint:'/ingest/track',debug:false};`}</Script>
       <Script nonce={nonce} src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive" />
+      <Script
+        id="databull-analytics"
+        src="https://databull.stealthagents.us/js/script.js"
+        data-website-id="dc_qok5hbsa3z6d14"
+        data-domain="fitnessstaffingagency.com"
+        strategy="afterInteractive"
+      />
     </body>
   </html>;
 }

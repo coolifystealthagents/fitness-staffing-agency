@@ -8,11 +8,11 @@ export function proxy(request: NextRequest) {
     "form-action 'self'",
     "frame-ancestors 'self'",
     "object-src 'none'",
-    `script-src 'self' 'nonce-${nonce}' 'strict-dynamic' https://acrtracking.stealthagents.us https://*.oncehub.com`,
+    ` https://databull.stealthagents.us 'self' 'nonce-${nonce}' 'strict-dynamic' https://acrtracking.stealthagents.us https://*.oncehub.com`,
     "style-src 'self' 'unsafe-inline' https://*.oncehub.com",
     "img-src 'self' data: https:",
     "font-src 'self' data:",
-    "connect-src 'self' https://acrtracking.stealthagents.us https://*.oncehub.com",
+    " https://databull.stealthagents.us 'self' https://acrtracking.stealthagents.us https://*.oncehub.com",
     "frame-src https://go.oncehub.com https://*.oncehub.com",
     'upgrade-insecure-requests',
   ].join('; ');
