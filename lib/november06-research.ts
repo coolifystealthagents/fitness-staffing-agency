@@ -42,7 +42,8 @@ export const november06ResearchPosts: readonly ResearchPost[] = [
         "label": "U.S. Small Business Administration",
         "url": "https://www.sba.gov/"
       }
-    ]
+    ],
+    "image": "/thumbnails/november-06/how-complete-is-the-evidence-in-the-class-coverage-record-for-the-month-end-review.webp"
   },
   {
     "slug": "can-instructor-certification-renewals-be-reproduced-from-their-source-documents",
@@ -85,7 +86,8 @@ export const november06ResearchPosts: readonly ResearchPost[] = [
         "label": "NIST: Cybersecurity Framework",
         "url": "https://www.nist.gov/cyberframework"
       }
-    ]
+    ],
+    "image": "/thumbnails/november-06/can-instructor-certification-renewals-be-reproduced-from-their-source-documents.webp"
   },
   {
     "slug": "how-reversible-is-a-membership-freeze-decision-in-the-operating-record",
@@ -128,7 +130,8 @@ export const november06ResearchPosts: readonly ResearchPost[] = [
         "label": "U.S. Department of Labor",
         "url": "https://www.dol.gov/"
       }
-    ]
+    ],
+    "image": "/thumbnails/november-06/how-reversible-is-a-membership-freeze-decision-in-the-operating-record.webp"
   },
   {
     "slug": "where-does-delay-accumulate-in-trial-member-follow-up",
@@ -171,7 +174,8 @@ export const november06ResearchPosts: readonly ResearchPost[] = [
         "label": "U.S. Census Bureau",
         "url": "https://www.census.gov/"
       }
-    ]
+    ],
+    "image": "/thumbnails/november-06/where-does-delay-accumulate-in-trial-member-follow-up.webp"
   },
   {
     "slug": "how-many-trainer-payroll-exceptions-lack-a-dated-explanation",
@@ -214,7 +218,8 @@ export const november06ResearchPosts: readonly ResearchPost[] = [
         "label": "U.S. Small Business Administration",
         "url": "https://www.sba.gov/"
       }
-    ]
+    ],
+    "image": "/thumbnails/november-06/how-many-trainer-payroll-exceptions-lack-a-dated-explanation.webp"
   },
   {
     "slug": "can-retention-outreach-outcomes-be-separated-from-normal-renewals",
@@ -257,7 +262,8 @@ export const november06ResearchPosts: readonly ResearchPost[] = [
         "label": "U.S. Small Business Administration",
         "url": "https://www.sba.gov/"
       }
-    ]
+    ],
+    "image": "/thumbnails/november-06/can-retention-outreach-outcomes-be-separated-from-normal-renewals.webp"
   },
   {
     "slug": "how-old-are-open-equipment-repair-requests-at-the-month-end-review",
@@ -300,6 +306,7 @@ export const november06ResearchPosts: readonly ResearchPost[] = [
         "label": "U.S. Small Business Administration",
         "url": "https://www.sba.gov/"
       }
-    ]
+    ],
+    "image": "/thumbnails/november-06/how-old-are-open-equipment-repair-requests-at-the-month-end-review.webp"
   }
 ];

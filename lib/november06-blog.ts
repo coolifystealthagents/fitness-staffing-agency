@@ -80,7 +80,8 @@ export const november06BlogPosts: readonly BlogPost[] = [
     "source": {
       "label": "U.S. Department of Labor: Hours worked",
       "url": "https://www.dol.gov/general/topic/workhours"
-    }
+    },
+    "image": "/thumbnails/november-06/map-class-coverage-decisions-to-one-accountable-owner-for-the-month-end-review.webp"
   },
   {
     "slug": "build-an-instructor-certification-register-your-studio-can-keep-current",
@@ -161,7 +162,8 @@ export const november06BlogPosts: readonly BlogPost[] = [
     "source": {
       "label": "U.S. Equal Employment Opportunity Commission",
       "url": "https://www.eeoc.gov/"
-    }
+    },
+    "image": "/thumbnails/november-06/build-an-instructor-certification-register-your-studio-can-keep-current.webp"
   },
   {
     "slug": "design-a-membership-freeze-queue-that-survives-the-month-end-review",
@@ -242,7 +244,8 @@ export const november06BlogPosts: readonly BlogPost[] = [
     "source": {
       "label": "FTC: Protecting personal information",
       "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
-    }
+    },
+    "image": "/thumbnails/november-06/design-a-membership-freeze-queue-that-survives-the-month-end-review.webp"
   },
   {
     "slug": "write-the-trial-member-follow-up-note-that-holds-up-two-weeks-later",
@@ -323,7 +326,8 @@ export const november06BlogPosts: readonly BlogPost[] = [
     "source": {
       "label": "U.S. Small Business Administration",
       "url": "https://www.sba.gov/"
-    }
+    },
+    "image": "/thumbnails/november-06/write-the-trial-member-follow-up-note-that-holds-up-two-weeks-later.webp"
   },
   {
     "slug": "reconcile-trainer-payroll-hours-against-the-class-log-before-the-month-end-review",
@@ -404,7 +408,8 @@ export const november06BlogPosts: readonly BlogPost[] = [
     "source": {
       "label": "U.S. Department of Labor: Payroll",
       "url": "https://www.dol.gov/general/topic/wages"
-    }
+    },
+    "image": "/thumbnails/november-06/reconcile-trainer-payroll-hours-against-the-class-log-before-the-month-end-review.webp"
   },
   {
     "slug": "turn-cancellation-reasons-into-a-retention-list-worth-calling",
@@ -485,7 +490,8 @@ export const november06BlogPosts: readonly BlogPost[] = [
     "source": {
       "label": "FTC: Consumer protection",
       "url": "https://www.ftc.gov/business-guidance"
-    }
+    },
+    "image": "/thumbnails/november-06/turn-cancellation-reasons-into-a-retention-list-worth-calling.webp"
   },
   {
     "slug": "give-equipment-repair-requests-a-dated-owner-and-a-close-condition",
@@ -566,7 +572,8 @@ export const november06BlogPosts: readonly BlogPost[] = [
     "source": {
       "label": "OSHA: Safety and health topics",
       "url": "https://www.osha.gov/safety-management"
-    }
+    },
+    "image": "/thumbnails/november-06/give-equipment-repair-requests-a-dated-owner-and-a-close-condition.webp"
   },
   {
     "slug": "keep-the-front-desk-shift-board-accurate-when-coverage-changes-twice-a-day",
@@ -647,6 +654,7 @@ export const november06BlogPosts: readonly BlogPost[] = [
     "source": {
       "label": "U.S. Department of Labor: Work hours",
       "url": "https://www.dol.gov/general/topic/workhours"
-    }
+    },
+    "image": "/thumbnails/november-06/keep-the-front-desk-shift-board-accurate-when-coverage-changes-twice-a-day.webp"
   }
 ];
