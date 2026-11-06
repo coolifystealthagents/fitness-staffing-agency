@@ -40,6 +40,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         data-website-id="dc_qok5hbsa3z6d14"
         data-domain="fitnessstaffingagency.com"
         strategy="afterInteractive"
+        nonce={nonce}
       />
     </body>
   </html>;
