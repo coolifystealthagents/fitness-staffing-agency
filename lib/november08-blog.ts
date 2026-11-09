@@ -9,6 +9,7 @@ export const november08BlogPosts: readonly BlogPost[] = [
     "publishedAt": "2026-11-08",
     "readTime": "8 min read",
     "thumbnail": "/thumbnails/november-08/build-a-class-coverage-plan-that-survives-a-sick-call.webp",
+    "image": "/thumbnails/november-08/build-a-class-coverage-plan-that-survives-a-sick-call.webp",
     "sections": [
       {
         "heading": "How to approach: Build a class coverage plan that survives a sick call",
@@ -78,6 +79,7 @@ export const november08BlogPosts: readonly BlogPost[] = [
     "publishedAt": "2026-11-08",
     "readTime": "8 min read",
     "thumbnail": "/thumbnails/november-08/set-a-substitute-instructor-checklist-the-studio-can-trust.webp",
+    "image": "/thumbnails/november-08/set-a-substitute-instructor-checklist-the-studio-can-trust.webp",
     "sections": [
       {
         "heading": "How to approach: Set a substitute instructor checklist the studio can trust",
@@ -147,6 +149,7 @@ export const november08BlogPosts: readonly BlogPost[] = [
     "publishedAt": "2026-11-08",
     "readTime": "8 min read",
     "thumbnail": "/thumbnails/november-08/track-certification-expiries-before-the-class-is-scheduled.webp",
+    "image": "/thumbnails/november-08/track-certification-expiries-before-the-class-is-scheduled.webp",
     "sections": [
       {
         "heading": "How to approach: Track certification expiries before the class is scheduled",
@@ -216,6 +219,7 @@ export const november08BlogPosts: readonly BlogPost[] = [
     "publishedAt": "2026-11-08",
     "readTime": "8 min read",
     "thumbnail": "/thumbnails/november-08/write-a-member-communication-note-for-a-schedule-change.webp",
+    "image": "/thumbnails/november-08/write-a-member-communication-note-for-a-schedule-change.webp",
     "sections": [
       {
         "heading": "How to approach: Write a member communication note for a schedule change",
@@ -285,6 +289,7 @@ export const november08BlogPosts: readonly BlogPost[] = [
     "publishedAt": "2026-11-08",
     "readTime": "8 min read",
     "thumbnail": "/thumbnails/november-08/prepare-a-payroll-review-for-instructor-hours-and-classes.webp",
+    "image": "/thumbnails/november-08/prepare-a-payroll-review-for-instructor-hours-and-classes.webp",
     "sections": [
       {
         "heading": "How to approach: Prepare a payroll review for instructor hours and classes",
@@ -354,6 +359,7 @@ export const november08BlogPosts: readonly BlogPost[] = [
     "publishedAt": "2026-11-08",
     "readTime": "8 min read",
     "thumbnail": "/thumbnails/november-08/design-a-front-desk-opening-checklist-for-a-fitness-studio.webp",
+    "image": "/thumbnails/november-08/design-a-front-desk-opening-checklist-for-a-fitness-studio.webp",
     "sections": [
       {
         "heading": "How to approach: Design a front desk opening checklist for a fitness studio",
@@ -423,6 +429,7 @@ export const november08BlogPosts: readonly BlogPost[] = [
     "publishedAt": "2026-11-08",
     "readTime": "8 min read",
     "thumbnail": "/thumbnails/november-08/record-an-incident-note-without-guessing-the-medical-outcome.webp",
+    "image": "/thumbnails/november-08/record-an-incident-note-without-guessing-the-medical-outcome.webp",
     "sections": [
       {
         "heading": "How to approach: Record an incident note without guessing the medical outcome",
@@ -492,6 +499,7 @@ export const november08BlogPosts: readonly BlogPost[] = [
     "publishedAt": "2026-11-08",
     "readTime": "8 min read",
     "thumbnail": "/thumbnails/november-08/plan-a-weekly-staffing-stand-up-on-coverage-evidence.webp",
+    "image": "/thumbnails/november-08/plan-a-weekly-staffing-stand-up-on-coverage-evidence.webp",
     "sections": [
       {
         "heading": "How to approach: Plan a weekly staffing stand-up on coverage evidence",

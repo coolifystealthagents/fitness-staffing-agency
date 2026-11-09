@@ -9,6 +9,7 @@ export const november08ResearchPosts: readonly ResearchPost[] = [
     "publishedAt": "2026-11-08",
     "finding": "The study would test whether the coverage plan works when the notice is short and the class cannot move.",
     "thumbnail": "/thumbnails/november-08/how-often-do-fitness-classes-go-uncovered-at-short-notice.webp",
+    "image": "/thumbnails/november-08/how-often-do-fitness-classes-go-uncovered-at-short-notice.webp",
     "sections": [
       {
         "heading": "Question and scope",
@@ -90,6 +91,7 @@ export const november08ResearchPosts: readonly ResearchPost[] = [
     "publishedAt": "2026-11-08",
     "finding": "The study would test whether a substitute can teach from the record without calling the front desk.",
     "thumbnail": "/thumbnails/november-08/how-complete-is-the-substitute-instructor-record.webp",
+    "image": "/thumbnails/november-08/how-complete-is-the-substitute-instructor-record.webp",
     "sections": [
       {
         "heading": "Question and scope",
@@ -171,6 +173,7 @@ export const november08ResearchPosts: readonly ResearchPost[] = [
     "publishedAt": "2026-11-08",
     "finding": "The study would test whether the certification tracker prevents scheduling errors or only reports them.",
     "thumbnail": "/thumbnails/november-08/what-share-of-instructor-certifications-expire-before-review.webp",
+    "image": "/thumbnails/november-08/what-share-of-instructor-certifications-expire-before-review.webp",
     "sections": [
       {
         "heading": "Question and scope",
@@ -252,6 +255,7 @@ export const november08ResearchPosts: readonly ResearchPost[] = [
     "publishedAt": "2026-11-08",
     "finding": "The study would test whether attendance reports use the same definitions or hide differences behind a total.",
     "thumbnail": "/thumbnails/november-08/how-consistent-is-class-attendance-reporting-across-studios.webp",
+    "image": "/thumbnails/november-08/how-consistent-is-class-attendance-reporting-across-studios.webp",
     "sections": [
       {
         "heading": "Question and scope",
@@ -333,6 +337,7 @@ export const november08ResearchPosts: readonly ResearchPost[] = [
     "publishedAt": "2026-11-08",
     "finding": "The study would test whether the complaint record shows the member's issue, the response, and the resolution.",
     "thumbnail": "/thumbnails/november-08/how-much-of-a-member-complaint-can-be-reconstructed-from-the-record.webp",
+    "image": "/thumbnails/november-08/how-much-of-a-member-complaint-can-be-reconstructed-from-the-record.webp",
     "sections": [
       {
         "heading": "Question and scope",
@@ -414,6 +419,7 @@ export const november08ResearchPosts: readonly ResearchPost[] = [
     "publishedAt": "2026-11-08",
     "finding": "The study would test whether schedule-change delay comes from the decision, the communication, or the system.",
     "thumbnail": "/thumbnails/november-08/where-does-delay-accumulate-in-a-studio-schedule-change.webp",
+    "image": "/thumbnails/november-08/where-does-delay-accumulate-in-a-studio-schedule-change.webp",
     "sections": [
       {
         "heading": "Question and scope",
@@ -495,6 +501,7 @@ export const november08ResearchPosts: readonly ResearchPost[] = [
     "publishedAt": "2026-11-08",
     "finding": "The study would test whether the hours record can support payroll without a manual reconstruction.",
     "thumbnail": "/thumbnails/november-08/how-reliable-is-the-instructor-hours-record-for-payroll.webp",
+    "image": "/thumbnails/november-08/how-reliable-is-the-instructor-hours-record-for-payroll.webp",
     "sections": [
       {
         "heading": "Question and scope",
