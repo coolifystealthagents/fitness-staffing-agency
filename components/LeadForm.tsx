@@ -43,7 +43,7 @@ export function LeadForm({ source = 'contact-page-consultation' }: { source?: 'c
         setBusy(false);
         return;
       }
-      window.acrTracker?.trackLead({ source, fields: { conversion: 'consultation-request' } });
+      /* ACR captures the native submit event once. */
       router.push('/thank-you');
     } catch {
       setError('We could not send your request. Please try again.');
