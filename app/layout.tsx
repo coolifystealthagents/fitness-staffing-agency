@@ -4,6 +4,7 @@ import { headers } from 'next/headers';
 import { Header, Footer } from '@/components/SiteChrome';
 import { site } from '@/lib/site';
 import './globals.css';
+import './refresh.css';
 import './v3.css';
 
 export const metadata: Metadata = {

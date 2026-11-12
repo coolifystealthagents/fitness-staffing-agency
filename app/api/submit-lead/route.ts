@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server';
 import { randomUUID } from 'node:crypto';
-import { sendLeadFallbackToMattermost, type FallbackLeadPayload } from '../../../lib/lead-fallback-mattermost';
 
 const SOURCE = 'contact-page-consultation';
 const MAX_BODY_BYTES = 32_768;
@@ -127,15 +126,6 @@ export async function POST(request: Request) {
     catch { return NextResponse.json({ ok: false, message: 'Please enter a valid company website.' }, { status: 400 }); }
   }
 
-  const payload = { source: SOURCE, first_name: firstName, last_name: lastName, email, phone_country: phoneCountry, phone, company, company_website: companyWebsite, company_size: companySize, positions_to_fill: positions, referral_source: referral, message };
-  const fallbackLead: FallbackLeadPayload = { name: `${firstName} ${lastName}`, email, phone: [phoneCountry, phone].filter(Boolean).join(' '), business: company, message, companySize, positions, referral, pageUrl: clean(form.get('_page_url'), 500) || request.headers.get('referer') || '', userAgent: request.headers.get('user-agent') || '' };
-  let delivered = false;
-  const endpoint = process.env.ACR_LEAD_ENDPOINT;
-  if (endpoint) {
-    try { const forwarded = await fetch(endpoint, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(payload), signal: AbortSignal.timeout(10_000), cache: 'no-store' }); delivered = forwarded.ok; }
-    catch { delivered = false; }
-  }
-  if (!delivered) delivered = await sendLeadFallbackToMattermost(fallbackLead);
-  if (!delivered) return NextResponse.json({ ok: false, error: 'delivery_unavailable', message: 'We could not send your request. Please try again.' }, { status: 503 });
+  // Keep validation and anti-abuse checks here; ACR delivers the accepted lead once.
   return NextResponse.json({ ok: true });
 }

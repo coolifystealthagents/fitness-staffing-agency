@@ -1,0 +1,55 @@
+{
+  "theme": "fitness",
+  "shortBrand": "Fitness Staffing Agency",
+  "ctaText": "Keep your gym or studio running smoothly with dedicated remote support for schedules, membership administration, lead follow-up, and the details behind every great visit.",
+  "blog": {
+    "title": "Fresh thinking for your fitness business.",
+    "intro": "Practical guides for gym and studio teams improving the administration behind the member experience.",
+    "image": "/refresh-20261113/blog.webp",
+    "alt": "Instructor guiding a group Pilates class in a modern fitness studio.",
+    "caption": "Built for your next busy day.",
+    "ribbon": "Support beyond the training floor",
+    "search": "Search by topic or workflow",
+    "guideTitle": "Take the idea into your own operation.",
+    "guides": [
+      {
+        "title": "Start with your context",
+        "text": "Compare the workflow with your team\u2019s actual systems, responsibilities, and source records."
+      },
+      {
+        "title": "Keep the evidence close",
+        "text": "Follow the source links and check the scope and date before using a conclusion."
+      },
+      {
+        "title": "Define a useful next step",
+        "text": "Turn the idea into a clear input, an expected output, and a named reviewer."
+      }
+    ],
+    "cta": "Build support around your studio."
+  },
+  "research": {
+    "title": "Evidence behind better operations.",
+    "intro": "Source-led research with clear questions, visible evidence, and practical context for your next staffing conversation.",
+    "image": "/refresh-20261113/research.webp",
+    "alt": "A professional reviewing fitness metrics on a tablet in a gym.",
+    "caption": "Built for your next busy day.",
+    "ribbon": "Support beyond the training floor",
+    "search": "Search by topic or workflow",
+    "guideTitle": "Take the idea into your own operation.",
+    "guides": [
+      {
+        "title": "Start with your context",
+        "text": "Compare the workflow with your team\u2019s actual systems, responsibilities, and source records."
+      },
+      {
+        "title": "Keep the evidence close",
+        "text": "Follow the source links and check the scope and date before using a conclusion."
+      },
+      {
+        "title": "Define a useful next step",
+        "text": "Turn the idea into a clear input, an expected output, and a named reviewer."
+      }
+    ],
+    "cta": "Build support around your studio."
+  }
+}

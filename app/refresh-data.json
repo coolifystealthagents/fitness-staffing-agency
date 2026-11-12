@@ -1,0 +1,569 @@
+{
+  "domain": "fitnessstaffingagency.com",
+  "theme": "fitness",
+  "brand": "Fitness Staffing Agency",
+  "short": "Built for your next busy day.",
+  "headline": "More energy for",
+  "accent": "your members.",
+  "intro": "Keep your gym or studio running smoothly with dedicated remote support for schedules, membership administration, lead follow-up, and the details behind every great visit.",
+  "eyebrow": "Support beyond the training floor",
+  "cta": "Strengthen your team",
+  "serviceTitle": "Keep the business moving.",
+  "serviceIntro": "Support the experience before, between, and after every session. Explore eight focused services for gym owners, studio managers, and teams who want more time with their members.",
+  "storyTitle": "A great session starts before anyone steps onto the floor.",
+  "story": "A clear timetable, a timely reply, and a complete member record all shape the experience. Remote support helps keep those pieces connected while your qualified team focuses on coaching and care.",
+  "footer": "Remote administrative staffing for gyms, studios, and fitness businesses, covering member communication, schedules, records, and operational follow-through.",
+  "contact": "Build support around your studio.",
+  "prepare": [
+    "Your class schedule and busiest administrative queues",
+    "Your membership platform and approved communication rules",
+    "The manager responsible for changes and exceptions"
+  ],
+  "pillars": [
+    [
+      "Before the session",
+      "Keep class information, approved changes, and reminders connected to the current timetable."
+    ],
+    [
+      "Between visits",
+      "Follow up with enquiries, organize member requests, and prepare the next conversation."
+    ],
+    [
+      "Behind the scenes",
+      "Maintain the records and reporting that help your managers see what needs attention."
+    ]
+  ],
+  "services": [
+    {
+      "slug": "class-schedule-support",
+      "title": "Class schedule support",
+      "description": "Maintain class records, instructor coverage, and approved changes without losing operational context.",
+      "image": "/refresh-20261113/service1.webp",
+      "alt": "Gym member checking a tablet during a break from exercise.",
+      "audience": [
+        "Multi-class gyms, boutique studios, wellness programs, and fitness departments with recurring timetable changes and several instructors."
+      ],
+      "problem": "Schedule changes often arrive through calls, chat threads, and informal notes. A support role can consolidate approved updates and keep coverage status visible while managers retain authority over programming and staffing decisions.",
+      "inputs": [
+        "Approved class timetable and change request",
+        "Instructor availability supplied by an authorized owner",
+        "Message templates and distribution rules",
+        "Escalation contacts for safety, staffing, and facility exceptions"
+      ],
+      "work": [
+        "Update approved schedules in the system of record",
+        "Maintain a current instructor coverage queue",
+        "Prepare routine member and instructor notices",
+        "Flag collisions, missing details, and unresolved coverage"
+      ],
+      "outputs": [
+        "Current class schedule record",
+        "Coverage status view with clear ownership",
+        "Prepared or sent routine notices",
+        "Exception list for management review"
+      ],
+      "controls": [
+        "One named schedule source of truth",
+        "Approval recorded before material changes",
+        "Sampled comparison between request and published record",
+        "Daily review of unresolved coverage and collisions"
+      ],
+      "boundaries": [
+        "No independent class programming or instructor selection",
+        "No safety, credential, pay, or disciplinary decisions",
+        "No promise of coverage until an authorized manager confirms it",
+        "No sharing member or trainer data outside approved systems"
+      ],
+      "scenarios": [
+        "Same-week substitute coordination: A manager approves the substitute. Support updates the roster, class listing, and standard notices, then records the completed handoff.",
+        "Seasonal timetable launch: Support prepares bulk schedule records from an approved plan and returns exceptions for manager review before publication.",
+        "Multi-location collision check: Support compares instructor and room records across sites and flags conflicting assignments without choosing a replacement."
+      ],
+      "workflow": [
+        "Collect the approved change: Confirm the class, location, time, instructor, effective date, source, and authorizing owner before editing a public schedule.",
+        "Check connected records: Review instructor availability, room or equipment constraints, member-facing listings, and dependent reminders for conflicts.",
+        "Update and communicate: Apply the authorized change, record what changed, and use approved messages for affected instructors or members.",
+        "Close with evidence: Capture completion, unresolved exceptions, and the manager who owns any decision that remains open."
+      ],
+      "faqs": [
+        {
+          "question": "How should we start?",
+          "answer": "Choose one repeatable queue, name its owner, document the approved source material, and agree on what requires escalation before access is granted."
+        },
+        {
+          "question": "Can support choose an instructor?",
+          "answer": "No. Staff can organize availability and prepare options, but an authorized fitness leader makes the assignment."
+        },
+        {
+          "question": "What stays with our team?",
+          "answer": "Your qualified and authorized leaders retain coaching, safety, health, pricing, payment, contract, credential, privacy, and exception decisions."
+        }
+      ],
+      "position": "50% 50%"
+    },
+    {
+      "slug": "member-support",
+      "title": "Member support",
+      "description": "Handle routine member communication with consistent answers, clear records, and safe escalation.",
+      "image": "/refresh-20261113/service2.webp",
+      "alt": "Two members following a guided exercise session on a laptop.",
+      "audience": [
+        "Fitness businesses with recurring questions about schedules, facilities, account processes, program logistics, and approved policies."
+      ],
+      "problem": "Member requests become expensive when context is scattered or every question reaches a manager. A bounded support queue can answer routine questions and document what needs an authorized decision.",
+      "inputs": [
+        "Approved knowledge base and message templates",
+        "Current schedules and facility information",
+        "Member-support system and identity-check rules",
+        "Escalation matrix for account, health, safety, and conduct issues"
+      ],
+      "work": [
+        "Answer approved schedule and facility questions",
+        "Document member requests in the chosen system",
+        "Route account, safety, and service exceptions",
+        "Maintain follow-up status and response evidence"
+      ],
+      "outputs": [
+        "Documented member conversation",
+        "Consistent approved response",
+        "Accurate owner and due date for escalations",
+        "Follow-up queue with resolution status"
+      ],
+      "controls": [
+        "Versioned approved responses",
+        "Identity checks before account-specific discussion",
+        "Sensitive-data minimization",
+        "Regular review of repeat questions and escalations"
+      ],
+      "boundaries": [
+        "No health, nutrition, injury, or exercise advice",
+        "No refund, billing, contract, or disciplinary decisions",
+        "No emergency or safeguarding triage beyond the approved escalation path",
+        "No disclosure of another member or staff record"
+      ],
+      "scenarios": [
+        "Class availability question: Support checks the current public timetable and gives the approved booking instructions.",
+        "Account exception: Support records the request and routes it to the authorized membership owner without promising an outcome.",
+        "Facility concern: Support captures essential facts and immediately follows the facility or safety escalation policy."
+      ],
+      "workflow": [
+        "Identify the request: Classify the question without collecting unnecessary health, payment, or identity data.",
+        "Use approved guidance: Answer only when current source material directly supports the response.",
+        "Escalate exceptions: Route injuries, safety concerns, disputes, refunds, contract questions, and sensitive records to the designated owner.",
+        "Record the outcome: Document the response, source, next owner, and promised follow-up so the member does not need to repeat the story."
+      ],
+      "faqs": [
+        {
+          "question": "How should we start?",
+          "answer": "Choose one repeatable queue, name its owner, document the approved source material, and agree on what requires escalation before access is granted."
+        },
+        {
+          "question": "Can support resolve refunds or disputes?",
+          "answer": "Support can gather the request and prepare the record. An authorized owner decides refunds, credits, disputes, and contract exceptions."
+        },
+        {
+          "question": "What stays with our team?",
+          "answer": "Your qualified and authorized leaders retain coaching, safety, health, pricing, payment, contract, credential, privacy, and exception decisions."
+        }
+      ],
+      "position": "50% 50%"
+    },
+    {
+      "slug": "fitness-lead-follow-up",
+      "title": "Fitness lead follow up",
+      "description": "Keep approved inquiry follow up visible, timely, and connected to the next human decision.",
+      "image": "/refresh-20261113/service3.webp",
+      "alt": "Trainer leading a group stretching class in a gym.",
+      "audience": [
+        "Gyms, studios, fitness programs, and wellness operators that receive inquiries from forms, calls, events, or referral partners."
+      ],
+      "problem": "Interest cools when inquiries sit in disconnected inboxes or receive inconsistent messages. Support can maintain the queue and approved contact cadence while sales and fitness leaders handle qualification and commitments.",
+      "inputs": [
+        "Consent-aware inquiry source",
+        "Approved message library and contact cadence",
+        "Current program, location, and availability information",
+        "Ownership rules for consultation, pricing, and qualification"
+      ],
+      "work": [
+        "Prepare and maintain lead follow-up queues",
+        "Send approved informational messages",
+        "Record responses and next-action dates",
+        "Route qualification, pricing, health, and program-fit questions"
+      ],
+      "outputs": [
+        "Current inquiry record and consent status",
+        "Documented follow-up history",
+        "Scheduled next action or consultation handoff",
+        "Exception queue for an authorized owner"
+      ],
+      "controls": [
+        "Consent and suppression checks before outreach",
+        "Approved templates with version ownership",
+        "Cadence limits and clear stop rules",
+        "Weekly sampling of message and status accuracy"
+      ],
+      "boundaries": [
+        "No medical or training recommendation",
+        "No invented availability, pricing, savings, or result claim",
+        "No independent qualification or contract commitment",
+        "No continued contact after an applicable opt-out"
+      ],
+      "scenarios": [
+        "Website consultation inquiry: Support validates the form, sends the approved acknowledgement, and creates the consultation-owner handoff.",
+        "Trial-program follow up: Support follows the approved cadence and routes detailed program questions to a qualified team member.",
+        "Dormant inquiry cleanup: Support applies the approved status rules and suppression list instead of repeatedly messaging stale contacts."
+      ],
+      "workflow": [
+        "Validate the record: Confirm the inquiry source, contact permission, program interest, and required fields before outreach.",
+        "Send the approved next message: Use the correct template and current program information without adding unsourced promises.",
+        "Interpret only the response state: Record interested, not now, no response, or owner review needed. Do not make qualification decisions.",
+        "Hand off with context: Give the consultation owner the source, timeline, questions, and requested next step in one reviewable record."
+      ],
+      "faqs": [
+        {
+          "question": "How should we start?",
+          "answer": "Choose one repeatable queue, name its owner, document the approved source material, and agree on what requires escalation before access is granted."
+        },
+        {
+          "question": "Can support sell memberships?",
+          "answer": "Support can share approved information and coordinate the next step. Pricing, qualification, promises, and agreement decisions remain with authorized staff."
+        },
+        {
+          "question": "What stays with our team?",
+          "answer": "Your qualified and authorized leaders retain coaching, safety, health, pricing, payment, contract, credential, privacy, and exception decisions."
+        }
+      ],
+      "position": "50% 50%"
+    },
+    {
+      "slug": "trainer-records",
+      "title": "Trainer records support",
+      "description": "Maintain approved credential, profile, availability, and document status records for management review.",
+      "image": "/refresh-20261113/service4.webp",
+      "alt": "Members participating in a group fitness class in a brick-walled studio.",
+      "audience": [
+        "Fitness organizations that coordinate multiple trainers, credentials, class formats, locations, and document-renewal cycles."
+      ],
+      "problem": "A record can look complete while an expiry date, source document, or review owner is missing. Support can maintain evidence and reminders without making credential or fitness-practice judgments.",
+      "inputs": [
+        "Trainer-submitted or manager-approved documents",
+        "Required-field and retention policy",
+        "Authorized credential criteria and review owner",
+        "Secure system with role-based access"
+      ],
+      "work": [
+        "Update approved trainer profile fields",
+        "Track supplied document and expiry status",
+        "Maintain availability and location notes",
+        "Flag missing, conflicting, or overdue records"
+      ],
+      "outputs": [
+        "Current trainer profile record",
+        "Expiry and missing-document queue",
+        "Review-ready evidence links",
+        "Exception log with accountable owner"
+      ],
+      "controls": [
+        "Least-privilege document access",
+        "Required-field and expiry validation",
+        "Qualified approval separated from administrative entry",
+        "Retention and deletion rules for sensitive records"
+      ],
+      "boundaries": [
+        "No credential verification beyond documented administrative checks",
+        "No hiring, assignment, safeguarding, or disciplinary decision",
+        "No storage in personal drives or inboxes",
+        "No change to an approval status without owner evidence"
+      ],
+      "scenarios": [
+        "Renewal cycle preparation: Support identifies upcoming dates and missing documents, then routes the review queue to the qualified owner.",
+        "New trainer onboarding: Support creates the approved record shell and tracks received items without marking the trainer cleared.",
+        "Multi-site access review: Support compares approved assignments with access records and returns discrepancies for manager action."
+      ],
+      "workflow": [
+        "Receive through an approved channel: Keep documents out of informal chat and place them only in the authorized record system.",
+        "Check administrative completeness: Compare required fields, dates, names, and document presence without judging professional validity.",
+        "Route for qualified review: Send credential, safeguarding, identity, or compliance questions to the designated decision owner.",
+        "Maintain status and reminders: Record the owner decision and prepare reminders according to the approved renewal policy."
+      ],
+      "faqs": [
+        {
+          "question": "How should we start?",
+          "answer": "Choose one repeatable queue, name its owner, document the approved source material, and agree on what requires escalation before access is granted."
+        },
+        {
+          "question": "Can support approve a credential?",
+          "answer": "No. Staff can organize documents and status evidence. A qualified, authorized owner determines validity and approval."
+        },
+        {
+          "question": "What stays with our team?",
+          "answer": "Your qualified and authorized leaders retain coaching, safety, health, pricing, payment, contract, credential, privacy, and exception decisions."
+        }
+      ],
+      "position": "50% 50%"
+    },
+    {
+      "slug": "membership-admin",
+      "title": "Membership administration support",
+      "description": "Organize routine records around starts, approved changes, pauses, and cancellations.",
+      "image": "/refresh-20261113/service5.webp",
+      "alt": "Exercise equipment arranged beside a clipboard for planning.",
+      "audience": [
+        "Fitness operators with defined membership policies, recurring account requests, and authorized staff who retain financial and contract decisions."
+      ],
+      "problem": "Membership requests touch communication, contracts, payment systems, access, and scheduling. Support can prepare complete records and apply explicitly approved changes while exceptions remain with accountable owners.",
+      "inputs": [
+        "Verified request and approved identity-check procedure",
+        "Current membership policy and agreement record",
+        "Authorized decision or standard operating rule",
+        "Secure account system and audit requirements"
+      ],
+      "work": [
+        "Prepare account records for authorized review",
+        "Document and apply explicitly approved changes",
+        "Maintain request, owner, and status notes",
+        "Escalate disputes, refunds, and contract questions"
+      ],
+      "outputs": [
+        "Complete request record",
+        "Applied standard change with evidence",
+        "Pending-decision queue",
+        "Member-facing confirmation from an approved template"
+      ],
+      "controls": [
+        "Identity and authorization checks",
+        "Separation of financial decisions from data entry",
+        "Audit trail for material account changes",
+        "Daily review of incomplete or conflicting requests"
+      ],
+      "boundaries": [
+        "No independent refund, fee, price, or contract decision",
+        "No handling of full payment-card data",
+        "No legal interpretation or promise outside approved policy",
+        "No bypass of authorization or access controls"
+      ],
+      "scenarios": [
+        "Approved membership pause: Support checks the approval, applies the standard change, and sends the approved confirmation.",
+        "Cancellation dispute: Support compiles the request and agreement record for the authorized decision owner without promising a result.",
+        "New-member record completion: Support tracks missing administrative fields and routes health or waiver questions to the proper owner."
+      ],
+      "workflow": [
+        "Verify the request path: Use the approved identity and authorization checks before opening account-specific details.",
+        "Separate standard from exceptional: Apply only changes covered by a current rule or explicit owner approval.",
+        "Update connected systems: Keep account, access, schedule, and communication records aligned within the approved scope.",
+        "Confirm and retain evidence: Send the approved confirmation and preserve the request, decision source, and completion record."
+      ],
+      "faqs": [
+        {
+          "question": "How should we start?",
+          "answer": "Choose one repeatable queue, name its owner, document the approved source material, and agree on what requires escalation before access is granted."
+        },
+        {
+          "question": "Can support issue a refund?",
+          "answer": "No. Support can document the request and apply a refund only after a properly authorized decision through the approved system."
+        },
+        {
+          "question": "What stays with our team?",
+          "answer": "Your qualified and authorized leaders retain coaching, safety, health, pricing, payment, contract, credential, privacy, and exception decisions."
+        }
+      ],
+      "position": "50% 50%"
+    },
+    {
+      "slug": "fitness-back-office",
+      "title": "Fitness back office support",
+      "description": "Prepare operational records, work queues, and routine summaries without blurring decision ownership.",
+      "image": "/refresh-20261113/service6.webp",
+      "alt": "A member using a laptop for a guided exercise session.",
+      "audience": [
+        "Fitness businesses whose leaders need reliable administrative follow-through across classes, members, trainers, vendors, and internal reporting."
+      ],
+      "problem": "Back-office work becomes fragile when tasks live in individual memory and summaries hide the source record. Support can maintain queues and evidence so leaders can review real operating conditions.",
+      "inputs": [
+        "Defined systems of record",
+        "Recurring calendar and completion standards",
+        "Named workflow and decision owners",
+        "Approved summary format and access policy"
+      ],
+      "work": [
+        "Organize approved source records",
+        "Maintain recurring operational work queues",
+        "Prepare factual status summaries",
+        "Flag missing inputs, overdue work, and process exceptions"
+      ],
+      "outputs": [
+        "Current operational queue",
+        "Source-linked status summary",
+        "Exception and overdue-work register",
+        "Documented handoff for owner decisions"
+      ],
+      "controls": [
+        "Source-linked updates and summaries",
+        "Named owner for every unresolved exception",
+        "Access limited by workflow need",
+        "Sampled reconciliation against original records"
+      ],
+      "boundaries": [
+        "No accounting, legal, health, safety, or compliance judgment",
+        "No unsupported metric, forecast, or performance claim",
+        "No silent change to policy or source data",
+        "No credential sharing or unapproved exports"
+      ],
+      "scenarios": [
+        "Weekly operations brief: Support compiles source-linked schedule, member, lead, and record exceptions for manager review.",
+        "Recurring vendor coordination: Support tracks approved requests and dates while commercial decisions stay with the owner.",
+        "Process cleanup: Support maps a repeated queue, identifies missing fields, and prepares a proposed checklist for owner approval."
+      ],
+      "workflow": [
+        "Define the record boundary: Name which system controls each workflow and which informal sources must be reconciled.",
+        "Maintain the recurring cadence: Prepare daily, weekly, or monthly work from the approved source and completion standard.",
+        "Report facts and exceptions: Separate completed work, missing input, overdue items, and owner decisions without inventing performance conclusions.",
+        "Improve after review: Use leader feedback and recurring exception patterns to revise the documented workflow."
+      ],
+      "faqs": [
+        {
+          "question": "How should we start?",
+          "answer": "Choose one repeatable queue, name its owner, document the approved source material, and agree on what requires escalation before access is granted."
+        },
+        {
+          "question": "Can support create management reports?",
+          "answer": "Staff can prepare factual, source-linked summaries. Leaders retain interpretation, forecasting, and business decisions."
+        },
+        {
+          "question": "What stays with our team?",
+          "answer": "Your qualified and authorized leaders retain coaching, safety, health, pricing, payment, contract, credential, privacy, and exception decisions."
+        }
+      ],
+      "position": "50% 50%"
+    },
+    {
+      "slug": "member-onboarding-support",
+      "title": "Member onboarding support",
+      "description": "Organize the welcome, account setup checklist, and first-visit communication for new members.",
+      "image": "/refresh-20261113/service7.webp",
+      "alt": "A person using a laptop beside a yoga mat during a home workout.",
+      "audience": [
+        "Gyms and studios with recurring new-member enquiries and a manager-owned onboarding process."
+      ],
+      "problem": "A new member can receive a warm welcome and still miss practical details. A consistent onboarding queue helps staff track the membership record, first visit, outstanding forms, and next contact.",
+      "inputs": [
+        "Approved membership start and contact details",
+        "Current welcome templates and first-visit instructions",
+        "System permissions and manager escalation contacts"
+      ],
+      "work": [
+        "Maintain a checklist for each approved membership start",
+        "Prepare welcome messages using current studio information",
+        "Coordinate first-visit bookings within approved availability",
+        "Flag incomplete records for the membership manager"
+      ],
+      "outputs": [
+        "A current onboarding checklist",
+        "Prepared welcome communication and booking notes",
+        "A list of missing information for the manager"
+      ],
+      "controls": [
+        "Compare every update with its approved source.",
+        "Keep unresolved questions attached to a named owner and due date.",
+        "Review a sample of completed records with the manager before expanding the role."
+      ],
+      "boundaries": [
+        "No health assessments, exercise programming, eligibility decisions, or independent contract changes."
+      ],
+      "scenarios": [
+        "A new member needs directions and an introductory appointment before their first visit.",
+        "A manager needs a view of members whose onboarding records are still incomplete."
+      ],
+      "workflow": [
+        "Agree on the source queue, access, and completion standard.",
+        "Review a small set of real records together and resolve ambiguous instructions.",
+        "Begin routine preparation with a regular exception review.",
+        "Measure completeness, timeliness, and reopened items before adding volume."
+      ],
+      "faqs": [
+        {
+          "question": "What should be ready before this service begins?",
+          "answer": "Bring approved source records, your current workflow, message templates, the system of record, and a manager who can resolve questions."
+        },
+        {
+          "question": "Can the support role make exceptions?",
+          "answer": "No. The role records the context and prepares a clear question. Your authorized team decides policy, commercial terms, access, and other consequential exceptions."
+        },
+        {
+          "question": "How will we review the work?",
+          "answer": "Compare a sample of completed records with their original requests, inspect the outstanding items, and agree on corrections before increasing the scope."
+        }
+      ],
+      "position": "50% 50%"
+    },
+    {
+      "slug": "studio-event-coordination",
+      "title": "Studio event coordination",
+      "description": "Keep registrations, reminders, and administrative details organized for approved studio events.",
+      "image": "/refresh-20261113/service8.webp",
+      "alt": "Instructor and members exercising on mats in a bright fitness studio.",
+      "audience": [
+        "Fitness studios running workshops, open days, community events, or member challenges."
+      ],
+      "problem": "Event details become difficult to track when registrations, schedule changes, and participant questions sit in different places. Administrative support keeps the agreed plan and participant communication connected.",
+      "inputs": [
+        "Approved event plan, capacity, and schedule",
+        "Registration source and communication templates",
+        "Named event owner and exception rules"
+      ],
+      "work": [
+        "Maintain approved event listings and registration records",
+        "Prepare confirmations and reminders from approved copy",
+        "Organize participant questions for the event owner",
+        "Prepare attendance and follow-up records"
+      ],
+      "outputs": [
+        "A current registration and attendance list",
+        "Prepared participant communications",
+        "An open-question log and post-event summary"
+      ],
+      "controls": [
+        "Compare every update with its approved source.",
+        "Keep unresolved questions attached to a named owner and due date.",
+        "Review a sample of completed records with the manager before expanding the role."
+      ],
+      "boundaries": [
+        "No safety, coaching, medical, pricing, capacity-exception, or cancellation decisions."
+      ],
+      "scenarios": [
+        "A workshop has a waitlist that needs orderly communication after a manager releases spaces.",
+        "An open day needs a complete registration summary and approved reminder schedule."
+      ],
+      "workflow": [
+        "Agree on the source queue, access, and completion standard.",
+        "Review a small set of real records together and resolve ambiguous instructions.",
+        "Begin routine preparation with a regular exception review.",
+        "Measure completeness, timeliness, and reopened items before adding volume."
+      ],
+      "faqs": [
+        {
+          "question": "What should be ready before this service begins?",
+          "answer": "Bring approved source records, your current workflow, message templates, the system of record, and a manager who can resolve questions."
+        },
+        {
+          "question": "Can the support role make exceptions?",
+          "answer": "No. The role records the context and prepares a clear question. Your authorized team decides policy, commercial terms, access, and other consequential exceptions."
+        },
+        {
+          "question": "How will we review the work?",
+          "answer": "Compare a sample of completed records with their original requests, inspect the outstanding items, and agree on corrections before increasing the scope."
+        }
+      ],
+      "position": "50% 50%"
+    }
+  ],
+  "homeImage": "/refresh-20261113/home.webp",
+  "homeImageAlt": "Gym member checking in at the fitness center reception desk.",
+  "servicesImage": "/refresh-20261113/services.webp",
+  "servicesImageAlt": "Fitness instructor writing on a gym whiteboard beside a member.",
+  "blogImage": "/refresh-20261113/blog.webp",
+  "blogImageAlt": "Instructor guiding a group Pilates class in a modern fitness studio.",
+  "researchImage": "/refresh-20261113/research.webp",
+  "researchImageAlt": "A professional reviewing fitness metrics on a tablet in a gym.",
+  "footerLinks": []
+}
