@@ -7,6 +7,8 @@ import './globals.css';
 import './refresh.css';
 import './v3.css';
 
+import "./site-chrome-fixes.css";
+
 export const metadata: Metadata = {
   metadataBase: new URL(`https://${site.domain}`),
   title: { default: `${site.name} | Fitness operations support`, template: `%s | ${site.name}` },
